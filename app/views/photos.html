@@ -1,0 +1,20 @@
+<div data-ng-controller="PhotoCatalogCtrl" class="photos-container">
+
+    <a href="" data-ng-click="filters = {venue: 'lansdowne_pub'}"><img data-ng-src="/images/venues/lansdownepub.jpg" alt="Lansdowne Pub"/> Lansdowne Pub</a> |
+    <a href="" data-ng-click="filters = {venue: 'hennessys'}"><img data-ng-src="/images/venues/onepelhameast.jpg" alt="One Pelham East"/> Hennessy's</a> |
+    <a href="" data-ng-click="filters = undefined">Full Catalog</a>
+
+    <ul class="grid" masonry>
+        <li class="masonry-brick" ng-repeat="photo in photos | filter:filters">
+            <a data-ng-href="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"
+               class="fancybox"
+               rel="gallery"
+               title="{{photo.altName}} - {{photo.date}}">
+                <img data-ng-src="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"
+                     alt="{{photo.altName}} - {{photo.date}}"/>
+            </a>
+        </li>
+    </ul>
+
+
+</div>

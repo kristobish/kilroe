@@ -1,0 +1,54 @@
+
+<div class="fixed-bg bg-1">
+    <h2>"You'll swear you're at a real Pearl Jam show!" - The Matterhorn</h2>
+</div>
+<div class="scrolling-bg color-1">
+    <div class="container">
+        <p>STARRING...</p>
+        <p>Kris Bishop as Eddie Vedder</p>
+        <p>Mark Donatelli as Mike McCready</p>
+        <p>Rob O'Neill as Matt Cameron</p>
+        <p>Chris Romagna as Stone Gossard</p>
+        <p>Jeremy Rosenberger as Jeff Ament</p>
+    </div>
+</div>
+
+
+    <div class="fixed-bg bg-2"><h2>"Kilroe is the Pearl Jam Tribute you want to see." - Hennessy's</h2>
+    </div>
+    <div class="scrolling-bg color-2" id="tour" data-ng-controller="TourCtrl">
+        <div class="container">
+            <ul class="tour-list"
+                ng-repeat="gig in gigs | orderBy:['date']">
+                <li>{{gig.date | dateFormatGig}}</li>
+                <li><img data-ng-src="/images/venues/{{gig.venueImage}}.jpg" alt="{{gig.venue}}"/> {{gig.venue}}</li>
+                <li>{{gig.location}}</li>
+                <li>{{gig.time}}</li>
+            </ul>
+        </div>
+    </div>
+
+<div class="fixed-bg bg-3">
+    <h2>"The best band we've had all year!" - Whiskey Priest</h2>
+</div>
+
+<div class="scrolling-bg color-3" id="about" data-ng-controller="SongCatalogCtrl">
+    <div class="container">
+        <p>SOCIAL MEDIA STUFF (Instagram, Facebook, Twitter, Youtube)</p>
+        <div id="songCatalog" class="song-list">
+            <ul ng-repeat="song in catalog | orderBy:'song'">
+                <li>{{song.song}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="fixed-bg bg-4">
+    <h2>"They know how to Vedder it!" - Lansdowne Pub</h2>
+</div>
+<div class="scrolling-bg color-4" id="contact">
+    <div class="container">
+        <p>The BOOKING INFO<br>
+        Suspendisse potenti. Proin velit nulla, tincidunt vitae semper in, tempus at justo. Mauris eget dui quam. Nulla at magna sit amet lectus condimentum malesuada. Donec rhoncus hendrerit lacus, sed pretium erat malesuada id. Vestibulum blandit nisi vel lectus varius, et semper sapien ultricies. Nunc libero dui, iaculis aliquet metus non, condimentum accumsan justo. Nunc odio diam, sagittis sed scelerisque et.</p>
+    </div>
+</div>
