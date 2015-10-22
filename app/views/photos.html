@@ -1,17 +1,34 @@
 <div data-ng-controller="PhotoCatalogCtrl" class="photos-container">
 
-    <a href="" data-ng-click="filters = {venue: 'lansdowne_pub'}"><img data-ng-src="/images/venues/lansdownepub.jpg" alt="Lansdowne Pub"/> Lansdowne Pub</a> |
-    <a href="" data-ng-click="filters = {venue: 'hennessys'}"><img data-ng-src="/images/venues/onepelhameast.jpg" alt="One Pelham East"/> Hennessy's</a> |
-    <a href="" data-ng-click="filters = undefined">Full Catalog</a>
+    <h1>Photos</h1>
+    <div class="btn-group" dropdown is-open="status.isopen">
+        <button type="button" class="btn btn-primary dropdown-toggle" dropdown-toggle ng-disabled="disabled">
+            Select Photos
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'bssc_cruise', date: '6-10-2011'}">BSSC Cruise 6/10/2011</a></li>
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'lansdowne', date: '5-7-2010'}">Lansdowne Pub 5/7/2010</a></li>
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'hennessys', date: '3-13-2010'}">Hennessy's 3/13/2010</a></li>
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'matterhorn', date: '2-10-2010'}">Matterhorn 2/10/2010</a></li>
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'hennessys', date: '10-31-2009'}">Hennessy's 10/31/2009</a></li>
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'hennessys', date: '10-2-2009'}">Hennessy's Sept/Oct 2009</a></li>
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'press', date: '9-17-2009'}">Press Pics 2009</a></li>
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'revrockbar', date: '7-23-2009'}">Revolution Rock Bar 7/23/2009</a></li>
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'rally', date: '7-18-2009'}">Rally in the Alley 7/18/2009</a></li>
+            <li><a href="#/photos" data-ng-click="filters = {venue: 'basta', date: '4-11-2009'}">Basta Bar Apr/Jun 2009</a></li>
+            <!--<li><a href="" data-ng-click="filters = undefined">Full Catalog</a></li>-->
+        </ul>
+    </div>
 
-    <ul class="grid" masonry>
+    <!--<i class="fa fa-spinner fa-pulse fa-3x" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);"></i>-->
+    <ul class="masonry-container grid" masonry>
         <li class="masonry-brick" ng-repeat="photo in photos | filter:filters">
             <a data-ng-href="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"
-               class="fancybox"
+               class="fancybox darken"
                rel="gallery"
-               title="{{photo.altName}} - {{photo.date}}">
+               title="{{photo.altName}} {{photo.date}}">
                 <img data-ng-src="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"
-                     alt="{{photo.altName}} - {{photo.date}}"/>
+                     alt="{{photo.altName}} {{photo.date}}"/>
             </a>
         </li>
     </ul>

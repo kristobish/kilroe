@@ -5,9 +5,13 @@ html,
 	height: 100%;
 }
 
+body {
+    background: #000;
+}
+
 
 .main-content {
-    /* you need to assign a min-height to the main content so that the children can inherit it*/
+    /* you need to assign a min-height to the main content so that the children can inherit it */
     height: 100%;
     position: relative;
     z-index: 1;
@@ -28,6 +32,7 @@ html,
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     color: white;
 }
+
 .fixed-bg h2 {
     position: absolute;
     left: 50%;
@@ -42,79 +47,130 @@ html,
     width: 60%;
     max-width: 1170px;
 }
+
 .fixed-bg.bg-1 {
     background-image: url("/images/home_bg/home_bg_photo1.jpg");
 }
+
 .fixed-bg.bg-2 {
     background-image: url("/images/home_bg/home_bg_photo2.jpg");
 }
+
 .fixed-bg.bg-3 {
     background-image: url("/images/home_bg/home_bg_photo3.jpg");
 }
+
 .fixed-bg.bg-4 {
     background-image: url("/images/home_bg/home_bg_photo4.jpg");
 }
-@media only screen and (min-width: 768px) {
-    .fixed-bg h1, .fixed-bg h2 {
-        font-size: 36px;
-    }
-}
-@media only screen and (min-width: 1170px) {
-    .fixed-bg {
-        background-attachment: fixed;
-    }
-    .fixed-bg h1, .fixed-bg h2 {
-        font-size: 48px;
-        font-weight: 300;
-    }
-}
 
-@media only screen and (max-width: 768px) {
-    .fixed-bg {
-        background-attachment: unset;
-    }
-
+.fixed-bg.bg-5 {
+    background-image: url("/images/home_bg/home_bg_photo5.jpg");
 }
 
 .scrolling-bg {
     position: relative;
     min-height: 50%;
-    padding: 4em 0;
+    padding: 30px 0 40px;
     line-height: 1.6;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     z-index: 2;
-}
-.scrolling-bg.color-1 {
-    background-color: #3d3536;
-    color: #a6989a;
-}
-.scrolling-bg.color-2 {
-    background-color: #8e7d7f;
-    color: #3d3536;
-}
-.scrolling-bg.color-3 {
-    background-color: #b3d4fc;
-    color: #3d3536;
-}
-@media only screen and (min-width: 768px) {
-    .scrolling-bg {
-        padding: 8em 0;
-        font-size: 20px;
-        line-height: 2;
-        font-weight: 300;
+    font-size: 20px;
+
+    h1 {
+        font-family: abite;
+        border-bottom: 1px #fff solid;
+        font-size: 24px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
     }
 }
 
-
-.container {
-    /* max-width to the element, center it horizontally when it reaches max-width */
-    width: 90%;
-    max-width: 768px;
-    margin: 0 auto;
+.scrolling-bg.color-1 {
+    background-image: url("/images/home_bg/scroll_bg_photo1.jpg");
+    color: #fff;
 }
-.container::after {
-    /* clearfix */
-    content: '';
-    display: table;
-    clear: both;
+
+.scrolling-bg.color-2 {
+    background-image: url("/images/home_bg/home_bg_photo2.jpg");
+    color: #fff;
+}
+
+.scrolling-bg.color-3 {
+    background-image: url("/images/home_bg/home_bg_photo2.jpg");
+    color: #fff;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .fixed-bg h1 {
+        font-size: 36px;
+        font-family: "abite";
+    }
+
+    .fixed-bg h2 {
+        font-size: 36px;
+
+        em {
+            font-size: 28px;
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    .fixed-bg {
+        background-attachment: fixed;
+    }
+
+    .fixed-bg h1 {
+        font-size: 48px;
+        font-weight: 300;
+        font-family: "abite";
+    }
+
+    .fixed-bg h2 {
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 52px;
+
+        em {
+            font-size: 40px;
+            display: block;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .fixed-bg {
+            background-attachment: unset;
+        }
+
+    }
+
+
+    @media only screen and (min-width: 768px) {
+        .scrolling-bg {
+            padding: 40px 0 30px;
+            font-size: 20px;
+            line-height: 2;
+            font-weight: 300;
+        }
+    }
+
+
+    .container {
+        /* max-width to the element, center it horizontally when it reaches max-width */
+        width: 90%;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .container::after {
+        /* clearfix */
+        content: '';
+        display: table;
+        clear: both;
+    }
+
 }

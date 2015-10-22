@@ -1,8 +1,39 @@
 
-<div class="fixed-bg bg-1">
-    <h2>"You'll swear you're at a real Pearl Jam show!" - The Matterhorn</h2>
+<div class="fixed-bg bg-1"></div>
+<div class="scrolling-bg color-1" id="tour" data-ng-controller="TourCtrl">
+    <div class="container">
+        <h1>Shows</h1>
+        <table>
+            <tr class="tour-date-header">
+                <td>Date</td>
+                <td>Venue</td>
+                <td>Location</td>
+                <td>Time</td>
+            </tr>
+            <tr class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-5">
+                <td>{{gig.date | dateFormatGig}}</td>
+                <td>{{gig.venue}}</td>
+                <td class="tour-date-small">{{gig.location}}</td>
+                <td class="tour-date-small">{{gig.time}}</td>
+            </tr>
+        </table>
+
+        <div class="toggle-shows" ng-click="isCollapsed = !isCollapsed; toggle = !toggle"><i class="fa fa-arrows"></i> {{toggleText}}</div>
+        <div collapse="isCollapsed" class="tour-date-past-container">
+        <table>
+            <tr class="tour-date-past" ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':5">
+                <td>{{gig.date | dateFormatGigPast}} - {{gig.venue}}</td>
+            </tr>
+        </table>
+        </div>
+
+    </div>
 </div>
-<div class="scrolling-bg color-1">
+
+<div class="fixed-bg bg-2">
+    <h2>"...the hottest New Act from Boston...BLEW US AWAY!..."<em>- Matterhorn, Sunday River</em></h2>
+</div>
+<div class="scrolling-bg color-2" id="band">
     <div class="container">
         <p>STARRING...</p>
         <p>Kris Bishop as Eddie Vedder</p>
@@ -13,26 +44,11 @@
     </div>
 </div>
 
-
-    <div class="fixed-bg bg-2"><h2>"Kilroe is the Pearl Jam Tribute you want to see." - Hennessy's</h2>
-    </div>
-    <div class="scrolling-bg color-2" id="tour" data-ng-controller="TourCtrl">
-        <div class="container">
-            <ul class="tour-list"
-                ng-repeat="gig in gigs | orderBy:['date']">
-                <li>{{gig.date | dateFormatGig}}</li>
-                <li><img data-ng-src="/images/venues/{{gig.venueImage}}.jpg" alt="{{gig.venue}}"/> {{gig.venue}}</li>
-                <li>{{gig.location}}</li>
-                <li>{{gig.time}}</li>
-            </ul>
-        </div>
-    </div>
-
 <div class="fixed-bg bg-3">
-    <h2>"The best band we've had all year!" - Whiskey Priest</h2>
+    <h2>"...Bostonians, the band Kilroe is here to save our nights out..."<em>- Examiner.com</em></h2>
 </div>
 
-<div class="scrolling-bg color-3" id="about" data-ng-controller="SongCatalogCtrl">
+<div class="scrolling-bg color-3" data-ng-controller="SongCatalogCtrl">
     <div class="container">
         <p>SOCIAL MEDIA STUFF (Instagram, Facebook, Twitter, Youtube)</p>
         <div id="songCatalog" class="song-list">
@@ -44,11 +60,15 @@
 </div>
 
 <div class="fixed-bg bg-4">
-    <h2>"They know how to Vedder it!" - Lansdowne Pub</h2>
+    <h2>"...really know how to keep the crowd going...an amazing show!..."<em>- Hennessy's</em></h2>
 </div>
 <div class="scrolling-bg color-4" id="contact">
     <div class="container">
         <p>The BOOKING INFO<br>
         Suspendisse potenti. Proin velit nulla, tincidunt vitae semper in, tempus at justo. Mauris eget dui quam. Nulla at magna sit amet lectus condimentum malesuada. Donec rhoncus hendrerit lacus, sed pretium erat malesuada id. Vestibulum blandit nisi vel lectus varius, et semper sapien ultricies. Nunc libero dui, iaculis aliquet metus non, condimentum accumsan justo. Nunc odio diam, sagittis sed scelerisque et.</p>
     </div>
+</div>
+
+<div class="fixed-bg bg-5">
+    <h2>"...best band we've had all summer!"<em>- One Pelham East</em></h2>
 </div>

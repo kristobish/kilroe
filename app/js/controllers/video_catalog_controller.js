@@ -3,9 +3,11 @@
 
     app.controller('VideoCatalogCtrl', function ($scope, Ref, $firebaseArray) {
 
-        function createVideo (date, youtubeId) {
+        function createVideo (date, youtubeId, description, venue) {
             return {
                 date: date,
+                description: description,
+                venue: venue,
                 youtubeId: youtubeId
             };
         }
@@ -18,7 +20,7 @@
         $scope.addVideo = function (newVideo) {
 
             //Converting date for Firebase
-            newVideo.date = (newVideo.date.getMonth() + 1) + '-' + newVideo.date.getDate() + '-' + newVideo.date.getFullYear();
+            newVideo.date = newVideo.date.getFullYear() + '/' + (newVideo.date.getMonth() + 1) + '/' + newVideo.date.getDate();
 
             // Add video to Firebase
             $scope.videos.$add(newVideo);

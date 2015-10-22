@@ -3,11 +3,10 @@
 
     app.controller('TourCtrl', function ($scope, Ref, $firebaseArray) {
 
-        function createGig (date, venue, venueImage, location, time) {
+        function createGig (date, venue, location, time) {
             return {
                 date: date,
                 venue: venue,
-                venueImage: venueImage,
                 location: location,
                 time: time
             };
@@ -20,7 +19,7 @@
         $scope.addGig = function (newGig) {
 
             //Converting date for Firebase
-            newGig.date = ('0' + (newGig.date.getMonth()+1)).slice(-2) + '/' + ('0' + newGig.date.getDate()).slice(-2) + '/' + newGig.date.getFullYear();
+            newGig.date = newGig.date.getFullYear() + '/' + ('0' + (newGig.date.getMonth()+1)).slice(-2) + '/' + ('0' + newGig.date.getDate()).slice(-2);
 
             // Add gig to Firebase
             $scope.gigs.$add(newGig);
@@ -41,6 +40,15 @@
 
             $scope.opened = true;
         };
+
+        //Expand-Collapse - Keep closed initially
+        $scope.isCollapsed = true;
+
+        //Toggle past shows button
+        $scope.toggle = true;
+        $scope.$watch('toggle', function(){
+            $scope.toggleText = $scope.toggle ? 'Past Shows' : 'Hide Past Shows';
+        })
 
 
     });

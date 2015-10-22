@@ -1,11 +1,18 @@
+@font-face {
+  font-family: 'abite';
+  src: url('/fonts/abite.woff') format('woff');
+}
 body,
 html,
 .main-view {
   /* important */
   height: 100%;
 }
+body {
+  background: #000;
+}
 .main-content {
-  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  /* you need to assign a min-height to the main content so that the children can inherit it */
   height: 100%;
   position: relative;
   z-index: 1;
@@ -52,66 +59,93 @@ html,
 .fixed-bg.bg-4 {
   background-image: url("/images/home_bg/home_bg_photo4.jpg");
 }
+.fixed-bg.bg-5 {
+  background-image: url("/images/home_bg/home_bg_photo5.jpg");
+}
+.scrolling-bg {
+  position: relative;
+  min-height: 50%;
+  padding: 30px 0 40px;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  font-size: 20px;
+}
+.scrolling-bg h1 {
+  font-family: abite;
+  border-bottom: 1px #fff solid;
+  font-size: 24px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.scrolling-bg.color-1 {
+  background-image: url("/images/home_bg/scroll_bg_photo1.jpg");
+  color: #fff;
+}
+.scrolling-bg.color-2 {
+  background-image: url("/images/home_bg/home_bg_photo2.jpg");
+  color: #fff;
+}
+.scrolling-bg.color-3 {
+  background-image: url("/images/home_bg/home_bg_photo2.jpg");
+  color: #fff;
+}
 @media only screen and (min-width: 768px) {
-  .fixed-bg h1,
+  .fixed-bg h1 {
+    font-size: 36px;
+    font-family: "abite";
+  }
   .fixed-bg h2 {
     font-size: 36px;
+  }
+  .fixed-bg h2 em {
+    font-size: 28px;
+    display: block;
   }
 }
 @media only screen and (min-width: 1170px) {
   .fixed-bg {
     background-attachment: fixed;
   }
-  .fixed-bg h1,
+  .fixed-bg h1 {
+    font-size: 48px;
+    font-weight: 300;
+    font-family: "abite";
+  }
   .fixed-bg h2 {
     font-size: 48px;
     font-weight: 300;
+    line-height: 52px;
+  }
+  .fixed-bg h2 em {
+    font-size: 40px;
+    display: block;
+  }
+  .container {
+    /* max-width to the element, center it horizontally when it reaches max-width */
+    width: 90%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .container::after {
+    /* clearfix */
+    content: '';
+    display: table;
+    clear: both;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1170px) and only screen and (max-width: 768px) {
   .fixed-bg {
     background-attachment: unset;
   }
 }
-.scrolling-bg {
-  position: relative;
-  min-height: 50%;
-  padding: 4em 0;
-  line-height: 1.6;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  z-index: 2;
-}
-.scrolling-bg.color-1 {
-  background-color: #3d3536;
-  color: #a6989a;
-}
-.scrolling-bg.color-2 {
-  background-color: #8e7d7f;
-  color: #3d3536;
-}
-.scrolling-bg.color-3 {
-  background-color: #b3d4fc;
-  color: #3d3536;
-}
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1170px) and only screen and (min-width: 768px) {
   .scrolling-bg {
-    padding: 8em 0;
+    padding: 40px 0 30px;
     font-size: 20px;
     line-height: 2;
     font-weight: 300;
   }
-}
-.container {
-  /* max-width to the element, center it horizontally when it reaches max-width */
-  width: 90%;
-  max-width: 768px;
-  margin: 0 auto;
-}
-.container::after {
-  /* clearfix */
-  content: '';
-  display: table;
-  clear: both;
 }
 .header {
   position: fixed;
@@ -128,11 +162,14 @@ html,
   display: table;
   clear: both;
 }
-.header #logo {
+.header .logo {
   float: left;
-  margin: 13px 0 0 5%;
+  margin: 9px 0 0 5%;
+  font-family: abite;
+  font-size: 30px;
+  color: #fff;
 }
-.header #logo img {
+.header .logo img {
   display: block;
 }
 @media only screen and (max-width: 768px) {
@@ -165,12 +202,12 @@ html,
   color: #fff;
 }
 .main-nav a:hover {
-  background: #fff;
-  color: #000;
+  color: #999;
+  text-decoration: none;
 }
 .main-nav a.active {
-  background: #fff;
-  color: #000;
+  color: #999;
+  text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
   .main-nav {
@@ -193,20 +230,18 @@ html,
     height: auto;
     line-height: normal;
     background: transparent;
-    padding: .6em 1em;
+    padding: .6em 5px;
     border-top: none;
     color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
   }
   .main-nav a:hover {
-    background: #fff;
-    color: #000;
+    color: #999;
+    text-decoration: none;
   }
   .main-nav a.active {
-    background: #fff;
-    color: #000;
+    color: #999;
+    text-decoration: none;
   }
   .no-touch .main-nav a:hover {
     color: #99a478;
@@ -256,11 +291,37 @@ footer {
   width: 0;
   background-color: #E0EAF1;
 }
-.tour-list {
-  list-style-type: none;
-  border-bottom: 1px solid #333;
-  padding: 20px 0;
-  width: 300px;
+.tour-date td {
+  padding: 0 70px 10px 0;
+}
+.tour-date-small {
+  font-size: 16px;
+  font-style: italic;
+}
+.tour-date-past-container {
+  margin-top: 20px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+.tour-date-past {
+  font-size: 16px;
+}
+.tour-date-past td {
+  padding: 0 30px 4px 0;
+}
+.tour-date-header {
+  font-size: 16px;
+  color: #ccc;
+}
+.toggle-shows {
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+.toggle-shows:hover {
+  color: #ccc;
 }
 .song-list {
   margin-top: 30px;
@@ -272,7 +333,12 @@ footer {
   list-style-type: none;
 }
 .photos-container {
-  margin-top: 100px;
+  margin-top: 70px;
+  background-repeat: no-repeat;
+  background-image: url("/images/home_bg/video_bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }
 .grid {
   max-width: 70%;
@@ -299,6 +365,38 @@ footer {
   display: block;
   max-width: 100%;
 }
+.fancybox-nav {
+  width: 50%;
+}
+a.darken {
+  background: #000;
+}
+a.darken img {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+a.darken:hover img {
+  opacity: 0.3;
+}
+.btn-group:hover > .dropdown-menu {
+  display: block;
+}
+.btn-group {
+  margin-top: 20px;
+  left: 45%;
+}
+h1 {
+  font-family: abite;
+  font-size: 24px;
+  color: #fff;
+  float: left;
+}
+.dropdown-menu {
+  margin-top: -1px;
+}
 @media screen and (max-width: 900px) {
   .grid li {
     width: 50%;
@@ -309,9 +407,26 @@ footer {
     width: 100%;
   }
 }
-.fancybox-nav {
-  width: 50%;
-}
 .videos-container {
   margin-top: 100px;
+}
+.admin-container {
+  margin: 90px 0 0 30px;
+}
+.admin-tour-list {
+  list-style-type: none;
+  padding: 0;
+  width: 300px;
+}
+.admin-song-list-container {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+.admin-song-list {
+  list-style-type: none;
+}
+.admin-delete {
+  float: left;
+  margin-right: 10px;
 }

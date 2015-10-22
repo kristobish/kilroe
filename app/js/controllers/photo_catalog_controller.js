@@ -41,7 +41,26 @@
             $scope.opened = true;
         };
 
+        var $container = $('.masonry-container');
+        $container.imagesLoaded( function() {
+            $container.masonry();
+        });
+
+        $scope.status = {
+            isopen: false
+        };
+
+        $scope.toggleDropdown = function($event) {
+            $event.preventDefault();
+            $event.stopPropagation();
+            $scope.status.isopen = !$scope.status.isopen;
+        };
+
     });
+
+
+
+
 
     app.directive('fancybox', function(){
         return {
@@ -54,5 +73,9 @@
             }
         };
     });
+
+    //$.fancybox.showLoading();
+
+
 
 })(angular.module('kilroe'), jQuery);

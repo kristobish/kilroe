@@ -5,22 +5,29 @@
         $scope.songs = [
             {
                 id: 'one',
-                title: 'ANIMAL',
-                artist: '- Kilroe',
-                url: '/audio/animal.mp3'
+                title: 'FREE FALLIN',
+                artist: '@ Whiskey Priest',
+                url: '/audio/freefallin.mp3'
             },
             {
                 id: 'two',
-                title: 'ALIVE',
-                artist: '- Kilroe',
-                url: '/audio/alive.mp3'
+                title: 'DAMMIT',
+                artist: '@ Lansdowne Pub',
+                url: '/audio/dammit.mp3'
             },
             {
                 id: 'three',
-                title: 'NOTHINGMAN',
-                artist: '- Kilroe',
-                url: '/audio/nothingman.mp3'
-            }
+                title: 'GOOD RIDDANCE',
+                artist: '@ Hennessy\'\s',
+                url: '/audio/goodriddance.mp3'
+            },
+            {
+                id: 'four',
+                title: '4-Song MEDLEY',
+                artist: '@ Bell In Hand',
+                url: '/audio/medley.mp3'
+            },
+
         ];
 
         //TODO Put this toggle functionality in a directive
