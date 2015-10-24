@@ -52,6 +52,9 @@ module.exports = function (config) {
             'bower_components/fancybox/source/jquery.fancybox.js',
             'bower_components/fancybox/source/jquery.fancybox.pack.js',
             'bower_components/angular-soundmanager2/dist/angular-soundmanager2.js',
+            'bower_components/headroom.js/dist/headroom.js',
+            'bower_components/headroom.js/dist/jQuery.headroom.js',
+            'bower_components/headroom.js/dist/angular.headroom.js',
             'bower_components/mockfirebase/browser/mockfirebase.js',
             'bower_components/angular-mocks/angular-mocks.js',
             // endbower

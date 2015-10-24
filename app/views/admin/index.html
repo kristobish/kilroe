@@ -15,11 +15,9 @@
 
         <div id="gigs">
             <ul class="admin-tour-list"
-                ng-repeat="gig in gigs | orderBy:'date'">
+                ng-repeat="gig in gigs | orderBy:'-date'">
                 <button class="admin-delete btn btn-xs btn-danger" data-ng-click="removeGig(gig)">x</button>
-                <li data-ng-model="gig.date" data-ng-change="gigs.$save(gig)">{{gig.date | dateFormatGig}}
-
-                </li>
+                <li data-ng-model="gig.date" data-ng-change="gigs.$save(gig)">{{gig.date | dateFormatGig}} {{gig.venue}} {{gig.location}} {{gig.time}}</li>
             </ul>
         </div>
     </div>

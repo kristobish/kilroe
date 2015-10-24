@@ -1,7 +1,8 @@
-<div data-ng-controller="VideoCatalogCtrl" class="videos-container">
-
-    <div ng-repeat="video in videos">
-        <div youtube="{{video.youtubeId}}"></div>
+<div data-ng-controller="VideoCatalogCtrl" class="video-container">
+    <div class="youtube-container">
+        <h1 class="page-title-video"><i class="fa fa-arrows"></i> Video</h1>
+        <div class="youtube-container" ng-repeat="video in videos">
+            <div youtube="{{video.youtubeId}}"></div>
+        </div>
     </div>
-
 </div>

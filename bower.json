@@ -19,7 +19,8 @@
     "angular-masonry": "~0.11.1",
     "fancybox": "master",
     "font-awesome": "~4.3.0",
-    "angular-soundmanager2": "~0.5.6"
+    "angular-soundmanager2": "~0.5.6",
+    "headroom.js": "~0.7.0"
   },
   "devDependencies": {
     "mockfirebase": "0.11.0",

@@ -58,10 +58,6 @@
 
     });
 
-
-
-
-
     app.directive('fancybox', function(){
         return {
             restrict: 'C',
@@ -74,7 +70,7 @@
         };
     });
 
-    //$.fancybox.showLoading();
+    //
 
 
 

@@ -51,7 +51,7 @@
                 youtubeId: '@youtube'
             },
             replace: true,
-            template: '<div style="height:400px;"><iframe style="overflow: hidden; height: 400px; width: 600px" width="600px" height="400px" data-ng-src="{{url}}" frameborder="0" allowfullscreen></iframe></div>',
+            template: '<div style="height:400px;"><iframe style="overflow: hidden; width: 600px; height: 400px" width="600px" height="400px" data-ng-src="{{url}}" frameborder="0" allowfullscreen></iframe></div>',
             link: function (scope) {
                 scope.$watch('youtubeId', function (youtubeId) {
                     if (youtubeId) {

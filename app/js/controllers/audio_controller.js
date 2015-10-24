@@ -26,7 +26,7 @@
                 title: '4-Song MEDLEY',
                 artist: '@ Bell In Hand',
                 url: '/audio/medley.mp3'
-            },
+            }
 
         ];
 

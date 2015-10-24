@@ -14,5 +14,6 @@
     'contenteditable',
     'duScroll',
     'wu.masonry',
-    'angularSoundManager'
+    'angularSoundManager',
+    'headroom'
 ]));

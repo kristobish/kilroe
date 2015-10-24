@@ -9,7 +9,6 @@ body {
     background: #000;
 }
 
-
 .main-content {
     /* you need to assign a min-height to the main content so that the children can inherit it */
     height: 100%;
@@ -49,24 +48,25 @@ body {
 }
 
 .fixed-bg.bg-1 {
-    background-image: url("/images/home_bg/home_bg_photo1.jpg");
+    background-image: url("/images/backgrounds/home_bg_photo1.jpg");
 }
 
 .fixed-bg.bg-2 {
-    background-image: url("/images/home_bg/home_bg_photo2.jpg");
+    background-image: url("/images/backgrounds/home_bg_photo2.jpg");
 }
 
 .fixed-bg.bg-3 {
-    background-image: url("/images/home_bg/home_bg_photo3.jpg");
+    background-image: url("/images/backgrounds/home_bg_photo3.jpg");
 }
 
 .fixed-bg.bg-4 {
-    background-image: url("/images/home_bg/home_bg_photo4.jpg");
+    background-image: url("/images/backgrounds/home_bg_photo4.jpg");
 }
 
 .fixed-bg.bg-5 {
-    background-image: url("/images/home_bg/home_bg_photo5.jpg");
+    background-image: url("/images/backgrounds/home_bg_photo5.jpg");
 }
+
 
 .scrolling-bg {
     position: relative;
@@ -87,19 +87,64 @@ body {
 }
 
 .scrolling-bg.color-1 {
-    background-image: url("/images/home_bg/scroll_bg_photo1.jpg");
+    background-image: url("/images/backgrounds/scroll_bg_photo1.jpg");
     color: #fff;
 }
 
 .scrolling-bg.color-2 {
-    background-image: url("/images/home_bg/home_bg_photo2.jpg");
+    background-image: url("/images/backgrounds/home_bg_photo2.jpg");
     color: #fff;
 }
 
 .scrolling-bg.color-3 {
-    background-image: url("/images/home_bg/home_bg_photo2.jpg");
+    background-image: url("/images/backgrounds/home_bg_photo2.jpg");
     color: #fff;
 }
+
+.scrolling-bg.color-4 {
+    background: #999;
+}
+
+.scrolling-bg.color-5 {
+    min-height: 0;
+    height: 100px;
+    background: #666;
+}
+
+//Scroll to top button
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #666666;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility: visible;
+    cursor: pointer;
+    opacity: .7;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+
 
 
 

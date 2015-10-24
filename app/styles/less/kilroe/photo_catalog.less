@@ -1,7 +1,6 @@
 .photos-container {
-    margin-top: 70px;
     background-repeat: no-repeat;
-    background-image: url("/images/home_bg/video_bg.jpg");
+    background-image: url("/images/backgrounds/photos_bg.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -42,20 +41,17 @@
     width: 50%;
 }
 
-//mouseover darken effect
-a.darken {
+//mouseover photo darken effect
+.mouseover-darken-photo {
     background: #000;
 }
 
-a.darken img {
-    -webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
+.mouseover-darken-photo img {
     transition: all 0.5s linear;
+    margin: 0 auto;
 }
 
-a.darken:hover img {
+.mouseover-darken-photo:hover img {
     opacity: 0.3;
 
 }
@@ -66,15 +62,34 @@ a.darken:hover img {
 }
 
 .btn-group {
-    margin-top: 20px;
-    left: 45%;
+    margin: 20px 10px 0;
 }
 
-h1 {
-    font-family: abite;
-    font-size: 24px;
+.photo-button-group {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.photo-button {
+    width: 100px;
+    font-size: 18px;
+    background: #000;
+    border-color: #000;
+    transition: all 0.3s linear;
+}
+
+.photo-button:hover {
+    background: #333;
+    border-color: #000;
+}
+
+.page-title-photos {
     color: #fff;
     float: left;
+    margin-right: 100px;
+    margin-left: 20px;
+    font-size: 30px;
 }
 
 
