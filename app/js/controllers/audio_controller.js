@@ -23,7 +23,7 @@
             },
             {
                 id: 'four',
-                title: '4-Song MEDLEY',
+                title: '4-SONG MEDLEY',
                 artist: '@ Bell In Hand',
                 url: '/audio/medley.mp3'
             }
