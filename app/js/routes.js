@@ -17,6 +17,11 @@
                 controller: 'VideoCatalogCtrl'
             })
 
+            .when('/news', {
+                templateUrl: '../../views/news.html',
+                controller: 'NewsCtrl'
+            })
+
             .when('/admin', {
                 templateUrl: '../../views/admin/index.html',
                 controller: 'TourCtrl'

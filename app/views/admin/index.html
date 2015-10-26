@@ -1,23 +1,44 @@
 <div class="admin-container">
     <div data-ng-controller="TourCtrl">
         <h2>Add Gigs</h2>
-
         <form name="gigForm">
             <input type="text" placeholder="Date" datepicker-popup="EEEE M/d/yy" data-ng-model="newGig.date" is-open="opened">
             <button type="button" class="btn btn-default" data-ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button><br>
             <input placeholder="Venue" data-ng-model="newGig.venue"><br>
-            <!--<input placeholder="venueimage" data-ng-model="newGig.venueImage"><br>-->
             <input placeholder="Location" data-ng-model="newGig.location"><br>
             <input placeholder="Time" data-ng-model="newGig.time"><br>
             <button type="submit" class="btn btn-success" data-ng-click="addGig(newGig)">Add Gig
             </button>
         </form>
 
-        <div id="gigs">
+        <div id="gigs"  class="admin-tour-list-container">
             <ul class="admin-tour-list"
                 ng-repeat="gig in gigs | orderBy:'-date'">
                 <button class="admin-delete btn btn-xs btn-danger" data-ng-click="removeGig(gig)">x</button>
-                <li data-ng-model="gig.date" data-ng-change="gigs.$save(gig)">{{gig.date | dateFormatGig}} {{gig.venue}} {{gig.location}} {{gig.time}}</li>
+                <li data-ng-model="gig.date" data-ng-change="gigs.$save(gig)" contenteditable="true" strip-br="true" no-line-breaks="true">{{gig.date}}</li>
+                <li data-ng-model="gig.venue" data-ng-change="gigs.$save(gig)" contenteditable="true" strip-br="true" no-line-breaks="true"></li>
+                <li data-ng-model="gig.location" data-ng-change="gigs.$save(gig)" contenteditable="true" strip-br="true" no-line-breaks="true"></li>
+                <li data-ng-model="gig.time" data-ng-change="gigs.$save(gig)" contenteditable="true" strip-br="true" no-line-breaks="true"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-ng-controller="NewsCtrl">
+        <h2>Add News Article</h2>
+        <form name="articleForm">
+            <input type="text" placeholder="Date" datepicker-popup="M/d/yy" data-ng-model="newArticle.date" is-open="opened">
+            <button type="button" class="btn btn-default" data-ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button><br>
+            <input placeholder="Title" data-ng-model="newArticle.title"><br>
+            <textarea placeholder="Article" data-ng-model="newArticle.article"></textarea>
+            <button type="submit" class="btn btn-success" data-ng-click="addArticle(newArticle)">Add Article</button>
+        </form>
+
+        <div id="news" class="admin-news-container">
+            <ul class="admin-news" ng-repeat="article in news | orderBy:'-date'">
+                <button class="admin-delete btn btn-xs btn-danger" data-ng-click="removeArticle(article)">X</button>
+                <li data-ng-model="article.date" data-ng-change="news.$save(article)" contenteditable="true" strip-br="true" no-line-breaks="true">{{article.date}}</li>
+                <li data-ng-model="article.title" data-ng-change="news.$save(article)" contenteditable="true" strip-br="true" no-line-breaks="true"></li>
+                <li data-ng-model="article.article" data-ng-change="news.$save(article)" contenteditable="true" strip-br="true" no-line-breaks="true"></li>
             </ul>
         </div>
     </div>
@@ -50,10 +71,11 @@
             <button type="submit" class="btn btn-success" data-ng-click="addPhoto(newPhoto)">Add Photo</button>
         </form>
 
-    <div id="photoCatalog">
-        <div ng-repeat="photo in photos">
-            <button class="btn btn-xs btn-danger" data-ng-click="removePhoto(photo)">x</button>
-            <img alt="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"/>
+        <div id="photoCatalog">
+            <div ng-repeat="photo in photos">
+                <button class="btn btn-xs btn-danger" data-ng-click="removePhoto(photo)">x</button>
+                <img alt="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"/>
+            </div>
         </div>
     </div>
 

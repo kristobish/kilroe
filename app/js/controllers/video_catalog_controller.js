@@ -20,7 +20,7 @@
         $scope.addVideo = function (newVideo) {
 
             //Converting date for Firebase
-            newVideo.date = newVideo.date.getFullYear() + '/' + (newVideo.date.getMonth() + 1) + '/' + newVideo.date.getDate();
+            newVideo.date = newVideo.date.getFullYear() + '/' + ('0' + (newVideo.date.getMonth()+1)).slice(-2) + '/' + ('0' + newVideo.date.getDate()).slice(-2)
 
             // Add video to Firebase
             $scope.videos.$add(newVideo);

@@ -1,0 +1,113 @@
+.photos-container {
+    background-repeat: no-repeat;
+    background-image: url("/images/backgrounds/photos_bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.grid {
+    max-width: 70%;
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+}
+
+.grid li {
+    display: block;
+    float: left;
+    padding: 7px;
+    width: 33%;
+    opacity: 0;
+}
+
+.grid li.shown,
+.no-js .grid li,
+.no-cssanimations .grid li {
+    opacity: 1;
+}
+
+.grid li a,
+.grid li img {
+    outline: none;
+    border: none;
+    display: block;
+    max-width: 100%;
+}
+
+// Allows arrow capability on entire photo
+.fancybox-nav {
+    width: 50%;
+}
+
+
+//mouseover photo darken effect
+.mouseover-darken-photo {
+    background: #000;
+}
+
+.mouseover-darken-photo img {
+    transition: all 0.5s linear;
+    margin: 0 auto;
+}
+
+.mouseover-darken-photo:hover img {
+    opacity: 0.3;
+
+}
+
+//dropdown
+.btn-group:hover>.dropdown-menu {
+    display: block;
+}
+
+.btn-group {
+    margin: 20px 10px 0;
+}
+
+.photo-button-group {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.photo-button {
+    width: 100px;
+    font-size: 18px;
+    background: #000;
+    border-color: #000;
+    transition: all 0.3s linear;
+}
+
+.photo-button:hover {
+    background: #333;
+    border-color: #000;
+}
+
+.page-title-photos {
+    color: #fff;
+    float: left;
+    margin-right: 100px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+.dropdown-menu {
+    margin-top: -1px;
+}
+
+@media screen and (max-width: 900px) {
+    .grid li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .grid li {
+        width: 100%;
+    }
+}
+
+

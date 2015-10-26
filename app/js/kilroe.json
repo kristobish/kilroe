@@ -158,6 +158,18 @@
     }
   },
   "gigs" : {
+    "-K1GwYeCzIKLCOUjh63W" : {
+      "date" : "2014/01/11",
+      "location" : "Boston, MA",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-K1S0nEAu8RQSLGU0DHB" : {
+      "date" : "2014/09/20",
+      "location" : "Boston, MA",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
     "gig1" : {
       "date" : "2014/03/15",
       "location" : "Boston, MA",
@@ -542,12 +554,6 @@
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
-    "gig2" : {
-      "date" : "2014/01/11",
-      "location" : "Boston, MA",
-      "time" : "9:30pm",
-      "venue" : "Hennessys"
-    },
     "gig20" : {
       "date" : "2012/04/20",
       "location" : "Boston, MA",
@@ -796,12 +802,6 @@
     },
     "gig58" : {
       "date" : "2014/06/21",
-      "location" : "Boston, MA",
-      "time" : "9:30pm",
-      "venue" : "Hennessy's"
-    },
-    "gig59" : {
-      "date" : "2014/09/27",
       "location" : "Boston, MA",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
@@ -1069,6 +1069,130 @@
       "location" : "Boston, MA",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
+    }
+  },
+  "news" : {
+    "-K1U8Mi1c-uVyn-bLdvy" : {
+      "article" : "It's been almost a year since we last roamed the stages of Boston but we are back and ready to do what we do best...put on New England's greatest rock show. As many of you know, we took a long hiatus in 2013 so Rob could have back surgery and rehab and now he's stronger than ever.  We've added a lot of new songs to the show including some by Imagine Dragons, Third Eye Blind, Florida Georgia Line, Good Charlotte, Pearl Jam, and a few others. We've already booked a few shows through June and are looking to add more. So don't be afraid to check the site. We are alive! And if we get off our lazy butts we should have a new website this year....but don't hold us to it. Just kidding we will....but really, don't bet on it.\nAnd you can always check in with us on Facebook and Twitter so like us and follow us ASAP! See you out there!",
+      "date" : "2013/12/27",
+      "title" : "The Boys Are Back In Town..."
+    },
+    "-K1U8omgruVzHDJrZZPI" : {
+      "article" : "Thanks to everyone who came out to our first new shows of 2012 with our new man Duncan. St Paddy's Day was insane as usual and it was nice to get back to our old home in Faneuil Hall. We've already booked a bunch of dates through the end of 2012 with lots more to come so if it's been awhile for you (and we know it has been) come on out and say hi!\nWe have some new songs debuting in the next month by Foster the People, Fun., REM, Bush, Cyndi Lauper, Billy Idol and more to go along with your normal dose of Kilroe. New photos will be on the way and hopefully some new video in the coming months.\nAnd you can always check in with us on Facebook and Twitter so like us and follow us ASAP! See you out there!",
+      "date" : "2012/04/06",
+      "title" : "Kilroe 2.0 keeps on rolling..."
+    },
+    "-K1U95vxoPlLWffNp_pp" : {
+      "article" : "After a 6-month hiatus, your favorite neighborhood rock band will make it's triumphant return on St Paddys Day at Hooley House (Hennessy's Upstairs)! However, Saturday March 17th will be very different from what you've grown accustomed to at our shows. With great sadness we announce that after 3 years and 126 shows, our great friend and brother, Mr. Jeremy \"Funkhowser\" Rosenberger, has decided to turn off his amp and hang up his Kilroe bass. Although he's leaving, he will always be a part of this band and we will miss him dearly!\nSo...this means we 've added a new member to the Kilroe family. Welcome to Duncan Jewett as our new bass player! Duncan is a veteran of the Boston music scene and will make his debut on St. Paddy's Day. So come on out and give him the famous Kilroe love! New songs and a new website will be ready before the show so keep an eye out for that. 2012 is gonna be a great year!\nAnd to our pal Jeremy...may the wind always be at your back...and the sun always upon your face...and the wind of destiny to carry you aloft...to dance with the stars. See you out there!",
+      "date" : "2012/02/04",
+      "title" : "Kilroe returns...with a different look."
+    },
+    "-K1U9MdInDU8uiV2qoLn" : {
+      "article" : "I know a lot of you have noticed that our schedule is a bit thin in October, November and December...actually it's nonexistent. Don't worry, we're not going anywhere. We're just gonna take a small hiatus after our September 17th show but we promise we'll be back and refreshed in 2012.  In the meantime, make sure you come out for our next few shows! 2012 will bring us some new songs, new photos and a brand new website. So definitely check in with us from time to time and stay updated. We'll let you know our new dates as soon as we land them. As always thank you to everyone who continue to support us. We love seeing you guys whether it's Faneuil Hall, Rhode Island or Maine.\nAnd you can always check in with us on Facebook so don't be a stranger. If we don't see you in the coming weeks, we'll meet up again in 2012!\nSee you out there!",
+      "date" : "2011/08/07",
+      "title" : "Small hiatus, 2012 and beyond..."
+    },
+    "-K1U9qaRsqaB8bumbAab" : {
+      "article" : "The Red Sox season is underway and it's time to start thinking about the summer!! First we'd like to say thanks to everyone who's helped us keep warm this past winter.  We have a lot more fun planned over the next few months so here it goes...On FRIDAY JUNE 10th, we're booked for the Boston Ski & Sports Club's Annual Rock The Boat Harbor Cruise on the Provincetown II in Boston Harbor. We'll be doing our thing on the top deck as the sun goes down. Perfect way to kick off summer! Buy your tickets on the BSSC website and use the Kilroe discount code: RTBKILROE. Tickets are limited so get yours now! And don't forget, we're making our debut in Newport, RI this summer at One Pelham East in July. We'll be there thru September this year. Have a great and safe summer you guys!! See you out there!",
+      "date" : "2011/04/05",
+      "title" : "HERE WE GO SUMMER, HERE WE GO!"
+    },
+    "-K1UAAblf2XdSp6_QxGR" : {
+      "article" : "Hope you all had as much fun this summer as we did! We're looking forward to some down time this Fall but don't worry there are plenty of dates scheduled for the rest of the year. We completed our year-long Thursday night residency at Paddy O's recently so thanks to everyone who came out on those Thursday nights and had a blast. We've also been playing regularly at Hooley House AKA Hennessy's Upstairs which is one of Boston's premier rooms. So keep an eye out for more of those shows. Also we just booked our New Year's Eve show and once again we're heading up to Sunday River to do The Matterhorn for a weekend of skiing, snowboarding and all things Kilroe.  We've posted a bunch of new video of our shows from the Ocean Club, Lansdowne Pub and Hooley House (Hennessy's Upstairs) in August so check those out. Look for new press pics soon and some new venues. Thanks again everyone for all the support. See you out there!",
+      "date" : "2010/09/01",
+      "title" : "Summer's over, new vids, NYE..."
+    },
+    "-K1UAWuD0DGPBqd0Iv4f" : {
+      "article" : "Finally! The cold weather is leaving. We have a ton of dates booked throughout the summer including all the usual places in Faneuil Hall and near Fenway and the Garden and also at the new Ocean Club At Marina Bay in Quincy. We just secured 2 dates this summer and you don't want to miss em. New management has taken over what was formerly Waterworks (and a million other names) and this place is sick! We also have a bunch of new photos from our debut show at The Lansdowne Pub in May. And many thanks once again to our good friend Ryan C. for snapping all the shots. Also, if any of you are interested in shooting some video, hit us up as we're always looking for new footage. And don't be a stranger - make sure you join our Facebook page if you haven't yet already. See you all this summer!",
+      "date" : "2010/06/04",
+      "title" : "Summer brings the Ocean Club At Marina Bay!!"
+    },
+    "-K1UAqKZIAA-LKvYDC2r" : {
+      "article" : "Kilroe booking has been hard at work securing dates at some different venues this spring and summer. We just booked a couple shows at the Lansdowne Pub next to Fenway Park. The first one, Friday May 7th happens to be the night of a Red Sox home game against the hated Yankees! And we also have another on July 2 against the Orioles. Also, Babson College is having us for their spring fling at the end of April. Look for more dates on the north shore and in RI soon. We also posted a new video montage from our Mardis Gras show at Sunday River and a cool version of \"Fortunate Son\" from our January gig at Hennessy's. And thanks to our good friend Ryan C., we have some great new photos from our March show at Hennessy's. The kid's a natural. Thanks dude!",
+      "date" : "2010/04/10",
+      "title" : "New venues, photos and video"
+    },
+    "-K1UB4RjFO1RFCtjLC3l" : {
+      "article" : "New shows/songs added plus Paddy O's return\nWe just added a ton of dates for the rest of 2010 and have been adding more songs to the catalog. Also, starting in April we will be back at Paddy O's in Boston every Thursday night throughout the summer. The weather will be starting to get warm soon so come on out! Finally check out the new video we added to the video page from New Year's Eve at The Matterhorn.",
+      "date" : "2010/02/27",
+      "title" : "New shows/songs added plus Paddy O's return"
+    },
+    "-K1UBFgMoQNHr263OVrW" : {
+      "article" : "Happy New Year everyone. As you all know, there was a devasting earthquake in Haiti recently so we ask if anyone has the means to donate, please click on the banner below and sign up through Oxfam America. Thanks!",
+      "date" : "2010/01/15",
+      "title" : "Oxfam America and Haiti"
+    },
+    "-K1UBS88zLDFzjeJhBNs" : {
+      "article" : "Ring in 2010 with us up at Sunday River in Maine this New Year's Eve. We'll be back at The Matterhorn ready to say goodbye to 2009. And you'll always be able to find us around Faneuil Hall throughout the month. Make sure you check our schedule. Hope to see you this winter!!",
+      "date" : "2009/12/21",
+      "title" : "New Year's Eve and this winter..."
+    },
+    "-K1UBgJ8ua7QX-wGKNfE" : {
+      "article" : "As the holidays approach, things will start to slow down a little bit so we're going to take the opportunity to learn some new covers. If there are any songs that you'd love to hear us play (as long as it's not 'Sweet Home Alabama') drop us a line and let us know. We're also in the beginning stages of putting together some original songs so stay tuned for that!",
+      "date" : "2009/11/04",
+      "title" : "New material including some originals..."
+    },
+    "-K1UBo4hgW-PvM1X2_7k" : {
+      "article" : "Dress up in your scariest, craziest or sexiest costume and come down to Hennessy's on Halloween night. We'll be dressed up too so don't be shy. The night will be sponsored by Malibu Rum and there will be a contest for best costume and prizes for first and second place.",
+      "date" : "2009/10/16",
+      "title" : "HALLOWEEN show @ Hennessy's!!"
+    },
+    "-K1UBybFPt1M6VvknJxG" : {
+      "article" : "Stay up to date on all of the latest shows, news, postings, etc. Sign up to the Kilroe mailing list, check out Kilroe video, photos and a lot more. We'll be opening an online store very soon with lots of cool merch like T-shirts, hoodies, tank tops, hats and stickers. Take a look around the site, come out to a show and let us know what you think!",
+      "date" : "2009/09/09",
+      "title" : "The new website has finally arrived!!!"
+    },
+    "-K1UCBeNPVHTUudteR-b" : {
+      "article" : "We just signed on to play a weekly residency every Thursday @ Paddy O's in Boston - 33 Union Street. Come out every Thursday from 9:00pm - close for your weekly Kilroe fix.",
+      "date" : "2009/07/27",
+      "title" : "EVERY THURSDAY night @ PADDY O's!!!"
+    },
+    "-K1UCL0itWSoH2osla5m" : {
+      "article" : "Don't be sad if you don't see us around too much in August. We're taking some time off for a little vacationing but we'll be back fully charged on Thursday September 10th at the Bell In Hand. Also keep an eye out for our new website which will be hitting your laptops somtime around the beginning of September. Have a great rest of the summer you guys!",
+      "date" : "2009/08/16",
+      "title" : "Vacation..."
+    },
+    "-K1UCglLm4EUXaPtytcQ" : {
+      "article" : "Many thanks to Angelica Assim of The Examiner for the cool review of us. Leave a comment on the article and remind people what they're missing.",
+      "date" : "2009/08/05",
+      "title" : "New online review!! Check it out!!"
+    },
+    "-K1UDBpfG5-kwy-T9ytq" : {
+      "article" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel turpis ante. Proin ipsum sem, lacinia nec commodo et, sollicitudin ac leo. Morbi iaculis gravida lorem, nec ullamcorper nunc dignissim nec. Integer fermentum ipsum at orci bibendum, non tempus ex posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sed nulla eget nunc efficitur ultrices. Aliquam vestibulum augue non arcu sagittis volutpat. Donec interdum interdum quam. Integer finibus suscipit sollicitudin. Suspendisse euismod mauris pretium volutpat aliquam. Ut eget mattis ante.",
+      "date" : "2015/10/28",
+      "title" : "Title!!"
+    }
+  },
+  "band" : {
+    "kris": {
+      "firstName": "Kris",
+      "lastName": "Bishop",
+      "title": "Lead Vocals",
+      "image": "/images/band/kris.jpg"
+    },
+    "rob": {
+      "firstName": "Rob",
+      "lastName": "O'Neill",
+      "title": "Drums/Backing Vocals",
+      "image": "/images/band/rob.jpg"
+    },
+    "jeremy": {
+      "firstName": "Jeremy",
+      "lastName": "Rosenberger",
+      "title": "Bass/Backing Vocals",
+      "image": "/images/band/jeremy.jpg"
+    },
+    "mark": {
+      "firstName": "Mark",
+      "lastName": "Donatelli",
+      "title": "Lead Guitar/Backing Vocals",
+      "image": "/images/band/mark.jpg"
+    },
+    "chris": {
+      "firstName": "Chris",
+      "lastName": "Romagna",
+      "title": "Rhythm Guitar/Backing Vocals",
+      "image": "/images/band/chris.jpg"
     }
   },
   "photos" : {
@@ -3210,12 +3334,6 @@
       "venue" : "Lansdowne Pub",
       "youtubeId" : "pPfYsOJMQcM"
     },
-    "video91" : {
-      "date" : "2009/03/01",
-      "description" : "Medley of 'In The Meantime', 'Hey Jealousy', 'State Of Love And Trust' and 'My Own Worst Enemy'",
-      "venue" : "Club 112",
-      "youtubeId" : "e8-A09SsmeM"
-    },
     "video2" : {
       "date" : "2010/08/14",
       "description" : "Free Fallin'",
@@ -3263,6 +3381,12 @@
       "description" : "I Alone",
       "venue" : "2009 Rally In The Alley",
       "youtubeId" : "FPDUTuqfUa8"
+    },
+    "video91" : {
+      "date" : "2009/03/01",
+      "description" : "Medley of 'In The Meantime', 'Hey Jealousy', 'State Of Love And Trust' and 'My Own Worst Enemy'",
+      "venue" : "Club 112",
+      "youtubeId" : "e8-A09SsmeM"
     }
   }
 }
