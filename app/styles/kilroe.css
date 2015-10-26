@@ -55,19 +55,19 @@ body {
   max-width: 1170px;
 }
 .fixed-bg.bg-1 {
-  background-image: url("/images/backgrounds/home_bg_photo1.jpg");
+  background-image: url("/images/backgrounds/home_bg1.jpg");
 }
 .fixed-bg.bg-2 {
-  background-image: url("/images/backgrounds/home_bg_photo2.jpg");
+  background-image: url("/images/backgrounds/home_bg2.jpg");
 }
 .fixed-bg.bg-3 {
-  background-image: url("/images/backgrounds/home_bg_photo3.jpg");
+  background-image: url("/images/backgrounds/home_bg3.jpg");
 }
 .fixed-bg.bg-4 {
-  background-image: url("/images/backgrounds/home_bg_photo4.jpg");
+  background-image: url("/images/backgrounds/home_bg4.jpg");
 }
 .fixed-bg.bg-5 {
-  background-image: url("/images/backgrounds/home_bg_photo5.jpg");
+  background-image: url("/images/backgrounds/home_bg5.jpg");
 }
 .scrolling-bg {
   position: relative;
@@ -85,15 +85,15 @@ body {
   margin-bottom: 20px;
 }
 .scrolling-bg.color-1 {
-  background-image: url("/images/backgrounds/scroll_bg_photo1.jpg");
+  background-image: url("/images/backgrounds/scroll_bg1.jpg");
   color: #fff;
 }
 .scrolling-bg.color-2 {
-  background-image: url("/images/backgrounds/scroll_bg_photo2.jpg");
+  background-image: url("/images/backgrounds/scroll_bg2.jpg");
   color: #fff;
 }
 .scrolling-bg.color-3 {
-  background-image: url("/images/backgrounds/scroll_bg_photo3.jpg");
+  background-image: url("/images/backgrounds/scroll_bg3.jpg");
   color: #fff;
 }
 .scrolling-bg.color-4 {
