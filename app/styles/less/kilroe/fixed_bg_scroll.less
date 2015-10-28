@@ -16,6 +16,7 @@ body {
     z-index: 1;
 }
 
+
 .fixed-bg {
     position: relative;
     min-height: 100%;
@@ -79,35 +80,44 @@ body {
 
     h1 {
         border-bottom: 1px #fff solid;
-        font-size: 24px;
-        padding-bottom: 15px;
+        font-size: 30px;
+        padding-bottom: 10px;
         margin-bottom: 20px;
     }
+
+    .social-media-feed-title {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+
 }
 
 .scrolling-bg.color-1 {
     background-image: url("/images/backgrounds/scroll_bg1.jpg");
-    color: #fff;
+    color: @main-text-color;
 }
 
 .scrolling-bg.color-2 {
     background-image: url("/images/backgrounds/scroll_bg2.jpg");
-    color: #fff;
+    color: @main-text-color;
 }
 
 .scrolling-bg.color-3 {
     background-image: url("/images/backgrounds/scroll_bg3.jpg");
-    color: #fff;
+    color: @main-text-color;
 }
 
 .scrolling-bg.color-4 {
-    background: #999;
+    background-image: url("/images/backgrounds/scroll_bg4.jpg");
+    color: @main-text-color;
 }
 
 .scrolling-bg.color-5 {
     min-height: 0;
-    height: 100px;
-    background: #666;
+    height: 120px;
+    background: #333;
+    line-height: 0;
 }
 
 //Scroll to top button
@@ -124,7 +134,7 @@ body {
     height: 48px;
     line-height: 48px;
     right: 30px;
-    bottom: 30px;
+    bottom: 47px;
     padding-top: 2px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -133,9 +143,11 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-.scroll-top-wrapper:active {
+.scroll-top-wrapper:active,
+.scroll-top-wrapper:hover {
     background-color: #888888;
 }
+
 .scroll-top-wrapper.show {
     visibility: visible;
     cursor: pointer;
@@ -151,7 +163,7 @@ body {
 @media only screen and (min-width: 768px) {
     .fixed-bg h1 {
         font-size: 36px;
-        font-family: "abite";
+
     }
 
     .fixed-bg h2 {
@@ -172,7 +184,7 @@ body {
     .fixed-bg h1 {
         font-size: 48px;
         font-weight: 300;
-        font-family: "abite";
+
     }
 
     .fixed-bg h2 {

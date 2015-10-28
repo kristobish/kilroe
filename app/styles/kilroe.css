@@ -80,29 +80,35 @@ body {
 }
 .scrolling-bg h1 {
   border-bottom: 1px #fff solid;
-  font-size: 24px;
-  padding-bottom: 15px;
+  font-size: 30px;
+  padding-bottom: 10px;
   margin-bottom: 20px;
+}
+.scrolling-bg .social-media-feed-title {
+  font-size: 24px;
+  padding-bottom: 10px;
 }
 .scrolling-bg.color-1 {
   background-image: url("/images/backgrounds/scroll_bg1.jpg");
-  color: #fff;
+  color: #eeeeee;
 }
 .scrolling-bg.color-2 {
   background-image: url("/images/backgrounds/scroll_bg2.jpg");
-  color: #fff;
+  color: #eeeeee;
 }
 .scrolling-bg.color-3 {
   background-image: url("/images/backgrounds/scroll_bg3.jpg");
-  color: #fff;
+  color: #eeeeee;
 }
 .scrolling-bg.color-4 {
-  background: #999;
+  background-image: url("/images/backgrounds/scroll_bg4.jpg");
+  color: #eeeeee;
 }
 .scrolling-bg.color-5 {
   min-height: 0;
-  height: 100px;
-  background: #666;
+  height: 120px;
+  background: #333;
+  line-height: 0;
 }
 .scroll-top-wrapper {
   position: fixed;
@@ -117,7 +123,7 @@ body {
   height: 48px;
   line-height: 48px;
   right: 30px;
-  bottom: 30px;
+  bottom: 47px;
   padding-top: 2px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -125,7 +131,8 @@ body {
   border-bottom-left-radius: 10px;
   transition: all 0.5s ease-in-out;
 }
-.scroll-top-wrapper:active {
+.scroll-top-wrapper:active,
+.scroll-top-wrapper:hover {
   background-color: #888888;
 }
 .scroll-top-wrapper.show {
@@ -139,7 +146,6 @@ body {
 @media only screen and (min-width: 768px) {
   .fixed-bg h1 {
     font-size: 36px;
-    font-family: "abite";
   }
   .fixed-bg h2 {
     font-size: 36px;
@@ -156,7 +162,6 @@ body {
   .fixed-bg h1 {
     font-size: 48px;
     font-weight: 300;
-    font-family: "abite";
   }
   .fixed-bg h2 {
     font-size: 48px;
@@ -258,7 +263,8 @@ body {
   padding-left: 5%;
   background: #2f292a;
   border-top: 1px solid #453c3d;
-  color: #fff;
+  color: #eeeeee;
+  text-transform: uppercase;
 }
 .main-nav a:hover,
 .main-nav a:active,
@@ -266,7 +272,7 @@ body {
   text-decoration: none;
 }
 .main-nav a:hover {
-  color: #999;
+  color: #bfbfbf;
 }
 @media only screen and (min-width: 768px) {
   .main-nav {
@@ -291,8 +297,9 @@ body {
     background: transparent;
     padding: .6em 5px;
     border-top: none;
-    color: #fff;
+    color: #eeeeee;
     font-size: 16px;
+    text-transform: uppercase;
   }
   .main-nav a:hover,
   .main-nav a:active,
@@ -300,7 +307,7 @@ body {
     text-decoration: none;
   }
   .main-nav a:hover {
-    color: #999;
+    color: #bfbfbf;
   }
   .no-touch .main-nav a:hover {
     color: #99a478;
@@ -327,9 +334,10 @@ footer {
 .audio-player-controls i {
   cursor: pointer;
   padding-right: 10px;
+  transition: all 0.3s linear;
 }
 .audio-player-controls i:hover {
-  color: #fff;
+  color: #eeeeee;
 }
 .audio-player-controls span {
   padding-right: 10px;
@@ -349,6 +357,18 @@ footer {
   height: 2px;
   width: 0;
   background-color: #E0EAF1;
+}
+a {
+  color: #eeeeee;
+  transition: all 0.3s linear;
+}
+a:hover,
+a:active {
+  color: #bfbfbf;
+  text-decoration: none;
+}
+.main-link {
+  font-size: 16px;
 }
 .tour-date td {
   padding: 0 70px 10px 0;
@@ -381,20 +401,32 @@ footer {
   cursor: pointer;
   margin-top: 10px;
   text-align: center;
+  transition: all 0.3s linear;
 }
 .toggle-shows:hover {
-  color: #ccc;
+  color: #bfbfbf;
 }
 .song-list {
-  margin-top: 30px;
   column-count: 3;
+  column-break-inside: avoid;
 }
-.song-list ul {
+.song-list ul,
+.song-list li {
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
 }
-.song-list ul li {
-  line-height: 22px;
+.song-list li {
+  line-height: 36px;
+}
+.booking-info {
+  font-size: 24px;
+  padding: 10px;
+  background: #999;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: rgba(153, 153, 153, 0.3);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 .band-container {
   text-align: center;
@@ -409,7 +441,7 @@ footer {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 .band-member {
-  margin: 5px 0 0 5px;
+  margin: 10px 0 0 5px;
   padding-bottom: 0;
   line-height: 22px;
 }
@@ -419,6 +451,47 @@ footer {
   margin-top: 0;
   padding-top: 0;
   display: block;
+}
+.social-media-feeds {
+  margin-top: 10px;
+}
+.twitter-feed-container {
+  max-width: 320px;
+  float: left;
+  margin-right: 40px;
+}
+.twitter-timeline {
+  max-width: 320px !important;
+  max-height: 330px;
+  margin-right: 20px;
+}
+.instagram-feed-container {
+  width: 330px;
+  height: 330px;
+  float: left;
+}
+.instagram-feed {
+  position: relative;
+  width: 330px;
+}
+.instagram-link {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  z-index: 8;
+}
+.social-media-footer-icons {
+  text-align: center;
+}
+.social-media-footer-icons a {
+  padding: 0 30px;
+  color: #999;
+}
+.social-media-footer-icons a:hover {
+  color: #fff;
 }
 .news-container {
   background-repeat: no-repeat;
@@ -431,11 +504,17 @@ footer {
   padding: 80px 0 100px;
   margin: 0 auto;
   width: 70%;
-  color: #fff;
+  color: #eeeeee;
   font-size: 20px;
 }
 .page-title-news {
   font-size: 30px;
+  border-bottom: 1px #eeeeee solid;
+  padding-bottom: 10px;
+}
+.news-article-title {
+  font-size: 24px;
+  font-style: italic;
 }
 .photos-container {
   background-repeat: no-repeat;
@@ -447,8 +526,8 @@ footer {
 .grid {
   max-width: 70%;
   list-style: none;
-  margin: 30px auto;
-  padding: 0;
+  margin: 30px auto 0;
+  padding: 0 0 50px 0;
 }
 .grid li {
   display: block;
@@ -505,7 +584,7 @@ footer {
   border-color: #000;
 }
 .page-title-photos {
-  color: #fff;
+  color: #eeeeee;
   float: left;
   margin-right: 100px;
   margin-left: 20px;
@@ -543,7 +622,7 @@ footer {
   padding-bottom: 40px;
 }
 .page-title-video {
-  color: #fff;
+  color: #eeeeee;
   margin-right: 100px;
   margin-left: 20px;
   font-size: 30px;
@@ -553,7 +632,7 @@ footer {
   position: relative;
 }
 .video-loader {
-  color: #fff;
+  color: #eeeeee;
   z-index: 1;
   position: absolute;
   top: 50%;

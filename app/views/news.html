@@ -1,9 +1,18 @@
 <div data-ng-controller="NewsCtrl" class="news-container">
     <div class="article-container">
-        <h1 class="page-title-newss"><i class="fa fa-arrows"></i> Old News</h1>
+        <h1 class="page-title-news"><i class="fa fa-arrows"></i> Old News</h1>
         <div ng-repeat="article in news | orderBy:'-date' | limitTo:'Infinity':1">
-            <h2>{{article.date | dateFormatGigPast}} {{article.title}}</h2>
+            <h2 class="news-article-title">{{article.date | dateFormatGigPast}} {{article.title}}</h2>
             <p>{{article.article}}</p>
         </div>
+    </div>
+</div>
+
+<div class="scrolling-bg color-5">
+    <div class="container social-media-footer-icons">
+        <a href="https://twitter.com/kilroerock" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://instagram.com/kilroerock" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://facebook.com/kilroerock" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="https://youtube.com/kilroeband" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
     </div>
 </div>

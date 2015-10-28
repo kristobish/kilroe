@@ -4,12 +4,30 @@
     <div class="container">
         <div id="news" data-ng-controller="NewsCtrl">
             <div ng-repeat="article in news | orderBy:'date' | limitTo:-1">
-                <h2>{{article.date | dateFormatGigPast}} {{article.title}}</h2>
+                <h1 class="page-title-news"><i class="fa fa-arrows"></i> News</h1>
+                <h2 class="news-article-title">{{article.date | dateFormatGigPast}} {{article.title}}</h2>
                 <p>{{article.article}}</p>
             </div>
-            <a href="#/news"><i class="fa fa-arrows"></i> Read Old News</a>
+            <div class="main-link">
+            <a href="#/news">More News <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
         </div>
-        SOCIAL MEDIA STUFF (Instagram & Twitter feeds)
+
+        <div class="social-media-feeds">
+            <div class="twitter-feed-container">
+                <h2 class="social-media-feed-title"><a href="https://twitter.com/kilroerock" target="_blank"><i class="fa fa-twitter fa-lg"></i> Twitter @kilroerock</a></h2>
+                <a class="twitter-timeline" href="https://twitter.com/kilroerock" data-widget-id="658735888025964544">Tweets by @kilroerock</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+
+            <div class="instagram-feed-container">
+                <h2 class="social-media-feed-title"><a href="https://instagram.com/kilroerock" target="_blank"><i class="fa fa-instagram fa-lg"></i> Instagram @kilroerock</a></h2>
+                <div class="instagram-feed">
+                    <iframe src="http://widget.websta.me/in/kilroerock/?s=150&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:370px; height: 400px" ></iframe>
+                <a href="http://instagram.com/kilroerock" target="_blank" class="instagram-link"><span></span></a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -26,7 +44,7 @@
                 <td>Location</td>
                 <td>Time</td>
             </tr>
-            <tr class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-5">
+            <tr class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-3">
                 <td>{{gig.date | dateFormatGig}}</td>
                 <td>{{gig.venue}}</td>
                 <td class="tour-date-small">{{gig.location}}</td>
@@ -37,7 +55,7 @@
         <div class="toggle-shows" ng-click="isCollapsed = !isCollapsed; toggle = !toggle"><i class="fa fa-arrows"></i> {{toggleText}}</div>
         <div collapse="isCollapsed" class="tour-date-past-container">
             <table>
-                <tr class="tour-date-past" ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':5">
+                <tr class="tour-date-past" ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':3">
                     <td>{{gig.date | dateFormatGigPast}} - {{gig.venue}}</td>
                 </tr>
             </table>
@@ -51,17 +69,16 @@
 
 <div class="scrolling-bg color-3" id="band">
     <div class="container">
-        <h1><i class="fa fa-arrows"></i> Come see New England's greatest rock show!</h1>
-        <p>Pearl Jam, Green Day, Foo Fighters, Kings Of Leon, Blink 182. Kilroe is here to hit the stage and dish out all of the best songs from the 80's, 90's and today mixed with a few classics and lots of surprises. You haven't experienced a live show in a local venue like this before as Kilroe energizes crowds from start to finish with their full-on arena rock attitude. The members of Kilroe (Kris Bishop, Rob O'Neill, Mark Donatelli, Jeremy Rosenberger) have spent over ten years playing in successful original bands and decided to take their talent and experience to the Boston area and northeast, turning themselves into one of New England's hottest bands.</p>
-        <p>You've seen Kilroe in and around Boston at BELL IN HAND, CASK 'N FLAGON, GRAND CANAL, HENNESSY'S, HOOLEY HOUSE, LANSDOWNE PUB, WHISKEY PRIEST, OCEAN CLUB AT MARINA BAY, GREEN DRAGON, PADDY O's, THE TAP, REVOLUTION ROCK BAR, CLUB 58, and BEACHCOMBER. Kilroe has also become a fixture at other New England venues such as the MATTERHORN at SUNDAY RIVER and ONE PELHAM EAST in Newport, RI. Tired of those same old cover bands that just go through the motions on stage? Kilroe puts on an incredible live show every time out that you'll be telling your friends about the next day.</p>
+        <h1><i class="fa fa-arrows"></i> The Band</h1>
+        <p>Pearl Jam, Green Day, Foo Fighters, Blink 182. Kilroe is here to hit the stage and dish out all of the best songs from the 80's, 90's and today mixed with a few classics and lots of surprises. You haven't experienced a live show in a local venue like this before as Kilroe energizes crowds from start to finish with their full-on arena rock attitude. The members of Kilroe (Kris Bishop, Rob O'Neill, Mark Donatelli, Jeremy Rosenberger, Chris Romagna) have spent over ten years playing in successful original bands and decided to take their talent and experience to the Boston area and northeast, turning themselves into one of New England's hottest bands.</p>
+        <p>You've seen Kilroe in and around Boston at Bell In Hand, Cask 'n Flagon, Grand Canal, Hennessy's, Hooley House, Lansdowne Pub, Whiskey Priest, Green Dragon, Paddy Os, and The Tap. Kilroe has also become a fixture at other New England venues such as the Matterhorn at Sunday River and One Pelham East in Newport, RI. Tired of those same old cover bands that just go through the motions on stage? Kilroe puts on an incredible live show every time out that you'll be telling your friends about the next day.</p>
     </div>
     <div data-ng-controller="BandCtrl">
     <div class="container">
-        <h1><i class="fa fa-arrows"></i> The Band</h1>
         <div class="band-container">
             <div ng-repeat="member in band | orderBy:'lastName'">
                 <div class="band-member-container">
-                <img src="{{member.image}}" alt="{{member.firstName}} {{member.lastName}}" class="band-member-image" />
+                <img data-ng-src="{{member.image}}" alt="{{member.firstName}} {{member.lastName}}" class="band-member-image" />
                 <p class="band-member">{{member.firstName}} {{member.lastName}}</p>
                 <p class="band-member-title">{{member.title}}</p>
                 </div>
@@ -69,16 +86,6 @@
         </div>
     </div>
 </div>
-    <div data-ng-controller="SongCatalogCtrl">
-        <div class="container">
-            <h1><i class="fa fa-arrows"></i> Song Catalog</h1>
-            <div class="song-list">
-                <ul ng-repeat="song in catalog | orderBy:'song'">
-                    <li>{{song.song}}</li>
-                </ul>
-            </div>
-        </div>
-    </div>
 </div>
 
 <div class="fixed-bg bg-4">
@@ -86,8 +93,19 @@
 </div>
 <div class="scrolling-bg color-4" id="contact">
     <div class="container">
-        <p>The BOOKING INFO<br>
-        Suspendisse potenti. Proin velit nulla, tincidunt vitae semper in, tempus at justo. Mauris eget dui quam. Nulla at magna sit amet lectus condimentum malesuada. Donec rhoncus hendrerit lacus, sed pretium erat malesuada id. Vestibulum blandit nisi vel lectus varius, et semper sapien ultricies. Nunc libero dui, iaculis aliquet metus non, condimentum accumsan justo. Nunc odio diam, sagittis sed scelerisque et.</p>
+        <h1><i class="fa fa-arrows"></i> Booking</h1>
+        <p>Interested in booking Kilroe? Don't wait. Turn your club, bar, school or private party into a killer rock show. See the full song catalog below.</p>
+        <p class="booking-info"><a href="mailto:booking@kilroerock.com">booking@kilroerock.com</a> | 617.680.8378</p>
+
+        <div data-ng-controller="SongCatalogCtrl">
+
+                <div class="song-list">
+                    <ul ng-repeat="song in catalog | orderBy:'song'">
+                        <li>{{song.song}}</li>
+                    </ul>
+                </div>
+
+        </div>
     </div>
 </div>
 
@@ -96,7 +114,10 @@
 </div>
 
 <div class="scrolling-bg color-5">
-    <div class="container">
-    <p>Donec rhoncus hendrerit lacus.</p>
+    <div class="container social-media-footer-icons">
+        <a href="https://twitter.com/kilroerock" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://instagram.com/kilroerock" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://facebook.com/kilroerock" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="https://youtube.com/kilroeband" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
     </div>
 </div>
