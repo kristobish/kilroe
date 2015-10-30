@@ -52,16 +52,19 @@
             </tr>
         </table>
 
-        <div class="toggle-shows" ng-click="isCollapsed = !isCollapsed; toggle = !toggle"><i class="fa fa-arrows"></i> {{toggleText}}</div>
+        <div class="toggle-shows" ng-click="isCollapsed = !isCollapsed; toggle = !toggle">
+            <i class="fa fa-arrows"></i> {{toggleText}}
+        </div>
         <div collapse="isCollapsed" class="tour-date-past-container">
-            <table>
-                <tr class="tour-date-past" ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':3">
-                    <td>{{gig.date | dateFormatGigPast}} - {{gig.venue}}</td>
-                </tr>
-            </table>
+            <div class="tour-date-past">
+                <ul ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':3">
+                    <li>{{gig.date | dateFormatGigPast}} - {{gig.venue}}</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
+
 
 <div class="fixed-bg bg-3">
     <h2>"...Bostonians, the band Kilroe is here to save our nights out..."<em>- Examiner.com</em></h2>
