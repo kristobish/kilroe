@@ -51,20 +51,21 @@
             $scope.status.isopen = !$scope.status.isopen;
         };
 
+
     });
 
     app.directive('fancybox', function(){
         return {
             restrict: 'C',
             link: function(){
+
                 $('.fancybox').fancybox({
                     padding : 0,
-                    openEffect  : 'elastic'
+                    openEffect  : 'elastic',
+                    preload : true
                 });
             }
         };
     });
-
-
 
 })(angular.module('kilroe'), jQuery);

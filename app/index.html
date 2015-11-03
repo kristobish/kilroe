@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>the official KILROE website</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="COME SEE NEW ENGLAND'S GREATEST ROCK SHOW!  Tired of those same old cover bands that just go through the motions on stage? Kilroe puts on an incredible live show every time out that you'll be telling your friends about the next day."">
+    <meta name="description" content="COME SEE NEW ENGLAND'S GREATEST ROCK SHOW!  Tired of those same old cover bands that just go through the motions on stage? Kilroe puts on an incredible live show every time out that you'll be telling your friends about the next day.">
     <meta name="keywords" content="Kilroe, Kilroe band, cover band, tribute band, 90's rock, 80's rock, Boston bands, Boston, Kris Bishop, Mark Donatelli, Jeremy Rosenberger, Rob O'Neill, Chris Romagna, rock, Bell In Hand, Cask 'n Flagon, Grand Canal, Hennessy's, Hooley House, Lansdowne Pub, Whiskey Priest, Green Dragon, Paddy Os, Matterhorn, Sunday River, One Pelham East">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico">
@@ -76,6 +76,8 @@
 
 <div scroll-to-top=""></div>
 
+
+
 <!-- build:js(.) js/vendor.js -->
 <!-- bower:js -->
 <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -129,6 +131,16 @@
 <script src="/js/controllers/audio_controller.js"></script>
 <script src="/js/filters/date_format_filter.js"></script>
 <script src="/js/directives/scroll_to_top_directive.js"></script>
+
+<!--default mobile nav-->
+<script>
+jQuery(document).ready(function($){
+//open-close submenu on mobile
+$('.main-nav').on('click', function(event){
+if($(event.target).is('.main-nav')) $(this).children('ul').toggleClass('is-visible');
+});
+});
+</script>
 
 <!-- endbuild -->
 

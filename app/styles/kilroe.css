@@ -187,7 +187,7 @@ body {
 }
 @media only screen and (min-width: 1170px) and only screen and (max-width: 768px) {
   .fixed-bg {
-    background-attachment: unset;
+    background-attachment: fixed;
   }
 }
 @media only screen and (min-width: 1170px) and only screen and (min-width: 768px) {
@@ -236,50 +236,14 @@ body {
 .headroom--pinned {
   top: 0;
 }
-@media only screen and (max-width: 768px) {
-  .main-nav {
-    display: none;
-  }
-}
-.main-nav {
-  float: right;
-  margin-right: 5%;
-  width: 44px;
-  height: 100%;
-  background: url("../img/icon-menu.svg") no-repeat center center;
-  background-size: 44px 44px;
-  cursor: pointer;
-}
-.main-nav ul {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-.main-nav a {
-  display: block;
-  height: 50px;
-  line-height: 50px;
-  padding-left: 5%;
-  background: #2f292a;
-  border-top: 1px solid #453c3d;
-  color: #eeeeee;
-  text-transform: uppercase;
-}
-.main-nav a:hover,
-.main-nav a:active,
-.main-nav a:focus {
-  text-decoration: none;
-}
-.main-nav a:hover {
-  color: #bfbfbf;
-}
 @media only screen and (min-width: 768px) {
   .main-nav {
     width: auto;
     height: auto;
     background: none;
     cursor: auto;
+    float: right;
+    margin-right: 5%;
   }
   .main-nav ul {
     position: static;
@@ -489,14 +453,17 @@ a:active {
   display: inline-block;
   z-index: 8;
 }
-.social-media-footer-icons {
+.social-media-footer {
   text-align: center;
 }
-.social-media-footer-icons a {
+.social-media-footer .social-media-footer-icon {
+  display: inline !important;
+}
+.social-media-footer a {
   padding: 0 30px;
   color: #999;
 }
-.social-media-footer-icons a:hover {
+.social-media-footer a:hover {
   color: #fff;
 }
 .news-container {

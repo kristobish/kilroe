@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <!--<i class="fa fa-spinner fa-pulse fa-3x" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);"></i>-->
+    <!--<div class="fancybox-loading-icon"><i class="fa fa-spinner fa-pulse fa-3x"></i></div>-->
     <ul class="masonry-container grid" masonry>
         <li class="masonry-brick" ng-repeat="photo in photos | filter:filters">
             <a data-ng-href="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"
@@ -41,14 +41,12 @@
         </li>
     </ul>
 
-
 </div>
 
-<div class="scrolling-bg color-5">
-    <div class="container social-media-footer-icons">
-        <a href="https://twitter.com/kilroerock" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-        <a href="https://instagram.com/kilroerock" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-        <a href="https://facebook.com/kilroerock" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-        <a href="https://youtube.com/kilroeband" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+<div class="scrolling-bg color-5" data-ng-controller="SocialMediaCtrl">
+    <div class="container social-media-footer">
+        <div ng-repeat="icon in socialMediaIcons" class="social-media-footer-icon">
+            <a data-ng-href="https://{{icon.app}}.com/{{icon.userName}}" target="_blank"><i class="fa fa-{{icon.app}} fa-2x"></i></a>
+        </div>
     </div>
 </div>

@@ -42,4 +42,11 @@
         };
 
     });
+
+    app.controller('SocialMediaCtrl', function ($scope, Ref, $firebaseArray) {
+
+        $scope.socialMediaIcons = $firebaseArray(Ref.child('socialMediaIcons'));
+
+    });
+
 })(angular.module('kilroe'));

@@ -1,4 +1,80 @@
 {
+  "socialMediaIcons" : {
+    "twitter" : {
+      "userName" : "kilroerock",
+      "app" : "twitter"
+    },
+    "instagram" : {
+      "userName" : "kilroerock",
+      "app" : "instagram"
+    },
+    "facebook" : {
+      "userName" : "kilroerock",
+      "app" : "facebook"
+    },
+    "youtube" : {
+      "userName" : "kilroeband",
+      "app" : "youtube"
+    }
+  },
+  "songs" : {
+    "track1" : {
+      "id" : "one",
+      "title" : "FREE FALLIN",
+      "artist" : "@ Whiskey Priest",
+      "url" : "/audio/freefallin.mp3"
+    },
+    "track2" : {
+      "id" : "two",
+      "title" : "DAMMIT",
+      "artist" : "@ Lansdowne Pub",
+      "url" : "/audio/dammit.mp3"
+    },
+    "track3" : {
+      "id" : "three",
+      "title" : "GOOD RIDDANCE",
+      "artist" : "@ Hennessy's",
+      "url" : "/audio/goodriddance.mp3"
+    },
+    "track4" : {
+      "id" : "four",
+      "title" : "4-SONG MEDLEY",
+      "artist" : "@ Bell In Hand",
+      "url" : "/audio/medley.mp3"
+    }
+  },
+  "band" : {
+    "chris" : {
+      "firstName" : "Chris",
+      "image" : "/images/band/chris.jpg",
+      "lastName" : "Romagna",
+      "title" : "Rhythm Guitar/Backing Vocals"
+    },
+    "jeremy" : {
+      "firstName" : "Jeremy",
+      "image" : "/images/band/jeremy.jpg",
+      "lastName" : "Rosenberger",
+      "title" : "Bass/Backing Vocals"
+    },
+    "kris" : {
+      "firstName" : "Kris",
+      "image" : "/images/band/kris.jpg",
+      "lastName" : "Bishop",
+      "title" : "Lead Vocals"
+    },
+    "mark" : {
+      "firstName" : "Mark",
+      "image" : "/images/band/mark.jpg",
+      "lastName" : "Donatelli",
+      "title" : "Lead Guitar/Backing Vocals"
+    },
+    "rob" : {
+      "firstName" : "Rob",
+      "image" : "/images/band/rob.jpg",
+      "lastName" : "O'Neill",
+      "title" : "Drums/Backing Vocals"
+    }
+  },
   "catalog" : {
     "song1" : {
       "song" : "Middle"
@@ -43,7 +119,7 @@
       "song" : "Rock Show"
     },
     "song22" : {
-      "song" : "End Of The World As We Know It"
+      "song" : "End Of The World..."
     },
     "song23" : {
       "song" : "The Anthem"
@@ -169,6 +245,24 @@
       "location" : "Boston, MA",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
+    },
+    "-K1jl9JQOSzX2UorOljz" : {
+      "date" : "2016/02/26",
+      "location" : "Boston, MA",
+      "time" : "9:30pm",
+      "venue" : "Hooley House"
+    },
+    "-K1jlGPZWMg05QgWQs8A" : {
+      "date" : "2016/03/26",
+      "location" : "Boston, MA",
+      "time" : "9:30pm",
+      "venue" : "Hooley House"
+    },
+    "-K1jlQ39hTYvQ8xL2Kfy" : {
+      "date" : "2016/06/18",
+      "location" : "Boston, MA",
+      "time" : "9:30pm",
+      "venue" : "Hooley House"
     },
     "gig1" : {
       "date" : "2014/03/15",
@@ -1158,41 +1252,9 @@
       "title" : "New online review!! Check it out!!"
     },
     "-K1UDBpfG5-kwy-T9ytq" : {
-      "article" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel turpis ante. Proin ipsum sem, lacinia nec commodo et, sollicitudin ac leo. Morbi iaculis gravida lorem, nec ullamcorper nunc dignissim nec. Integer fermentum ipsum at orci bibendum, non tempus ex posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sed nulla eget nunc efficitur ultrices. Aliquam vestibulum augue non arcu sagittis volutpat. Donec interdum interdum quam. Integer finibus suscipit sollicitudin. Suspendisse euismod mauris pretium volutpat aliquam. Ut eget mattis ante.",
-      "date" : "2015/10/28",
-      "title" : "Title!!"
-    }
-  },
-  "band" : {
-    "kris": {
-      "firstName": "Kris",
-      "lastName": "Bishop",
-      "title": "Lead Vocals",
-      "image": "/images/band/kris.jpg"
-    },
-    "rob": {
-      "firstName": "Rob",
-      "lastName": "O'Neill",
-      "title": "Drums/Backing Vocals",
-      "image": "/images/band/rob.jpg"
-    },
-    "jeremy": {
-      "firstName": "Jeremy",
-      "lastName": "Rosenberger",
-      "title": "Bass/Backing Vocals",
-      "image": "/images/band/jeremy.jpg"
-    },
-    "mark": {
-      "firstName": "Mark",
-      "lastName": "Donatelli",
-      "title": "Lead Guitar/Backing Vocals",
-      "image": "/images/band/mark.jpg"
-    },
-    "chris": {
-      "firstName": "Chris",
-      "lastName": "Romagna",
-      "title": "Rhythm Guitar/Backing Vocals",
-      "image": "/images/band/chris.jpg"
+      "article" : "Welcome to the new website and welcome to Kilroe 3.0! After an excruciating absence, the four original members (Kris, Rob, Mark, Jeremy) are back, plus a great new addition in guitarist, Chris Romagna. Rehearsals have been underway as we gear up for 2016. We're working hard to bring you the same great live shows you've come to expect from us in the past. In regards to the song list, we've trimmed some fat and added some new ones. The big return happens February 26, 2016 at Hooley House (Hennessy's upstairs). Many more dates to follow. Hope to see you all there!",
+      "date" : "2015/11/03",
+      "title" : "There's been an awakening...have you felt it?"
     }
   },
   "photos" : {

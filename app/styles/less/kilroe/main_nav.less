@@ -15,6 +15,7 @@
     display: table;
     clear: both;
 }
+
 .header .logo {
     float: left;
     margin: 9px 0 0 5%;
@@ -22,10 +23,12 @@
     font-size: 30px;
     color: #fff;
 }
+
 .header .logo img {
     display: block;
 }
 
+//nav bounce
 .headroom {
     position: fixed;
     top: 0;
@@ -44,49 +47,45 @@
 
 
 
+
+
+
 @media only screen and (max-width: 768px) {
-    .main-nav {
-        display: none;
-
-    }
+    //.main-nav {
+    //    float: right;
+    //    margin-right: 5%;
+    //    width: 44px;
+    //    height: 100%;
+    //    background: url("/images/menu-icon.svg") no-repeat center center;
+    //    background-size: 44px 44px;
+    //    cursor: pointer;
+    //}
+    //
+    //.main-nav ul {
+    //    position: absolute;
+    //    top: 0;
+    //    left: 0;
+    //    width: 100%;
+    //    transform: translateY(-100%);
+    //    padding: 0;
+    //    list-style-type: none;
+    //}
+    //
+    //.main-nav ul.is-visible {
+    //    transform: translateY(50px);
+    //}
+    //
+    //.main-nav a {
+    //    display: block;
+    //    height: 50px;
+    //    line-height: 50px;
+    //    padding-left: 5%;
+    //    background: #2f292a;
+    //    border-top: 1px solid #453c3d;
+    //    color: #8e7d7f;
+    //}
 }
 
-.main-nav {
-    float: right;
-    margin-right: 5%;
-    width: 44px;
-    height: 100%;
-    background: url("../img/icon-menu.svg") no-repeat center center;
-    background-size: 44px 44px;
-    cursor: pointer;
-}
-.main-nav ul {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.main-nav a {
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 5%;
-    background: #2f292a;
-    border-top: 1px solid #453c3d;
-    color: @main-text-color;
-    text-transform: uppercase;
-
-    &:hover,
-    &:active,
-    &:focus {
-        text-decoration: none;
-    }
-
-    &:hover {
-        color: @link-hover-color;
-    }
-}
 
 @media only screen and (min-width: 768px) {
     .main-nav {
@@ -94,7 +93,10 @@
         height: auto;
         background: none;
         cursor: auto;
+        float: right;
+        margin-right: 5%;
     }
+
     .main-nav ul {
         position: static;
         width: auto;
@@ -105,6 +107,7 @@
         display: inline-block;
         margin-left: 1em;
     }
+
     .main-nav a {
         display: inline-block;
         height: auto;
@@ -127,6 +130,7 @@
             color: @link-hover-color;
         }
     }
+
     .no-touch .main-nav a:hover {
         color: #99a478;
     }
