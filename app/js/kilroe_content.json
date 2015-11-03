@@ -1,48 +1,4 @@
 {
-  "socialMediaIcons" : {
-    "twitter" : {
-      "userName" : "kilroerock",
-      "app" : "twitter"
-    },
-    "instagram" : {
-      "userName" : "kilroerock",
-      "app" : "instagram"
-    },
-    "facebook" : {
-      "userName" : "kilroerock",
-      "app" : "facebook"
-    },
-    "youtube" : {
-      "userName" : "kilroeband",
-      "app" : "youtube"
-    }
-  },
-  "songs" : {
-    "track1" : {
-      "id" : "one",
-      "title" : "FREE FALLIN",
-      "artist" : "@ Whiskey Priest",
-      "url" : "/audio/freefallin.mp3"
-    },
-    "track2" : {
-      "id" : "two",
-      "title" : "DAMMIT",
-      "artist" : "@ Lansdowne Pub",
-      "url" : "/audio/dammit.mp3"
-    },
-    "track3" : {
-      "id" : "three",
-      "title" : "GOOD RIDDANCE",
-      "artist" : "@ Hennessy's",
-      "url" : "/audio/goodriddance.mp3"
-    },
-    "track4" : {
-      "id" : "four",
-      "title" : "4-SONG MEDLEY",
-      "artist" : "@ Bell In Hand",
-      "url" : "/audio/medley.mp3"
-    }
-  },
   "band" : {
     "chris" : {
       "firstName" : "Chris",
@@ -212,7 +168,7 @@
       "song" : "Blister in the Sun"
     },
     "song50" : {
-      "song" : "That Thing You Do"
+      "song" : "Fat Lip"
     },
     "song51" : {
       "song" : "My Hero"
@@ -3387,6 +3343,50 @@
       "date" : "5-7-2010",
       "fileName" : "kilroe57",
       "venue" : "lansdowne"
+    }
+  },
+  "socialMediaIcons" : {
+    "facebook" : {
+      "app" : "facebook",
+      "userName" : "kilroerock"
+    },
+    "instagram" : {
+      "app" : "instagram",
+      "userName" : "kilroerock"
+    },
+    "twitter" : {
+      "app" : "twitter",
+      "userName" : "kilroerock"
+    },
+    "youtube" : {
+      "app" : "youtube",
+      "userName" : "kilroeband"
+    }
+  },
+  "songs" : {
+    "track1" : {
+      "artist" : "@ Whiskey Priest",
+      "id" : "one",
+      "title" : "FREE FALLIN",
+      "url" : "/audio/freefallin.mp3"
+    },
+    "track2" : {
+      "artist" : "@ Lansdowne Pub",
+      "id" : "two",
+      "title" : "DAMMIT",
+      "url" : "/audio/dammit.mp3"
+    },
+    "track3" : {
+      "artist" : "@ Hennessy's",
+      "id" : "three",
+      "title" : "GOOD RIDDANCE",
+      "url" : "/audio/goodriddance.mp3"
+    },
+    "track4" : {
+      "artist" : "@ Bell In Hand",
+      "id" : "four",
+      "title" : "4-SONG MEDLEY",
+      "url" : "/audio/medley.mp3"
     }
   },
   "videos" : {
