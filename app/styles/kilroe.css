@@ -185,11 +185,6 @@ body {
     clear: both;
   }
 }
-@media only screen and (min-width: 1170px) and only screen and (max-width: 768px) {
-  .fixed-bg {
-    background-attachment: fixed;
-  }
-}
 @media only screen and (min-width: 1170px) and only screen and (min-width: 768px) {
   .scrolling-bg {
     padding: 40px 0 30px;
@@ -235,6 +230,38 @@ body {
 }
 .headroom--pinned {
   top: 0;
+}
+@media only screen and (max-width: 768px) {
+  .main-nav {
+    float: right;
+    margin-right: 5%;
+    width: 44px;
+    height: 100%;
+    background: url("/images/menu-icon.svg") no-repeat center center;
+    background-size: 44px 44px;
+    cursor: pointer;
+  }
+  .main-nav ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-100%);
+    padding: 0;
+    list-style-type: none;
+  }
+  .main-nav ul.is-visible {
+    transform: translateY(50px);
+  }
+  .main-nav a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5%;
+    background: #2f292a;
+    border-top: 1px solid #453c3d;
+    color: #8e7d7f;
+  }
 }
 @media only screen and (min-width: 768px) {
   .main-nav {

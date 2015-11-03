@@ -132,18 +132,17 @@
 <script src="/js/filters/date_format_filter.js"></script>
 <script src="/js/directives/scroll_to_top_directive.js"></script>
 
-<!--default mobile nav-->
-<script>
-jQuery(document).ready(function($){
-//open-close submenu on mobile
-$('.main-nav').on('click', function(event){
-if($(event.target).is('.main-nav')) $(this).children('ul').toggleClass('is-visible');
-});
-});
-</script>
-
 <!-- endbuild -->
 
+<!--default mobile nav-->
+<script>
+    jQuery(document).ready(function($){
+//open-close submenu on mobile
+        $('.main-nav').on('click', function(event){
+            if($(event.target).is('.main-nav')) $(this).children('ul').toggleClass('is-visible');
+        });
+    });
+</script>
 
 
 </body>
