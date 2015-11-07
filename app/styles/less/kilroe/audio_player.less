@@ -12,10 +12,18 @@ footer {
 }
 
 .audio-player-controls {
-    width: 75%;
+    width: 85%;
     margin: 6px auto 0;
     color: #999;
     text-align: left;
+
+    @media @tablet {
+        width: 75%;
+    }
+
+    @media @desktop {
+        margin-left: 20%;
+    }
 
     i {
         cursor: pointer;

@@ -4,13 +4,13 @@
       "firstName" : "Chris",
       "image" : "/images/band/chris.jpg",
       "lastName" : "Romagna",
-      "title" : "Rhythm Guitar/Backing Vocals"
+      "title" : "Rhythm Guitar / Backing Vocals"
     },
     "jeremy" : {
       "firstName" : "Jeremy",
       "image" : "/images/band/jeremy.jpg",
       "lastName" : "Rosenberger",
-      "title" : "Bass/Backing Vocals"
+      "title" : "Bass / Backing Vocals"
     },
     "kris" : {
       "firstName" : "Kris",
@@ -22,13 +22,13 @@
       "firstName" : "Mark",
       "image" : "/images/band/mark.jpg",
       "lastName" : "Donatelli",
-      "title" : "Lead Guitar/Backing Vocals"
+      "title" : "Lead Guitar / Backing Vocals"
     },
     "rob" : {
       "firstName" : "Rob",
       "image" : "/images/band/rob.jpg",
       "lastName" : "O'Neill",
-      "title" : "Drums/Backing Vocals"
+      "title" : "Drums / Backing Vocals"
     }
   },
   "catalog" : {

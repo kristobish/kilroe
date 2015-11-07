@@ -9,7 +9,11 @@
 .youtube-container {
     padding-top: 20px;
     margin: 0 auto;
-    width: 600px;
+    width: 320px;
+
+    @media @tablet {
+        width: 600px;
+    }
 
     &:first-child {
         padding-top: 80px;
@@ -30,13 +34,32 @@
 .youtube-video {
     z-index: 9;
     position: relative;
+    height: 240px !important;
+
+    @media @tablet {
+        height: 400px !important;
+    }
+
+    iframe {
+        width: 320px !important;
+        height: 240px !important;
+
+        @media @tablet {
+            width: 600px !important;
+            height: 400px !important;
+        }
+    }
 }
 
 .video-loader {
     color: @main-text-color;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
+
+    @media @tablet {
+        top: 50%;
+    }
 }
 

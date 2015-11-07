@@ -1,26 +1,18 @@
 
-*, *:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 body, html, .main-view {
     /* important */
     height: 100%;
 }
 
 
-/* -------------------------------- 
-
-Modules - reusable parts of our design
-
--------------------------------- */
 .container {
-    /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
     width: 90%;
     max-width: 768px;
     margin: 0 auto;
+
+    @media @desktop {
+        max-width: 992px;
+    }
 }
 .container::after {
     /* clearfix */
@@ -29,35 +21,57 @@ Modules - reusable parts of our design
     clear: both;
 }
 
-
-/* -------------------------------- 
-
-Main components 
-
--------------------------------- */
-
-.main-content {
-    /* you need to assign a min-height to the main content so that the children can inherit it*/
-    height: 100%;
-    position: relative;
-    z-index: 1;
-}
-
 .fixed-bg {
     position: relative;
-    min-height: 100%;
+    min-height: 60%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 1;
+
+    @media @tablet {
+        min-height: 100%;
+    }
+
+    @media @desktop-wide {
+        background-attachment: fixed;
+    }
 }
+
 .fixed-bg h1, .fixed-bg h2 {
     text-align: center;
     font-size: 30px;
     font-size: 1.875rem;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
     color: white;
+    font-size: 30px;
+
+    em {
+        font-size: 22px;
+        display: block;
+    }
+
+    @media @tablet {
+        font-size: 36px;
+
+        em {
+            font-size: 28px;
+            display: block;
+        }
+    }
+
+    @media @desktop-wide {
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 52px;
+
+        em {
+            font-size: 28px;
+            display: block;
+        }
+    }
 }
+
 .fixed-bg h2 {
     position: absolute;
     left: 50%;
@@ -69,8 +83,12 @@ Main components
     -ms-transform: translateX(-50%) translateY(-50%);
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    width: 60%;
+    width: 80%;
     max-width: 1170px;
+
+    @media @tablet {
+        width: 60%;
+    }
 }
 
 .fixed-bg.bg-1 {
@@ -93,35 +111,10 @@ Main components
     background-image: url("/images/backgrounds/home_bg5.jpg");
 }
 
-@media only screen and (min-width: 768px) {
-    .fixed-bg h1, .fixed-bg h2 {
-        font-size: 36px;
-
-        em {
-            font-size: 28px;
-            display: block;
-        }
-    }
-}
-@media only screen and (min-width: 1170px) {
-    .fixed-bg {
-        background-attachment: fixed;
-    }
-    .fixed-bg h1, .fixed-bg h2 {
-        font-size: 48px;
-        font-weight: 300;
-        line-height: 52px;
-
-        em {
-            font-size: 28px;
-            display: block;
-        }
-    }
-}
 
 .scrolling-bg {
     position: relative;
-    min-height: 100%;
+    min-height: 50%;
     padding: 30px 0 40px;
     line-height: 1.6;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -139,7 +132,15 @@ Main components
         font-size: 24px;
         padding-bottom: 10px;
     }
+
+    @media @tablet {
+        padding: 40px 0 30px;
+        font-size: 20px;
+        line-height: 1.6;
+        font-weight: 300;
+    }
 }
+
 .scrolling-bg.color-1 {
     background-image: url("/images/backgrounds/scroll_bg1.jpg");
     color: @main-text-color;
@@ -161,19 +162,14 @@ Main components
 }
 
 .scrolling-bg.color-5 {
+    width: 100%;
     min-height: 0;
     height: 120px;
     background: #333;
     line-height: 0;
+    padding-top: 30px;
 }
-@media only screen and (min-width: 768px) {
-    .scrolling-bg {
-        padding: 40px 0 30px;
-        font-size: 20px;
-        line-height: 2;
-        font-weight: 300;
-    }
-}
+
 
 //Scroll to top button
 .scroll-top-wrapper {

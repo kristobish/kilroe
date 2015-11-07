@@ -7,7 +7,6 @@
     background: rgba(0, 0, 0, 0.7);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     z-index: 10;
-
 }
 
 .header:after {
@@ -28,7 +27,7 @@
     display: block;
 }
 
-//nav bounce
+//header bounce
 .headroom {
     position: fixed;
     top: 0;
@@ -45,49 +44,43 @@
     top: 0;
 }
 
+.main-nav {
+    float: right;
+    margin-right: 5%;
+    width: 44px;
+    height: 100%;
+    background: url("/images/menu-icon.svg") no-repeat center center;
+    background-size: 44px 44px;
+    cursor: pointer;
+}
 
+.main-nav ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-100%);
+    padding: 0;
+    list-style-type: none;
+}
 
+.main-nav ul.is-visible {
+    transform: translateY(50px);
+}
 
-
-
-@media only screen and (max-width: 768px) {
-    .main-nav {
-        float: right;
-        margin-right: 5%;
-        width: 44px;
-        height: 100%;
-        background: url("/images/menu-icon.svg") no-repeat center center;
-        background-size: 44px 44px;
-        cursor: pointer;
-    }
-
-    .main-nav ul {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        transform: translateY(-100%);
-        padding: 0;
-        list-style-type: none;
-    }
-
-    .main-nav ul.is-visible {
-        transform: translateY(50px);
-    }
-
-    .main-nav a {
-        display: block;
-        height: 50px;
-        line-height: 50px;
-        padding-left: 5%;
-        background: #2f292a;
-        border-top: 1px solid #453c3d;
-        color: #8e7d7f;
-    }
+.main-nav a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5%;
+    background: #2f292a;
+    border-top: 1px solid #453c3d;
+    color: #8e7d7f;
 }
 
 
-@media only screen and (min-width: 768px) {
+
+@media @tablet {
     .main-nav {
         width: auto;
         height: auto;
@@ -101,6 +94,7 @@
         position: static;
         width: auto;
         line-height: 70px;
+        transform: none;
     }
 
     .main-nav li {
@@ -119,7 +113,6 @@
         font-size: 16px;
         text-transform: uppercase;
 
-
         &:hover,
         &:active,
         &:focus {
@@ -129,9 +122,5 @@
         &:hover {
             color: @link-hover-color;
         }
-    }
-
-    .no-touch .main-nav a:hover {
-        color: #99a478;
     }
 }

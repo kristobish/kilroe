@@ -9,29 +9,21 @@
 body {
   font-family: "candara";
 }
-*,
-*:after,
-*:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 body,
 html,
 .main-view {
   /* important */
   height: 100%;
 }
-/* -------------------------------- 
-
-Modules - reusable parts of our design
-
--------------------------------- */
 .container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
   max-width: 768px;
   margin: 0 auto;
+}
+@media only screen and (min-width : 992px) {
+  .container {
+    max-width: 992px;
+  }
 }
 .container::after {
   /* clearfix */
@@ -39,32 +31,60 @@ Modules - reusable parts of our design
   display: table;
   clear: both;
 }
-/* -------------------------------- 
-
-Main components 
-
--------------------------------- */
-.main-content {
-  /* you need to assign a min-height to the main content so that the children can inherit it*/
-  height: 100%;
-  position: relative;
-  z-index: 1;
-}
 .fixed-bg {
   position: relative;
-  min-height: 100%;
+  min-height: 60%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   z-index: 1;
 }
+@media only screen and (min-width : 768px) {
+  .fixed-bg {
+    min-height: 100%;
+  }
+}
+@media only screen and (min-width : 1200px) {
+  .fixed-bg {
+    background-attachment: fixed;
+  }
+}
 .fixed-bg h1,
 .fixed-bg h2 {
   text-align: center;
-  font-size: 30px;
   font-size: 1.875rem;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 8px #000000;
   color: white;
+  font-size: 30px;
+}
+.fixed-bg h1 em,
+.fixed-bg h2 em {
+  font-size: 22px;
+  display: block;
+}
+@media only screen and (min-width : 768px) {
+  .fixed-bg h1,
+  .fixed-bg h2 {
+    font-size: 36px;
+  }
+  .fixed-bg h1 em,
+  .fixed-bg h2 em {
+    font-size: 28px;
+    display: block;
+  }
+}
+@media only screen and (min-width : 1200px) {
+  .fixed-bg h1,
+  .fixed-bg h2 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52px;
+  }
+  .fixed-bg h1 em,
+  .fixed-bg h2 em {
+    font-size: 28px;
+    display: block;
+  }
 }
 .fixed-bg h2 {
   position: absolute;
@@ -77,8 +97,13 @@ Main components
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 60%;
+  width: 80%;
   max-width: 1170px;
+}
+@media only screen and (min-width : 768px) {
+  .fixed-bg h2 {
+    width: 60%;
+  }
 }
 .fixed-bg.bg-1 {
   background-image: url("/images/backgrounds/home_bg1.jpg");
@@ -95,36 +120,9 @@ Main components
 .fixed-bg.bg-5 {
   background-image: url("/images/backgrounds/home_bg5.jpg");
 }
-@media only screen and (min-width: 768px) {
-  .fixed-bg h1,
-  .fixed-bg h2 {
-    font-size: 36px;
-  }
-  .fixed-bg h1 em,
-  .fixed-bg h2 em {
-    font-size: 28px;
-    display: block;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .fixed-bg {
-    background-attachment: fixed;
-  }
-  .fixed-bg h1,
-  .fixed-bg h2 {
-    font-size: 48px;
-    font-weight: 300;
-    line-height: 52px;
-  }
-  .fixed-bg h1 em,
-  .fixed-bg h2 em {
-    font-size: 28px;
-    display: block;
-  }
-}
 .scrolling-bg {
   position: relative;
-  min-height: 100%;
+  min-height: 50%;
   padding: 30px 0 40px;
   line-height: 1.6;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -140,6 +138,14 @@ Main components
 .scrolling-bg .social-media-feed-title {
   font-size: 24px;
   padding-bottom: 10px;
+}
+@media only screen and (min-width : 768px) {
+  .scrolling-bg {
+    padding: 40px 0 30px;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
 }
 .scrolling-bg.color-1 {
   background-image: url("/images/backgrounds/scroll_bg1.jpg");
@@ -158,18 +164,12 @@ Main components
   color: #eeeeee;
 }
 .scrolling-bg.color-5 {
+  width: 100%;
   min-height: 0;
   height: 120px;
   background: #333;
   line-height: 0;
-}
-@media only screen and (min-width: 768px) {
-  .scrolling-bg {
-    padding: 40px 0 30px;
-    font-size: 20px;
-    line-height: 2;
-    font-weight: 300;
-  }
+  padding-top: 30px;
 }
 .scroll-top-wrapper {
   position: fixed;
@@ -242,39 +242,37 @@ Main components
 .headroom--pinned {
   top: 0;
 }
-@media only screen and (max-width: 768px) {
-  .main-nav {
-    float: right;
-    margin-right: 5%;
-    width: 44px;
-    height: 100%;
-    background: url("/images/menu-icon.svg") no-repeat center center;
-    background-size: 44px 44px;
-    cursor: pointer;
-  }
-  .main-nav ul {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transform: translateY(-100%);
-    padding: 0;
-    list-style-type: none;
-  }
-  .main-nav ul.is-visible {
-    transform: translateY(50px);
-  }
-  .main-nav a {
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 5%;
-    background: #2f292a;
-    border-top: 1px solid #453c3d;
-    color: #8e7d7f;
-  }
+.main-nav {
+  float: right;
+  margin-right: 5%;
+  width: 44px;
+  height: 100%;
+  background: url("/images/menu-icon.svg") no-repeat center center;
+  background-size: 44px 44px;
+  cursor: pointer;
 }
-@media only screen and (min-width: 768px) {
+.main-nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100%);
+  padding: 0;
+  list-style-type: none;
+}
+.main-nav ul.is-visible {
+  transform: translateY(50px);
+}
+.main-nav a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 5%;
+  background: #2f292a;
+  border-top: 1px solid #453c3d;
+  color: #8e7d7f;
+}
+@media only screen and (min-width : 768px) {
   .main-nav {
     width: auto;
     height: auto;
@@ -287,6 +285,7 @@ Main components
     position: static;
     width: auto;
     line-height: 70px;
+    transform: none;
   }
   .main-nav li {
     display: inline-block;
@@ -311,9 +310,6 @@ Main components
   .main-nav a:hover {
     color: #bfbfbf;
   }
-  .no-touch .main-nav a:hover {
-    color: #99a478;
-  }
 }
 footer {
   width: 100%;
@@ -328,10 +324,20 @@ footer {
   z-index: 10;
 }
 .audio-player-controls {
-  width: 75%;
+  width: 85%;
   margin: 6px auto 0;
   color: #999;
   text-align: left;
+}
+@media only screen and (min-width : 768px) {
+  .audio-player-controls {
+    width: 75%;
+  }
+}
+@media only screen and (min-width : 992px) {
+  .audio-player-controls {
+    margin-left: 20%;
+  }
 }
 .audio-player-controls i {
   cursor: pointer;
@@ -369,95 +375,14 @@ a:active {
   color: #bfbfbf;
   text-decoration: none;
 }
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 .main-link {
   font-size: 16px;
-}
-.tour-date td {
-  padding: 0 70px 10px 0;
-}
-.tour-date:last-child {
-  padding-right: 0;
-}
-.tour-date-small {
-  font-size: 16px;
-  font-style: italic;
-}
-.tour-date-past-container {
-  margin-top: 20px;
-}
-.tour-date-past {
-  font-size: 16px;
-  column-count: 3;
-  column-break-inside: avoid;
-}
-.tour-date-past ul,
-.tour-date-past li {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.tour-date-past li {
-  line-height: 36px;
-}
-.tour-date-header {
-  font-size: 16px;
-  color: #ccc;
-}
-.toggle-shows {
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 10px;
-  text-align: center;
-  transition: all 0.3s linear;
-}
-.toggle-shows:hover {
-  color: #bfbfbf;
-}
-.song-list {
-  column-count: 3;
-  column-break-inside: avoid;
-}
-.song-list ul,
-.song-list li {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.song-list li {
-  line-height: 36px;
-}
-.booking-info {
-  font-size: 24px;
-  padding: 10px;
-  background: #999;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  background: rgba(153, 153, 153, 0.3);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-.band-container {
-  text-align: center;
-}
-.band-member-container {
-  float: left;
-  width: 32%;
-  margin-top: 10px;
-}
-.band-member-image {
-  border-radius: 8px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-.band-member {
-  margin: 10px 0 0 5px;
-  padding-bottom: 0;
-  line-height: 22px;
-}
-.band-member-title {
-  font-size: 16px;
-  font-style: italic;
-  margin-top: 0;
-  padding-top: 0;
-  display: block;
 }
 .social-media-feeds {
   margin-top: 10px;
@@ -465,7 +390,6 @@ a:active {
 .twitter-feed-container {
   max-width: 320px;
   float: left;
-  margin-right: 40px;
 }
 .twitter-timeline {
   max-width: 320px !important;
@@ -482,6 +406,12 @@ a:active {
   position: relative;
   width: 330px;
 }
+.instagram-iframe {
+  width: 330px;
+  height: 330px;
+  border: none;
+  overflow: hidden;
+}
 .instagram-link {
   position: absolute;
   width: 330px;
@@ -491,6 +421,106 @@ a:active {
   display: inline-block;
   z-index: 8;
 }
+.tour-date-header {
+  font-size: 16px;
+  color: #ccc;
+}
+.tour-date {
+  padding-bottom: 30px;
+  text-align: center;
+}
+.tour-date li {
+  padding-bottom: 5px;
+  line-height: 24px;
+}
+@media only screen and (min-width : 768px) {
+  .tour-date li {
+    padding-right: 70px;
+  }
+  .tour-date li:last-child {
+    padding-right: 0;
+  }
+}
+.tour-date-large {
+  font-size: 26px;
+}
+.tour-date-small {
+  font-size: 16px;
+  font-style: italic;
+}
+.tour-date-past-container {
+  margin-top: 20px;
+}
+.tour-date-past {
+  font-size: 16px;
+  column-count: 1;
+  column-break-inside: avoid;
+  text-align: center;
+}
+@media only screen and (min-width : 768px) {
+  .tour-date-past {
+    column-count: 3;
+  }
+}
+.tour-date-past li {
+  line-height: 36px;
+}
+.toggle-shows {
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+  transition: all 0.3s linear;
+}
+.toggle-shows:hover {
+  color: #bfbfbf;
+}
+.song-list {
+  column-count: 1;
+  column-break-inside: avoid;
+  text-align: center;
+}
+@media only screen and (min-width : 768px) {
+  .song-list {
+    column-count: 3;
+  }
+}
+.song-list li {
+  line-height: 36px;
+}
+.booking-info {
+  font-size: 24px;
+  padding: 10px;
+  background: #999;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: rgba(153, 153, 153, 0.3);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.band-container {
+  text-align: center;
+}
+.band-member-container {
+  margin-top: 10px;
+}
+.band-member-image {
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.band-member-name {
+  margin: 10px 0 0 5px;
+  padding-bottom: 0;
+  line-height: 22px;
+}
+.band-member-title {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 5px;
+  padding-top: 0;
+  display: block;
+  line-height: 20px;
+}
 .social-media-footer {
   text-align: center;
 }
@@ -498,8 +528,13 @@ a:active {
   display: inline !important;
 }
 .social-media-footer a {
-  padding: 0 30px;
+  padding: 0 20px;
   color: #999;
+}
+@media only screen and (min-width : 768px) {
+  .social-media-footer a {
+    padding: 0 30px;
+  }
 }
 .social-media-footer a:hover {
   color: #fff;
@@ -523,9 +558,22 @@ a:active {
   border-bottom: 1px #eeeeee solid;
   padding-bottom: 10px;
 }
+.news-article-date {
+  font-size: 30px;
+  font-style: italic;
+}
 .news-article-title {
   font-size: 24px;
   font-style: italic;
+  line-height: 30px;
+  margin-top: 0;
+}
+.news-article {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+.news-article:last-child {
+  border: none;
 }
 .photos-container {
   background-repeat: no-repeat;
@@ -582,6 +630,12 @@ a:active {
   width: 70%;
   margin: 0 auto;
   padding-top: 80px;
+  text-align: center;
+}
+@media only screen and (min-width : 768px) {
+  .photo-button-group {
+    text-align: left;
+  }
 }
 .photo-button {
   width: 100px;
@@ -624,7 +678,12 @@ a:active {
 .youtube-container {
   padding-top: 20px;
   margin: 0 auto;
-  width: 600px;
+  width: 320px;
+}
+@media only screen and (min-width : 768px) {
+  .youtube-container {
+    width: 600px;
+  }
 }
 .youtube-container:first-child {
   padding-top: 80px;
@@ -641,13 +700,34 @@ a:active {
 .youtube-video {
   z-index: 9;
   position: relative;
+  height: 240px !important;
+}
+@media only screen and (min-width : 768px) {
+  .youtube-video {
+    height: 400px !important;
+  }
+}
+.youtube-video iframe {
+  width: 320px !important;
+  height: 240px !important;
+}
+@media only screen and (min-width : 768px) {
+  .youtube-video iframe {
+    width: 600px !important;
+    height: 400px !important;
+  }
 }
 .video-loader {
   color: #eeeeee;
   z-index: 1;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
+}
+@media only screen and (min-width : 768px) {
+  .video-loader {
+    top: 50%;
+  }
 }
 .admin-container {
   padding: 90px 0 0 30px;

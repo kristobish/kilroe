@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>the official KILROE website</title>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--<meta name="description" content="COME SEE NEW ENGLAND'S GREATEST ROCK SHOW!  Tired of those same old cover bands that just go through the motions on stage? Kilroe puts on an incredible live show every time out that you'll be telling your friends about the next day.">-->
     <!--<meta name="keywords" content="Kilroe, Kilroe band, cover band, tribute band, 90's rock, 80's rock, Boston bands, Boston, Kris Bishop, Mark Donatelli, Jeremy Rosenberger, Rob O'Neill, Chris Romagna, rock, Bell In Hand, Cask 'n Flagon, Grand Canal, Hennessy's, Hooley House, Lansdowne Pub, Whiskey Priest, Green Dragon, Paddy Os, Matterhorn, Sunday River, One Pelham East">-->
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -54,22 +54,22 @@
 <footer data-ng-controller="AudioCtrl">
     <sound-manager></sound-manager>
     <div class="audio-player-controls">
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-xs-11">
             <i class="fa fa-play fa-lg play-all" play-all="songs" repeat-music></i>
             <i class="fa fa-play fa-lg play" play-music></i>
             <i class="fa fa-pause fa-lg pause" pause-music></i>
             <i class="fa fa-forward fa-lg" next-track></i>
             <span>{{currentPlaying.title}} {{currentPlaying.artist}}</span>
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-5 hidden-xs">
             <div class="seekBase" seek-track>
                 <div class="seekLoad" ng-style="{width: ( progress + '%' )}"></div>
             </div>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-2 hidden-xs">
             <span>{{currentPostion}}</span>
-            <i class="fa fa-microphone fa-lg mic-on" mute-music></i>
-            <i class="fa fa-microphone-slash fa-lg mic-off" mute-music></i>
+            <i class="fa fa-microphone fa-lg mic-on hidden-xs" mute-music></i>
+            <i class="fa fa-microphone-slash fa-lg mic-off hidden-xs" mute-music></i>
         </div>
     </div>
 </footer>
