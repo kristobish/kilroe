@@ -20,8 +20,17 @@ li {
 
 }
 
-.main-link {
+.btn-main {
     font-size: 16px;
+    margin-bottom: 20px;
+    background: #dedede;
+    color: #333;
+    transition: @link-rollover;
+
+    &:hover {
+        background: #999;
+        color: #666;
+    }
 }
 
 .social-media-feeds {
@@ -31,6 +40,12 @@ li {
 .twitter-feed-container {
     max-width: 320px;
     float: left;
+    margin-bottom: 10px;
+
+    @media @tablet {
+        margin-right: 5%;
+        margin-bottom: 0;
+    }
 }
 
 .twitter-timeline {
@@ -41,21 +56,41 @@ li {
 
 .instagram-feed-container {
     width: 330px;
-    height: 330px;
+    height: 100%;
     float: left;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .instagram-feed {
     position: relative;
-    width: 330px;
+    width: 270px;
+    text-align: center;
 }
 
 .instagram-iframe {
+    width: 220px;
+    height: 435px;
+    border: none;
+    overflow: hidden;
+
+    @media @tablet {
+        display: none;
+    }
+}
+
+.instagram-iframe-tablet {
     width: 330px;
     height: 330px;
     border: none;
     overflow: hidden;
+
+    @media @iphone-retina {
+        display: none;
+    }
+
+    @media @tablet {
+        display: block;
+    }
 }
 
 .instagram-link {
@@ -154,7 +189,7 @@ li {
 
 
 .booking-info {
-    font-size: 24px;
+    font-size: 22px;
     padding: 10px;
     background: #999;
     margin-top: 20px;
@@ -162,6 +197,10 @@ li {
     background: rgba(153, 153, 153, 0.3);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
+
+    @media @tablet {
+        font-size: 24px;
+    }
 }
 
 .band-container {
@@ -201,7 +240,7 @@ li {
     }
 
     a {
-        padding: 0 20px;
+        padding: 0 15px;
         color: #999;
 
         @media @tablet {

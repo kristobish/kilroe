@@ -180,17 +180,22 @@ body, html, .main-view {
     z-index: 99999999;
     background-color: #666666;
     color: #eeeeee;
-    width: 50px;
-    height: 48px;
+    width: 40px;
+    height: 38px;
     line-height: 48px;
-    right: 30px;
-    bottom: 50px;
+    right: 10px;
+    bottom: 20px;
     padding-top: 2px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 8px;
     transition: all 0.5s ease-in-out;
+
+    @media @tablet {
+        right: 30px;
+        bottom: 50px;
+        width: 50px;
+        height: 48px;
+        border-radius: 10px;
+    }
 }
 
 .scroll-top-wrapper:active,
@@ -203,6 +208,13 @@ body, html, .main-view {
     cursor: pointer;
     opacity: .7;
 }
+
+
 .scroll-top-wrapper i.fa {
-    line-height: inherit;
+    line-height: none;
+
+    @media @tablet {
+        line-height: inherit;
+    }
+
 }
