@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="bower_components/fancybox/source/jquery.fancybox.css" />
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/pushy/css/pushy.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/kilroe.css -->
@@ -28,12 +29,23 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 
-
 <header headroom offset="300" class="header headroom headroom--pinned headroom--top" >
 
     <div class="logo">Kilroe</div>
 
-    <nav class="main-nav">
+    <!--<nav class="main-nav">-->
+        <!--<ul>-->
+            <!--<li><a data-ng-href="#/" class="ga-home"><i class="fa fa-arrows"></i> Home</a></li>-->
+            <!--<li><a data-ng-href="#/#tour" du-smooth-scroll du-scrollspy class="ga-tour"><i class="fa fa-arrows"></i> Shows</a></li>-->
+            <!--<li><a data-ng-href="#/#band" du-smooth-scroll du-scrollspy class="ga-about"><i class="fa fa-arrows"></i> Band</a></li>-->
+            <!--<li><a data-ng-href="#/video" class="ga-video"><i class="fa fa-arrows"></i> Video</a></li>-->
+            <!--<li><a data-ng-href="#/photos" data-ng-click="filters = {venue: 'bssc_cruise', date: '6-10-2011'}" class="ga-photos"><i class="fa fa-arrows"></i> Photos</a></li>-->
+            <!--<li><a data-ng-href="#/#contact" du-smooth-scroll du-scrollspy class="ga-contact"><i class="fa fa-arrows"></i> Booking</a></li>-->
+        <!--</ul>-->
+    <!--</nav>-->
+
+    <!-- Pushy Menu -->
+    <nav class="pushy pushy-left">
         <ul>
             <li><a data-ng-href="#/" class="ga-home"><i class="fa fa-arrows"></i> Home</a></li>
             <li><a data-ng-href="#/#tour" du-smooth-scroll du-scrollspy class="ga-tour"><i class="fa fa-arrows"></i> Shows</a></li>
@@ -43,13 +55,18 @@
             <li><a data-ng-href="#/#contact" du-smooth-scroll du-scrollspy class="ga-contact"><i class="fa fa-arrows"></i> Booking</a></li>
         </ul>
     </nav>
-     <!-- main-nav -->
+
+    <!-- Site Overlay -->
+    <div class="site-overlay"></div>
+
+    <!-- Menu Button -->
+    <div class="menu-btn"><i class="fa fa-navicon fa-3x"></i></div>
+
 </header>
 
 
-<!--<div class="container">-->
-    <div ng-view="" class="main-view"></div>
-<!--</div>-->
+    <div id="container" ng-view="" class="main-view"></div>
+
 
 <footer data-ng-controller="AudioCtrl">
     <sound-manager></sound-manager>
@@ -75,6 +92,7 @@
 </footer>
 
 <div scroll-to-top=""></div>
+
 
 
 
@@ -113,6 +131,7 @@
 <script src="bower_components/headroom.js/dist/headroom.js"></script>
 <script src="bower_components/headroom.js/dist/jQuery.headroom.js"></script>
 <script src="bower_components/headroom.js/dist/angular.headroom.js"></script>
+<script src="bower_components/pushy/js/pushy.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 

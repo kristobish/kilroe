@@ -33,7 +33,7 @@ html,
 }
 .fixed-bg {
   position: relative;
-  min-height: 60%;
+  min-height: 60% !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -41,7 +41,7 @@ html,
 }
 @media only screen and (min-width : 768px) {
   .fixed-bg {
-    min-height: 100%;
+    min-height: 100% !important;
   }
 }
 @media only screen and (min-width : 1200px) {
@@ -241,6 +241,14 @@ html,
 }
 .headroom--pinned {
   top: 0;
+}
+.menu-btn {
+  float: right;
+  margin-right: 5%;
+  color: #8e7d7f;
+  cursor: pointer;
+  z-index: 11;
+  margin-top: 13px;
 }
 .main-nav {
   float: right;
