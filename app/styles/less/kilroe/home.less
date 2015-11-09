@@ -55,10 +55,14 @@ li {
 }
 
 .instagram-feed-container {
-    width: 330px;
+    width: 270px;
     height: 100%;
     float: left;
     margin-bottom: 20px;
+
+    @media @tablet {
+        width: 330px;
+    }
 }
 
 .instagram-feed {
@@ -95,12 +99,17 @@ li {
 
 .instagram-link {
     position: absolute;
-    width: 330px;
-    height: 330px;
+    width: 270px;
+    height: 435px;
     top: 0;
     left: 0;
     display: inline-block;
     z-index: 8;
+
+    @media @tablet {
+        width: 330px;
+        height: 330px;
+    }
 }
 
 .tour-date-header {
@@ -240,7 +249,7 @@ li {
     }
 
     a {
-        padding: 0 15px;
+        padding: 0 14px;
         color: #999;
 
         @media @tablet {
