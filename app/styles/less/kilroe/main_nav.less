@@ -55,6 +55,10 @@
     margin-top: 13px;
     transition: @link-rollover;
 
+    @media @tablet {
+        display: none;
+    }
+
     &:hover {
         color: #fff;
     }
@@ -73,39 +77,35 @@
         float: right;
         margin-right: 5%;
     }
-}
 
-
-
-@media @tablet {
-    .pushy,
-    .site-overlay,
-    .menu-btn {
-        display: none;
-    }
-
-    .main-nav ul {
+    ul {
         position: static;
         width: auto;
         line-height: 70px;
         transform: none;
+
     }
 
-    .main-nav li {
+    li {
         display: inline-block;
         margin-left: 1em;
     }
 
-    .main-nav a {
+    a {
         display: inline-block;
         height: auto;
         line-height: normal;
         background: transparent;
-        padding: .6em 5px;
+        padding: .6em 3px;
         border-top: none;
         color: @main-text-color;
-        font-size: 16px;
+        font-size: 15px;
         text-transform: uppercase;
+
+        @media @desktop {
+            padding: .6em 5px;
+            font-size: 16px;
+        }
 
         &:hover,
         &:active,
@@ -117,5 +117,15 @@
             color: @link-hover-color;
         }
     }
+
 }
+
+.pushy,
+.site-overlay {
+    @media @tablet {
+        display: none;
+    }
+}
+
+
 

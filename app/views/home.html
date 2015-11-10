@@ -11,7 +11,7 @@
                     <p>{{article.article}}</p>
                 </div>
 
-                    <a href="#/news"><button class="btn btn-sm btn-main">Old News <i class="fa fa-arrow-right"></i></button></a>
+                    <a href="#/news"><button class="btn btn-sm btn-main"><i class="fa fa-arrows"></i> More News</button></a>
 
             </div>
 
@@ -41,21 +41,19 @@
     <div class="scrolling-bg color-2" id="tour" class="tour-date-container" data-ng-controller="TourCtrl">
         <div class="container">
             <h1><i class="fa fa-arrows"></i> Shows</h1>
-                <ul class="tour-date-header hidden-xs">
+                <ul class="tour-date-header tour-date hidden-xs">
                     <li>Date</li>
-                    <li>Venue</li>
-                    <li>Location</li>
+                    <li>Venue/Location</li>
                     <li>Time</li>
                 </ul>
                 <ul class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-3">
                     <li class="tour-date-large">{{gig.date | dateFormatGig}}</li>
-                    <li>{{gig.venue}}</li>
-                    <li>{{gig.location}}</li>
+                    <li>{{gig.venue}} - {{gig.location}}</li>
                     <li>{{gig.time}}</li>
                 </ul>
 
             <div class="toggle-shows" ng-click="isCollapsed = !isCollapsed; toggle = !toggle">
-                <i class="fa fa-arrows"></i> {{toggleText}}
+                <button class="btn btn-sm btn-main"><i class="fa fa-arrows"></i> {{toggleText}}</button>
             </div>
             <div collapse="isCollapsed" class="tour-date-past-container">
                 <div class="tour-date-past">
