@@ -343,14 +343,9 @@ footer {
   color: #999;
   text-align: left;
 }
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 1200px) {
   .audio-player-controls {
     width: 75%;
-  }
-}
-@media only screen and (min-width : 992px) {
-  .audio-player-controls {
-    margin-left: 20%;
   }
 }
 .audio-player-controls i {
@@ -371,9 +366,14 @@ footer {
 }
 .seekBase {
   height: 4px;
-  width: 100%;
+  width: 75%;
   border: 1px solid #cccccc;
   margin-top: 9px;
+}
+@media only screen and (min-width : 768px) {
+  .seekBase {
+    width: 100%;
+  }
 }
 .seekLoad {
   height: 2px;
