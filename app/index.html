@@ -66,7 +66,7 @@
 </header>
 
 
-    <div id="container" ng-view="" class="main-view"></div>
+    <div id="container" ng-view="" autoscroll="true" class="main-view"></div>
 
 
 <footer data-ng-controller="AudioCtrl">
@@ -93,7 +93,6 @@
 </footer>
 
 <div scroll-to-top=""></div>
-
 
 
 
@@ -153,17 +152,6 @@
 <script src="/js/directives/scroll_to_top_directive.js"></script>
 
 <!-- endbuild -->
-
-<!--default mobile nav-->
-<script>
-    jQuery(document).ready(function($){
-//open-close submenu on mobile
-        $('.main-nav').on('click', function(event){
-            if($(event.target).is('.main-nav')) $(this).children('ul').toggleClass('is-visible');
-        });
-    });
-</script>
-
 
 </body>
 </html>

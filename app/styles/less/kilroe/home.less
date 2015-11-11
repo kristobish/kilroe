@@ -3,14 +3,18 @@ a {
     transition: @link-rollover;
 
     &:hover,
-    &:active {
+    &:active,
+    &:focus {
         color: @link-hover-color;
         text-decoration: none;
     }
 }
 
-button:active {
+.btn:active,
+.btn:focus {
+    color: @link-hover-color;
     text-decoration: none;
+    outline: none;
 }
 
 ul,
@@ -26,6 +30,7 @@ li {
 
 .btn-main {
     font-size: 16px;
+    margin-top: 20px;
     margin-bottom: 20px;
     background: rgba(255, 255, 255, 0.3);
     color: #fff;
@@ -41,25 +46,68 @@ li {
     margin-top: 10px;
 }
 
+.social-media-no-feeds {
+    margin-top: 30px;
+
+    @media @tablet {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    @media @desktop {
+        margin-left: 3%;
+    }
+
+    @media @desktop-wide {
+        margin-left: 0;
+    }
+
+    i {
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+    }
+
+    h2 {
+        display: inline;
+        padding: 20px 20px 0;
+
+        @media @desktop {
+            display: block;
+            padding: 0;
+        }
+    }
+}
+
+
+.social-media-feed-title {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+
+    @media @tablet {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+}
+
 .twitter-feed-container {
     max-width: 320px;
     float: left;
     margin-bottom: 10px;
 
     @media @tablet {
-        margin-right: 3%;
+        margin-right: 0;
         margin-bottom: 0;
     }
 
     @media @desktop {
-        margin-right: 5%;
+        margin-right: 3%;
     }
 }
 
 .twitter-timeline {
     max-width: 320px !important;
     max-height: 330px;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .instagram-feed-container {
@@ -123,11 +171,17 @@ li {
 .tour-date-header {
     font-size: 16px;
     color: #ccc;
+    padding-top: 0 !important;
 }
 
-.tour-date {
-    padding-bottom: 45px;
+ul.tour-date {
+    padding-top: 20px;
+    padding-bottom: 25px;
     text-align: center;
+
+    &:first-child {
+        margin-bottom: 20px;
+    }
 
     @media @tablet {
         text-align: left;
@@ -152,7 +206,6 @@ li {
         }
     }
 }
-
 
 .tour-date-large {
     font-size: 26px;
@@ -208,7 +261,15 @@ li {
 }
 
 .band-member-container {
-    margin-top: 10px;
+    margin-top: 25px;
+
+    @media @desktop-wide {
+        margin-right: 40px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 }
 
 .band-member-image {

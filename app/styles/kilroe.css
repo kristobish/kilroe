@@ -25,6 +25,11 @@ html,
     max-width: 992px;
   }
 }
+@media only screen and (min-width : 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
 .container::after {
   /* clearfix */
   content: '';
@@ -123,7 +128,7 @@ html,
 .scrolling-bg {
   position: relative;
   min-height: 50%;
-  padding: 30px 0 40px;
+  padding: 60px 0;
   line-height: 1.6;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   z-index: 2;
@@ -135,13 +140,9 @@ html,
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
-.scrolling-bg .social-media-feed-title {
-  font-size: 24px;
-  padding-bottom: 10px;
-}
 @media only screen and (min-width : 768px) {
   .scrolling-bg {
-    padding: 40px 0 30px;
+    padding: 70px 0 60px;
     font-size: 20px;
     line-height: 1.6;
     font-weight: 300;
@@ -154,6 +155,7 @@ html,
 .scrolling-bg.color-2 {
   background-image: url("/images/backgrounds/scroll_bg2.jpg");
   color: #eeeeee;
+  min-height: 0;
 }
 .scrolling-bg.color-3 {
   background-image: url("/images/backgrounds/scroll_bg3.jpg");
@@ -325,6 +327,10 @@ html,
     display: none;
   }
 }
+.pushy a:hover {
+  background: #fff;
+  color: #333;
+}
 footer {
   width: 100%;
   height: 30px;
@@ -385,12 +391,16 @@ a {
   transition: all 0.3s linear;
 }
 a:hover,
-a:active {
+a:active,
+a:focus {
   color: #bfbfbf;
   text-decoration: none;
 }
-button:active {
+.btn:active,
+.btn:focus {
+  color: #bfbfbf;
   text-decoration: none;
+  outline: none;
 }
 ul,
 li {
@@ -400,6 +410,7 @@ li {
 }
 .btn-main {
   font-size: 16px;
+  margin-top: 20px;
   margin-bottom: 20px;
   background: rgba(255, 255, 255, 0.3);
   color: #fff;
@@ -412,6 +423,49 @@ li {
 .social-media-feeds {
   margin-top: 10px;
 }
+.social-media-no-feeds {
+  margin-top: 30px;
+}
+@media only screen and (min-width : 768px) {
+  .social-media-no-feeds {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width : 992px) {
+  .social-media-no-feeds {
+    margin-left: 3%;
+  }
+}
+@media only screen and (min-width : 1200px) {
+  .social-media-no-feeds {
+    margin-left: 0;
+  }
+}
+.social-media-no-feeds i {
+  text-shadow: 2px 2px 8px #000000;
+}
+.social-media-no-feeds h2 {
+  display: inline;
+  padding: 20px 20px 0;
+}
+@media only screen and (min-width : 992px) {
+  .social-media-no-feeds h2 {
+    display: block;
+    padding: 0;
+  }
+}
+.social-media-feed-title {
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+@media only screen and (min-width : 768px) {
+  .social-media-feed-title {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+}
 .twitter-feed-container {
   max-width: 320px;
   float: left;
@@ -419,19 +473,19 @@ li {
 }
 @media only screen and (min-width : 768px) {
   .twitter-feed-container {
-    margin-right: 3%;
+    margin-right: 0;
     margin-bottom: 0;
   }
 }
 @media only screen and (min-width : 992px) {
   .twitter-feed-container {
-    margin-right: 5%;
+    margin-right: 3%;
   }
 }
 .twitter-timeline {
   max-width: 320px !important;
   max-height: 330px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 .instagram-feed-container {
   width: 270px;
@@ -494,29 +548,34 @@ li {
 .tour-date-header {
   font-size: 16px;
   color: #ccc;
+  padding-top: 0 !important;
 }
-.tour-date {
-  padding-bottom: 45px;
+ul.tour-date {
+  padding-top: 20px;
+  padding-bottom: 25px;
   text-align: center;
 }
+ul.tour-date:first-child {
+  margin-bottom: 20px;
+}
 @media only screen and (min-width : 768px) {
-  .tour-date {
+  ul.tour-date {
     text-align: left;
   }
 }
-.tour-date li {
+ul.tour-date li {
   line-height: 24px;
 }
 @media only screen and (min-width : 768px) {
-  .tour-date li {
+  ul.tour-date li {
     width: 50%;
     float: left;
   }
-  .tour-date li:first-child {
+  ul.tour-date li:first-child {
     padding-right: 0;
     width: 35%;
   }
-  .tour-date li:last-child {
+  ul.tour-date li:last-child {
     padding-right: 0;
     width: auto;
   }
@@ -564,7 +623,15 @@ li {
   text-align: center;
 }
 .band-member-container {
-  margin-top: 10px;
+  margin-top: 25px;
+}
+@media only screen and (min-width : 1200px) {
+  .band-member-container {
+    margin-right: 40px;
+  }
+  .band-member-container:last-child {
+    margin-right: 0;
+  }
 }
 .band-member-image {
   border-radius: 8px;
@@ -676,12 +743,9 @@ li {
   border: none;
 }
 .photos-container {
-  background-repeat: no-repeat;
-  background-image: url("/images/backgrounds/photos_bg.jpg");
-  background-attachment: fixed;
+  background: url("/images/backgrounds/photos_bg.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-position: center center;
-  min-height: 60% !important;
+  min-height: 50% !important;
 }
 @media only screen and (min-width : 768px) {
   .photos-container {
@@ -737,7 +801,7 @@ li {
   display: block;
 }
 .btn-group {
-  margin: 0 10px;
+  margin: 0 10px 15px;
 }
 .photo-button-group {
   width: 100%;
@@ -750,7 +814,6 @@ li {
   font-size: 18px;
   background: #000;
   border-color: #000;
-  margin-bottom: 15px;
   transition: all 0.3s linear;
 }
 .photo-button:hover {
@@ -781,12 +844,9 @@ li {
   }
 }
 .video-container {
-  background-repeat: no-repeat;
-  background-image: url("/images/backgrounds/video_bg.jpg");
-  background-attachment: fixed;
+  background: url("/images/backgrounds/video_bg.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-position: center center;
-  min-height: 100% !important;
+  min-height: 50% !important;
 }
 @media only screen and (min-width : 768px) {
   .video-container {
@@ -838,8 +898,8 @@ li {
   color: #eeeeee;
   z-index: 1;
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
 }
 @media only screen and (min-width : 768px) {
   .video-loader {

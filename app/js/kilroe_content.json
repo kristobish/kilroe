@@ -3346,19 +3346,23 @@
     }
   },
   "socialMediaIcons" : {
-    "facebook" : {
-      "app" : "facebook",
-      "userName" : "kilroerock"
-    },
-    "instagram" : {
-      "app" : "instagram",
-      "userName" : "kilroerock"
-    },
     "twitter" : {
+      "id" : "1",
       "app" : "twitter",
       "userName" : "kilroerock"
     },
+    "instagram" : {
+      "id" : "2",
+      "app" : "instagram",
+      "userName" : "kilroerock"
+    },
+    "facebook" : {
+      "id" : "3",
+      "app" : "facebook",
+      "userName" : "kilroerock"
+    },
     "youtube" : {
+      "id" : "4",
       "app" : "youtube",
       "userName" : "kilroeband"
     }

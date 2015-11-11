@@ -12,6 +12,10 @@ body, html, .main-view {
     @media @desktop {
         max-width: 992px;
     }
+
+    @media @desktop-wide {
+        max-width: 1200px;
+    }
 }
 .container::after {
     /* clearfix */
@@ -114,7 +118,7 @@ body, html, .main-view {
 .scrolling-bg {
     position: relative;
     min-height: 50%;
-    padding: 30px 0 40px;
+    padding: 60px 0;
     line-height: 1.6;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     z-index: 2;
@@ -127,13 +131,8 @@ body, html, .main-view {
         margin-bottom: 20px;
     }
 
-    .social-media-feed-title {
-        font-size: 24px;
-        padding-bottom: 10px;
-    }
-
     @media @tablet {
-        padding: 40px 0 30px;
+        padding: 70px 0 60px;
         font-size: 20px;
         line-height: 1.6;
         font-weight: 300;
@@ -148,6 +147,7 @@ body, html, .main-view {
 .scrolling-bg.color-2 {
     background-image: url("/images/backgrounds/scroll_bg2.jpg");
     color: @main-text-color;
+    min-height: 0;
 }
 
 .scrolling-bg.color-3 {
