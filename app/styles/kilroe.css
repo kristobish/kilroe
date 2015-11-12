@@ -125,12 +125,6 @@ html,
 .fixed-bg.bg-5 {
   background-image: url("/images/backgrounds/home_bg5.jpg");
 }
-.fixed-bg.bg-6 {
-  background-image: url("/images/backgrounds/photos_bg.jpg");
-}
-.fixed-bg.bg-7 {
-  background-image: url("/images/backgrounds/video_bg.jpg");
-}
 .scrolling-bg {
   position: relative;
   min-height: 50%;
@@ -491,7 +485,6 @@ li {
 .twitter-timeline {
   max-width: 320px !important;
   max-height: 330px;
-  margin-right: 50px;
 }
 .instagram-feed-container {
   width: 270px;
@@ -711,11 +704,14 @@ ul.tour-date li {
   color: #fff;
 }
 .news-container {
-  background-repeat: no-repeat;
-  background-image: url("/images/backgrounds/news_bg.jpg");
-  background-attachment: fixed;
+  background: url("/images/backgrounds/news_bg.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-position: center center;
+  min-height: 50% !important;
+}
+@media only screen and (min-width : 768px) {
+  .news-container {
+    min-height: 100% !important;
+  }
 }
 .article-container {
   padding: 80px 0 100px;
@@ -745,6 +741,16 @@ ul.tour-date li {
 }
 .news-article:last-child {
   border: none;
+}
+.photos-container {
+  background: url("/images/backgrounds/photos_bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 50% !important;
+}
+@media only screen and (min-width : 768px) {
+  .photos-container {
+    min-height: 100% !important;
+  }
 }
 .grid {
   max-width: 70%;
@@ -840,6 +846,16 @@ ul.tour-date li {
 @media screen and (max-width: 400px) {
   .grid li {
     width: 100%;
+  }
+}
+.video-container {
+  background: url("/images/backgrounds/video_bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 50% !important;
+}
+@media only screen and (min-width : 768px) {
+  .video-container {
+    min-height: 100% !important;
   }
 }
 .youtube-container {

@@ -1,9 +1,11 @@
 .news-container {
-    background-repeat: no-repeat;
-    background-image: url("/images/backgrounds/news_bg.jpg");
-    background-attachment: fixed;
+    background: url("/images/backgrounds/news_bg.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-position: center center;
+    min-height: 50% !important;
+
+    @media @tablet {
+        min-height: 100% !important;
+    }
 }
 
 .article-container {
