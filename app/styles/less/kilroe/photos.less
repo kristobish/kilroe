@@ -1,12 +1,12 @@
-.photos-container {
-    background: url("/images/backgrounds/photos_bg.jpg") no-repeat center center fixed;
-    background-size: cover;
-    min-height: 50% !important;
-
-    @media @tablet {
-        min-height: 100% !important;
-    }
-}
+//.photos-container {
+//    background: url("/images/backgrounds/photos_bg.jpg") no-repeat center center fixed;
+//    background-size: cover;
+//    min-height: 50% !important;
+//
+//    @media @tablet {
+//        min-height: 100% !important;
+//    }
+//}
 
 
 .grid {
@@ -115,14 +115,20 @@
 
 .dropdown-menu {
     margin-top: -1px;
-    left: -70px;
-    width: 220px;
+    left: -50px;
+    width: auto;
     text-align: center;
 
     @media @tablet {
         left: 0;
         min-width: 160px;
         text-align: left;
+    }
+
+    li a:hover {
+        font-weight: bold;
+        color: #000;
+        background-color: transparent;
     }
 }
 

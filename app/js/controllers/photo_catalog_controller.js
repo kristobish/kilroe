@@ -50,8 +50,6 @@
             $event.stopPropagation();
             $scope.status.isopen = !$scope.status.isopen;
         };
-
-
     });
 
     app.directive('fancybox', function(){
