@@ -57,7 +57,7 @@
             <div class="toggle-shows" ng-click="isCollapsed = !isCollapsed; toggle = !toggle">
                 <button class="btn btn-main"><i class="fa fa-arrows"></i> {{toggleText}}</button>
             </div>
-            <div collapse="isCollapsed" class="tour-date-past-container">
+            <div uib-collapse="isCollapsed" class="tour-date-past-container">
                 <div class="tour-date-past">
                     <ul ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':3">
                         <li>{{gig.date | dateFormatGigPast}} - {{gig.venue}} - {{gig.location}}</li>

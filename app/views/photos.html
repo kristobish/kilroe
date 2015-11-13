@@ -2,23 +2,26 @@
 <div data-ng-controller="PhotoCatalogCtrl" class="photos-container">
     <h1 class="page-title-photos"><i class="fa fa-arrows"></i> Photos</h1>
     <div class="photo-button-group">
-        <div class="btn-group" dropdown is-open="status.isopen">
-            <button type="button" class="btn btn-primary dropdown-toggle photo-button" dropdown-toggle ng-disabled="disabled">2011</button>
+
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle photo-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" uib-dropdown-toggle>2011 <span class="caret"></span></button>
             <ul class="dropdown-menu">
                 <li><a href="#/photos" data-ng-click="filters = {venue: 'bssc_cruise', date: '6-10-2011'}">BSSC Cruise 6/10/2011</a></li>
             </ul>
         </div>
-        <div class="btn-group" dropdown is-open="status.isopen">
-            <button type="button" class="btn btn-primary dropdown-toggle photo-button" dropdown-toggle ng-disabled="disabled">2010</button>
-            <ul class="dropdown-menu">
+
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle photo-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2010 <span class="caret"></span></button>
+            <ul class="dropdown-menu dropdown-menu-right">
                 <li><a href="#/photos" data-ng-click="filters = {venue: 'lansdowne', date: '5-7-2010'}">Lansdowne Pub 5/7/2010</a></li>
                 <li><a href="#/photos" data-ng-click="filters = {venue: 'hennessys', date: '3-13-2010'}">Hennessy's 3/13/2010</a></li>
                 <li><a href="#/photos" data-ng-click="filters = {venue: 'matterhorn', date: '2-10-2010'}">Matterhorn 2/10/2010</a></li>
             </ul>
         </div>
-        <div class="btn-group" dropdown is-open="status.isopen">
-            <button type="button" class="btn btn-primary dropdown-toggle photo-button" dropdown-toggle ng-disabled="disabled">2009</button>
-            <ul class="dropdown-menu">
+
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle photo-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2009 <span class="caret"></span></button>
+            <ul class="dropdown-menu dropdown-menu-center">
                 <li><a href="#/photos" data-ng-click="filters = {venue: 'hennessys', date: '10-31-2009'}">Hennessy's 10/31/2009</a></li>
                 <li><a href="#/photos" data-ng-click="filters = {venue: 'hennessys', date: '10-2-2009'}">Hennessy's Sept/Oct 2009</a></li>
                 <li><a href="#/photos" data-ng-click="filters = {venue: 'press', date: '9-17-2009'}">Press Pics 2009</a></li>
@@ -27,6 +30,7 @@
                 <li><a href="#/photos" data-ng-click="filters = {venue: 'basta', date: '4-11-2009'}">Basta Bar Apr/Jun 2009</a></li>
             </ul>
         </div>
+
     </div>
 
     <!--<div class="fancybox-loading-icon"><i class="fa fa-spinner fa-pulse fa-3x"></i></div>-->
@@ -51,3 +55,12 @@
         </div>
     </div>
 </div>
+
+<script>
+    //closes dropdown on mobile touch
+    $(document).ready(function() {
+        $('.dropdown-menu li a').click(function() {
+            $(this).closest('.dropdown-menu').prev().dropdown('toggle');
+        });
+    });
+</script>
