@@ -15,5 +15,7 @@
     'duScroll',
     'wu.masonry',
     'angularSoundManager',
-    'headroom'
+    'headroom',
+    'bootstrapLightbox',
+    'angular-loading-bar'
 ]));

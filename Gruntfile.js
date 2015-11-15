@@ -326,10 +326,17 @@ module.exports = function (grunt) {
                     removeCommentsFromCDATA: true,
                     removeOptionalTags: true
                 },
-                files: [{
+                files: [
+                {
                     expand: true,
                     cwd: '<%= yeoman.dist %>',
                     src: ['*.html', 'views/{,*/}*.html'],
+                    dest: '<%= yeoman.dist %>'
+                },
+                {
+                    expand: true,
+                    cwd: '<%= yeoman.dist %>',
+                    src: ['*.html', 'templates/{,*/}*.html'],
                     dest: '<%= yeoman.dist %>'
                 }]
             }
@@ -368,6 +375,7 @@ module.exports = function (grunt) {
                         '.htaccess',
                         '*.html',
                         'views/{,*/}*.html',
+                        'templates/{,*/}*.html',
                         'images/{,*/}*.{webp}',
                         'fonts/{,*/}*.*',
                         'audio/{,*/}*.{mp3,ogg}'
@@ -387,12 +395,13 @@ module.exports = function (grunt) {
                     cwd: 'bower_components/font-awesome',
                     src: 'fonts/*',
                     dest: '<%= yeoman.dist %>'
-                }, {
-                    expand: true,
-                    cwd: 'bower_components/fancybox/source',
-                    src: '**/*.{png,jpg,jpeg,gif}',
-                    dest: '<%= yeoman.dist %>/styles'
                 }]
+                //, {
+                //    expand: true,
+                //    cwd: 'bower_components/fancybox/source',
+                //    src: '**/*.{png,jpg,jpeg,gif}',
+                //    dest: '<%= yeoman.dist %>/styles'
+                //}]
             },
             styles: {
                 expand: true,

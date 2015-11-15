@@ -762,8 +762,18 @@ ul.tour-date li {
   display: block;
   float: left;
   padding: 7px;
-  width: 33%;
+  width: 100%;
   opacity: 0;
+}
+@media only screen and (min-width : 768px) {
+  .grid li {
+    width: 50%;
+  }
+}
+@media only screen and (min-width : 992px) {
+  .grid li {
+    width: 33%;
+  }
 }
 .grid li.shown,
 .no-js .grid li,
@@ -777,11 +787,9 @@ ul.tour-date li {
   display: block;
   max-width: 100%;
 }
-.fancybox-nav {
-  width: 50%;
-}
 .mouseover-darken-photo {
   background: #000;
+  cursor: pointer;
 }
 .mouseover-darken-photo img {
   transition: all 0.5s linear;
@@ -803,10 +811,10 @@ ul.tour-date li {
   padding-top: 10px;
   text-align: center;
 }
-.btn-group {
+.select-photos {
   margin: 0 10px 15px;
 }
-.btn-group button.photo-button {
+.select-photos .photo-button {
   width: 100px;
   font-size: 18px;
   color: #fff;
@@ -814,13 +822,13 @@ ul.tour-date li {
   border-color: #000;
   transition: all 0.3s linear;
 }
-.btn-group button.photo-button:hover,
-.btn-group button.photo-button:active {
+.select-photos .photo-button:hover,
+.select-photos .photo-button:active {
   background: #333;
   border-color: #000;
   color: #fff;
 }
-.btn-group button.photo-button:focus {
+.select-photos .photo-button:focus {
   background: #0f0f0f;
   border-color: #000;
   color: #fff;
@@ -847,15 +855,92 @@ ul.tour-date li {
     left: auto;
   }
 }
-@media screen and (max-width: 900px) {
-  .grid li {
-    width: 50%;
+.modal-backdrop.in {
+  filter: alpha(opacity=90);
+  opacity: .9;
+}
+.modal-content {
+  background-color: transparent;
+}
+.modal-dialog {
+  width: 100% !important;
+}
+.lightbox-nav {
+  z-index: 10;
+  width: 100%;
+}
+.close-photo {
+  opacity: .9;
+  color: #fff;
+  transition: all 0.3s linear;
+}
+.close-photo:hover {
+  color: #bfbfbf;
+  opacity: 1;
+}
+.btn-group-photo-nav {
+  width: 100%;
+  margin-top: 50%;
+}
+@media only screen and (min-width : 992px) {
+  .btn-group-photo-nav {
+    margin-top: 20%;
   }
 }
-@media screen and (max-width: 400px) {
-  .grid li {
-    width: 100%;
+.btn-photo-nav {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  transition: all 0.3s linear;
+  opacity: .5;
+}
+.btn-photo-nav:hover {
+  background: transparent;
+  border: 0;
+  color: #bfbfbf;
+}
+.btn-photo-nav-left {
+  display: none;
+}
+@media only screen and (min-width : 768px) {
+  .btn-photo-nav-left {
+    display: block;
+    float: left;
   }
+}
+.btn-photo-nav-right {
+  display: none;
+}
+@media only screen and (min-width : 768px) {
+  .btn-photo-nav-right {
+    display: block;
+    float: right !important;
+  }
+}
+.lightbox-image-caption {
+  color: #fff;
+  text-align: center;
+  width: 99%;
+  margin: -30px auto 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+.lightbox-image-caption span {
+  padding: 0;
+  background: transparent;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+#loading-bar .bar {
+  background: #fff;
+}
+#loading-bar-spinner {
+  top: 50%;
+  left: 50%;
+  color: #fff;
+}
+#loading-bar-spinner .spinner-icon {
+  border-top-color: #fff;
+  border-left-color: #fff;
 }
 .video-container {
   background: url("/images/backgrounds/video_bg.jpg") no-repeat center center fixed;
