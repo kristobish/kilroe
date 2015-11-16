@@ -1,0 +1,38 @@
+.booking-info {
+    font-size: 22px;
+    padding: 10px;
+    background: #999;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: rgba(153, 153, 153, 0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    a {
+        @media @tablet {
+            padding-right: 50px;
+        }
+    }
+
+    @media @tablet {
+        font-size: 24px;
+    }
+}
+
+.song-list {
+    column-count: 1;
+    column-break-inside: avoid;
+    text-align: center;
+
+    @media @tablet {
+        column-count: 2;
+    }
+
+    @media @desktop {
+        column-count: 3;
+    }
+
+    li {
+        line-height: 36px;
+    }
+}

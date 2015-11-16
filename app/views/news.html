@@ -1,18 +1,18 @@
-<div data-ng-controller="NewsCtrl" class="news-container">
+<section data-ng-controller="NewsCtrl" class="news-container">
     <div class="article-container">
         <h1 class="page-title-news"><i class="fa fa-arrows"></i> Old News</h1>
-        <div class="news-article" ng-repeat="article in news | orderBy:'-date' | limitTo:'Infinity':1">
+        <article class="news-article" ng-repeat="article in news | orderBy:'-date' | limitTo:'Infinity':1">
             <h2 class="news-article-date">{{article.date | dateFormatGigPast}}</h2>
             <h3 class="news-article-title">{{article.title}}</h3>
             <p>{{article.article}}</p>
-        </div>
+        </article>
     </div>
-</div>
+</section>
 
-<div class="scrolling-bg color-5" data-ng-controller="SocialMediaCtrl">
+<section class="scrolling-bg color-5" data-ng-controller="SocialMediaCtrl">
     <div class="container social-media-footer">
         <div ng-repeat="icon in socialMediaIcons" class="social-media-footer-icon">
             <a data-ng-href="https://{{icon.app}}.com/{{icon.userName}}" target="_blank"><i class="fa fa-{{icon.app}} fa-2x"></i></a>
         </div>
     </div>
-</div>
+</section>

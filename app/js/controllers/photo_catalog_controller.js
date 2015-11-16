@@ -1,4 +1,3 @@
-//(function (app, $) {
 (function (app) {
     'use strict';
 
@@ -47,47 +46,5 @@
         };
     });
 
-    app.config(function (LightboxProvider) {
-        LightboxProvider.getImageUrl = function (photo) {
-            return '/images/photos/' + '/' + photo.venue + '/' + photo.date + '/' + photo.fileName + '.jpg';
-        };
-
-        LightboxProvider.getImageCaption = function (photo) {
-            return photo.altName + ' ' + photo.date;
-        };
-
-        LightboxProvider.fullScreenMode = true;
-
-        // set a custom template
-        LightboxProvider.templateUrl = '/templates/lightbox.html';
-    });
-
-    //app.directive('fancybox', function(){
-    //    return {
-    //        restrict: 'C',
-    //        link: function(){
-    //
-    //            $('.fancybox').fancybox({
-    //                padding : 0,
-    //                openEffect  : 'elastic',
-    //                preload : true
-    //            });
-    //        }
-    //    };
-    //});
-
-    //app.directive('swipebox', function(){
-    //    return {
-    //        restrict: 'C',
-    //        link: function(){
-    //
-    //            $('.swipebox').swipebox({
-    //                loopAtEnd: true
-    //            });
-    //        }
-    //    };
-    //});
-
 
 })(angular.module('kilroe'));
-//})(angular.module('kilroe'), jQuery);

@@ -50,8 +50,6 @@
             $scope.toggleText = $scope.toggle ? 'Past Shows' : 'Hide Past Shows';
         });
 
-
     });
-
 
 })(angular.module('kilroe'));

@@ -13,7 +13,6 @@
 
         $scope.catalog = $firebaseArray(Ref.child('catalog'));
 
-
         $scope.addSong = function (newSong) {
 
             // Add song to Firebase

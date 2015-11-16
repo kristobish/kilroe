@@ -66,13 +66,11 @@
 
 </header>
 
-
-    <div id="container" ng-view="" autoscroll="true" class="main-view"></div>
-
+<main id="container" ng-view="" autoscroll="true" class="main-view"></main>
 
 <footer data-ng-controller="AudioCtrl">
     <sound-manager></sound-manager>
-    <div class="audio-player-controls">
+    <div audio-player-controls class="audio-player-controls">
         <div class="col-sm-5 col-xs-11">
             <i class="fa fa-play fa-lg play-all" play-all="songs" repeat-music></i>
             <i class="fa fa-play fa-lg play" play-music></i>
@@ -94,8 +92,6 @@
 </footer>
 
 <div scroll-to-top=""></div>
-
-
 
 <!-- build:js(.) js/vendor.js -->
 <!-- bower:js -->
@@ -138,7 +134,7 @@
 <!-- build:js({.tmp,app}) js/js.js -->
 <script src="/js/google_analytics.js"></script>
 <script src="/js/app.js"></script>
-<script src="/js/config.js"></script>
+<script src="/js/configs.js"></script>
 <script src="/js/routes.js"></script>
 <script src="/js/angularfire/config.js"></script>
 <script src="/js/angularfire/firebase.ref.js"></script>
@@ -151,10 +147,10 @@
 <script src="/js/controllers/audio_controller.js"></script>
 <script src="/js/filters/date_format_filter.js"></script>
 <script src="/js/directives/scroll_to_top_directive.js"></script>
+<script src="/js/directives/audio_player_controls_directive.js"></script>
+<script src="/js/directives/youtube_directive.js"></script>
 
 <!-- endbuild -->
-
-
 
 </body>
 </html>

@@ -1,35 +1,13 @@
-<style>
-    .my-gallery {
-        width: 100%;
-        float: left;
-    }
-    .my-gallery img {
-        width: 100%;
-        height: auto;
-    }
-    .my-gallery figure {
-        display: block;
-        float: left;
-        margin: 0 5px 5px 0;
-        width: 150px;
-    }
-    .my-gallery figcaption {
-        display: none;
-    }
-</style>
-
-
-<div data-ng-controller="PhotoCatalogCtrl" class="photos-container">
+<section data-ng-controller="PhotoCatalogCtrl" class="photos-container">
     <h1 class="page-title-photos"><i class="fa fa-arrows"></i> Photos</h1>
-    <div class="photo-button-group">
 
+    <div class="photo-button-group">
         <div class="btn-group select-photos">
             <button type="button" class="btn dropdown-toggle photo-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" uib-dropdown-toggle>2011 <i class="fa fa-caret-down"></i></button>
             <ul class="dropdown-menu">
                 <li><a href="#/photos" data-ng-click="filters = {date: '6-10-2011'}">BSSC Cruise 6/10/2011</a></li>
             </ul>
         </div>
-
         <div class="btn-group select-photos">
             <button type="button" class="btn dropdown-toggle photo-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2010 <i class="fa fa-caret-down"></i></button>
             <ul class="dropdown-menu dropdown-menu-right">
@@ -38,7 +16,6 @@
                 <li><a href="#/photos" data-ng-click="filters = {date: '2-10-2010'}">Matterhorn 2/10/2010</a></li>
             </ul>
         </div>
-
         <div class="btn-group select-photos">
             <button type="button" class="btn dropdown-toggle photo-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2009 <i class="fa fa-caret-down"></i></button>
             <ul class="dropdown-menu dropdown-menu-center">
@@ -50,18 +27,11 @@
                 <li><a href="#/photos" data-ng-click="filters = {date: '4-11-2009'}">Basta Bar Apr/Jun 2009</a></li>
             </ul>
         </div>
-
     </div>
 
-    <!--data-ng-href="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"
-        alt="{{photo.altName}} {{photo.date}}"
-        -->
-
     <ul class="masonry-container grid" masonry>
-        <!--<div class="fancybox-loading-icon"><i class="fa fa-spinner fa-pulse fa-3x"></i></div>-->
         <li class="masonry-brick" ng-repeat="photo in photos | filter:filters">
             <a data-ng-click="openLightboxModal($index)"
-               rel="{{photo.date}}"
                class="mouseover-darken-photo">
                 <img data-ng-src="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"
                      class="img-thumbnail" />
@@ -69,19 +39,15 @@
         </li>
     </ul>
 
+</section>
 
-
-<div class="scrolling-bg color-5" data-ng-controller="SocialMediaCtrl">
+<section class="scrolling-bg color-5" data-ng-controller="SocialMediaCtrl">
     <div class="container social-media-footer">
         <div ng-repeat="icon in socialMediaIcons" class="social-media-footer-icon">
             <a data-ng-href="https://{{icon.app}}.com/{{icon.userName}}" target="_blank"><i class="fa fa-{{icon.app}} fa-2x"></i></a>
         </div>
     </div>
-</div>
-
-
-
-</div>
+</section>
 
 <script>
 //closes dropdown on mobile touch

@@ -1,4 +1,4 @@
-<div data-ng-controller="VideoCatalogCtrl" class="video-container">
+<section data-ng-controller="VideoCatalogCtrl" class="video-container">
     <div class="youtube-container">
         <h1 class="page-title-video"><i class="fa fa-arrows"></i> Video</h1>
         <div class="youtube-container" ng-repeat="video in videos">
@@ -6,12 +6,12 @@
             <div class="youtube-video" youtube="{{video.youtubeId}}"></div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="scrolling-bg color-5" data-ng-controller="SocialMediaCtrl">
+<section class="scrolling-bg color-5" data-ng-controller="SocialMediaCtrl">
     <div class="container social-media-footer">
         <div ng-repeat="icon in socialMediaIcons" class="social-media-footer-icon">
             <a data-ng-href="https://{{icon.app}}.com/{{icon.userName}}" target="_blank"><i class="fa fa-{{icon.app}} fa-2x"></i></a>
         </div>
     </div>
-</div>
+</section>
