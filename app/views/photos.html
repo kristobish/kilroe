@@ -30,7 +30,7 @@
     </div>
 
     <ul class="masonry-container grid" masonry>
-        <li class="masonry-brick" ng-repeat="photo in photos | filter:filters">
+        <li class="masonry-brick" ng-repeat="photo in photos | filter:filters as filteredPhotos">
             <a data-ng-click="openLightboxModal($index)"
                class="mouseover-darken-photo">
                 <img data-ng-src="/images/photos/{{photo.venue}}/{{photo.date}}/{{photo.fileName}}.jpg"
@@ -41,10 +41,10 @@
 
 </section>
 
-<section class="scrolling-bg color-5" data-ng-controller="SocialMediaCtrl">
+<section class="scrolling-bg social-media-icons-bg" data-ng-controller="SocialMediaCtrl">
     <div class="container social-media-footer">
-        <div ng-repeat="icon in socialMediaIcons" class="social-media-footer-icon">
-            <a data-ng-href="https://{{icon.app}}.com/{{icon.userName}}" target="_blank"><i class="fa fa-{{icon.app}} fa-2x"></i></a>
+        <div ng-repeat="icon in socialMediaIcons" class="social-media-footer-icon-container">
+            <a class="social-media-footer-icon" data-ng-href="https://{{icon.app}}.com/{{icon.userName}}" target="_blank"><i class="fa fa-{{icon.app}} fa-2x"></i></a>
         </div>
     </div>
 </section>

@@ -8,10 +8,10 @@
     </div>
 </section>
 
-<section class="scrolling-bg color-5" data-ng-controller="SocialMediaCtrl">
+<section class="scrolling-bg social-media-icons-bg" data-ng-controller="SocialMediaCtrl">
     <div class="container social-media-footer">
-        <div ng-repeat="icon in socialMediaIcons" class="social-media-footer-icon">
-            <a data-ng-href="https://{{icon.app}}.com/{{icon.userName}}" target="_blank"><i class="fa fa-{{icon.app}} fa-2x"></i></a>
+        <div ng-repeat="icon in socialMediaIcons" class="social-media-footer-icon-container">
+            <a class="social-media-footer-icon" data-ng-href="https://{{icon.app}}.com/{{icon.userName}}" target="_blank"><i class="fa fa-{{icon.app}} fa-2x"></i></a>
         </div>
     </div>
 </section>

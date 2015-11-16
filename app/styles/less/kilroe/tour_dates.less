@@ -54,9 +54,7 @@ ul.tour-date {
 
 .tour-date-past {
     font-size: 16px;
-    column-count: 1;
-    column-break-inside: avoid;
-    text-align: center;
+    .column-centered;
 
     @media @tablet {
         column-count: 2;
@@ -76,9 +74,9 @@ ul.tour-date {
     cursor: pointer;
     margin-top: 20px;
     text-align: center;
-    transition: @link-rollover;
+    transition: @link-hover-animation;
 
     &:hover {
-        color: @link-hover-color;
+        color: @link-hover-gray;
     }
 }

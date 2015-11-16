@@ -14,24 +14,24 @@ footer {
 .audio-player-controls {
     width: 95%;
     margin: 6px auto 0;
-    color: #999;
+    color: @link-hover-gray;
     text-align: left;
 
     @media @desktop-wide {
         width: 75%;
     }
 
-    i {
+    .audio-player-icon {
         cursor: pointer;
         padding-right: 10px;
-        transition: @link-rollover;
+        transition: @link-hover-animation;
     }
 
-    i:hover {
+    .audio-player-icon:hover {
         color: @main-text-color;
     }
 
-    span {
+    .audio-player-text {
         padding-right: 10px;
     }
 }
@@ -43,7 +43,7 @@ footer {
 .seekBase {
   height: 4px;
   width: 75%;
-  border: 1px solid #cccccc;
+  border: 1px solid @link-hover-gray;
   margin-top: 9px;
 
   @media @tablet {
@@ -54,5 +54,5 @@ footer {
 .seekLoad {
     height: 2px;
     width: 0;
-    background-color: #E0EAF1;
+    background-color: @main-text-color;
 }

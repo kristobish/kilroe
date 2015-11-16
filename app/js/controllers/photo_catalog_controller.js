@@ -41,9 +41,11 @@
             $scope.opened = true;
         };
 
+        //Lightbox
         $scope.openLightboxModal = function (index) {
-            Lightbox.openModal($scope.photos, index);
+            Lightbox.openModal($scope.filteredPhotos, index);
         };
+
     });
 
 

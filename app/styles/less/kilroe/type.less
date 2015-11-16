@@ -19,19 +19,19 @@ body {
 
 a {
     color: @main-text-color;
-    transition: @link-rollover;
+    transition: @link-hover-animation;
 
     &:hover,
     &:active,
     &:focus {
-        color: @link-hover-color;
+        color: @link-hover-gray;
         text-decoration: none;
     }
 }
 
 .btn:active,
 .btn:focus {
-    color: @link-hover-color;
+    color: @link-hover-gray;
     text-decoration: none;
     outline: none;
 }
@@ -49,7 +49,7 @@ li {
     margin-bottom: 20px;
     background: rgba(255, 255, 255, 0.3);
     color: #fff;
-    transition: @link-rollover;
+    transition: @link-hover-animation;
 
     &:hover {
         background: rgba(255, 255, 255, 0.5);

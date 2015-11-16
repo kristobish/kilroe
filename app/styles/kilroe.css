@@ -1,3 +1,8 @@
+.column-centered {
+  column-count: 1;
+  column-break-inside: avoid;
+  text-align: center;
+}
 @font-face {
   font-family: 'abite';
   src: url('/fonts/abite.woff') format('woff');
@@ -88,75 +93,58 @@ li {
     background-attachment: fixed;
   }
 }
-.fixed-bg h1,
-.fixed-bg h2 {
-  text-align: center;
-  font-size: 1.875rem;
-  text-shadow: 2px 2px 8px #000000;
-  color: white;
-  font-size: 30px;
-}
-.fixed-bg h1 em,
-.fixed-bg h2 em {
-  font-size: 22px;
-  display: block;
-}
-@media only screen and (min-width : 768px) {
-  .fixed-bg h1,
-  .fixed-bg h2 {
-    font-size: 36px;
-  }
-  .fixed-bg h1 em,
-  .fixed-bg h2 em {
-    font-size: 28px;
-    display: block;
-  }
-}
-@media only screen and (min-width : 1200px) {
-  .fixed-bg h1,
-  .fixed-bg h2 {
-    font-size: 48px;
-    font-weight: 300;
-    line-height: 52px;
-  }
-  .fixed-bg h1 em,
-  .fixed-bg h2 em {
-    font-size: 28px;
-    display: block;
-  }
-}
-.fixed-bg h2 {
+.fixed-bg h1 {
   position: absolute;
   left: 50%;
   top: 50%;
   bottom: auto;
   right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   width: 80%;
   max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 2px 2px 8px #000000;
+  color: #fff;
+}
+.fixed-bg h1 em {
+  font-size: 22px;
+  display: block;
 }
 @media only screen and (min-width : 768px) {
-  .fixed-bg h2 {
+  .fixed-bg h1 {
+    font-size: 36px;
     width: 60%;
   }
+  .fixed-bg h1 em {
+    font-size: 28px;
+    display: block;
+  }
 }
-.fixed-bg.bg-1 {
+@media only screen and (min-width : 1200px) {
+  .fixed-bg h1 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52px;
+  }
+  .fixed-bg h1 em {
+    font-size: 28px;
+    display: block;
+  }
+}
+.fixed-bg.bg-quote1 {
   background-image: url("/images/backgrounds/home_bg1.jpg");
 }
-.fixed-bg.bg-2 {
+.fixed-bg.bg-quote2 {
   background-image: url("/images/backgrounds/home_bg2.jpg");
 }
-.fixed-bg.bg-3 {
+.fixed-bg.bg-quote3 {
   background-image: url("/images/backgrounds/home_bg3.jpg");
 }
-.fixed-bg.bg-4 {
+.fixed-bg.bg-quote4 {
   background-image: url("/images/backgrounds/home_bg4.jpg");
 }
-.fixed-bg.bg-5 {
+.fixed-bg.bg-quote5 {
   background-image: url("/images/backgrounds/home_bg5.jpg");
 }
 .scrolling-bg {
@@ -182,24 +170,24 @@ li {
     font-weight: 300;
   }
 }
-.scrolling-bg.color-1 {
+.scrolling-bg.news-bg {
   background-image: url("/images/backgrounds/scroll_bg1.jpg");
   color: #eeeeee;
 }
-.scrolling-bg.color-2 {
+.scrolling-bg.tour-bg {
   background-image: url("/images/backgrounds/scroll_bg2.jpg");
   color: #eeeeee;
   min-height: 0;
 }
-.scrolling-bg.color-3 {
+.scrolling-bg.band-bg {
   background-image: url("/images/backgrounds/scroll_bg3.jpg");
   color: #eeeeee;
 }
-.scrolling-bg.color-4 {
+.scrolling-bg.booking-bg {
   background-image: url("/images/backgrounds/scroll_bg4.jpg");
   color: #eeeeee;
 }
-.scrolling-bg.color-5 {
+.scrolling-bg.social-media-icons-bg {
   width: 100%;
   min-height: 0;
   height: 120px;
@@ -368,19 +356,19 @@ li {
 .social-media-footer {
   text-align: center;
 }
-.social-media-footer .social-media-footer-icon {
+.social-media-footer .social-media-footer-icon-container {
   display: inline !important;
 }
-.social-media-footer a {
+.social-media-footer .social-media-footer-icon {
   padding: 0 14px;
-  color: #999;
+  color: #bfbfbf;
 }
 @media only screen and (min-width : 768px) {
-  .social-media-footer a {
+  .social-media-footer .social-media-footer-icon {
     padding: 0 30px;
   }
 }
-.social-media-footer a:hover {
+.social-media-footer .social-media-footer-icon:hover {
   color: #fff;
 }
 footer {
@@ -398,7 +386,7 @@ footer {
 .audio-player-controls {
   width: 95%;
   margin: 6px auto 0;
-  color: #999;
+  color: #bfbfbf;
   text-align: left;
 }
 @media only screen and (min-width : 1200px) {
@@ -406,15 +394,15 @@ footer {
     width: 75%;
   }
 }
-.audio-player-controls i {
+.audio-player-controls .audio-player-icon {
   cursor: pointer;
   padding-right: 10px;
   transition: all 0.3s linear;
 }
-.audio-player-controls i:hover {
+.audio-player-controls .audio-player-icon:hover {
   color: #eeeeee;
 }
-.audio-player-controls span {
+.audio-player-controls .audio-player-text {
   padding-right: 10px;
 }
 .play,
@@ -425,7 +413,7 @@ footer {
 .seekBase {
   height: 4px;
   width: 75%;
-  border: 1px solid #cccccc;
+  border: 1px solid #bfbfbf;
   margin-top: 9px;
 }
 @media only screen and (min-width : 768px) {
@@ -436,7 +424,7 @@ footer {
 .seekLoad {
   height: 2px;
   width: 0;
-  background-color: #E0EAF1;
+  background-color: #eeeeee;
 }
 .news-container {
   background: url("/images/backgrounds/news_bg.jpg") no-repeat center center fixed;
@@ -707,7 +695,6 @@ ul.tour-date li {
 .booking-info {
   font-size: 22px;
   padding: 10px;
-  background: #999;
   margin-top: 20px;
   margin-bottom: 30px;
   background: rgba(153, 153, 153, 0.3);

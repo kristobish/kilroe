@@ -1,11 +1,10 @@
 .booking-info {
     font-size: 22px;
     padding: 10px;
-    background: #999;
     margin-top: 20px;
     margin-bottom: 30px;
     background: rgba(153, 153, 153, 0.3);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: @main-shadow;
     text-align: center;
 
     a {
@@ -20,9 +19,7 @@
 }
 
 .song-list {
-    column-count: 1;
-    column-break-inside: avoid;
-    text-align: center;
+    .column-centered;
 
     @media @tablet {
         column-count: 2;
