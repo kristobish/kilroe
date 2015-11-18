@@ -41,6 +41,9 @@
             $scope.opened = true;
         };
 
+        //sets photos page default photos
+        $scope.filters = {date: '6-10-2011'};
+
         //Lightbox
         $scope.openLightboxModal = function (index) {
             Lightbox.openModal($scope.filteredPhotos, index);
