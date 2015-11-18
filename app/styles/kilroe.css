@@ -64,11 +64,6 @@ li {
     max-width: 992px;
   }
 }
-@media only screen and (min-width : 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-}
 .container::after {
   /* clearfix */
   content: '';
@@ -440,6 +435,7 @@ footer {
   padding: 80px 0 100px;
   margin: 0 auto;
   width: 70%;
+  max-width: 992px;
   color: #eeeeee;
   font-size: 20px;
 }
