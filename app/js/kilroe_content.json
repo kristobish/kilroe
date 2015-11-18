@@ -192,931 +192,937 @@
   "gigs" : {
     "-K1GwYeCzIKLCOUjh63W" : {
       "date" : "2014/01/11",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "-K1S0nEAu8RQSLGU0DHB" : {
       "date" : "2014/09/20",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "-K1jl9JQOSzX2UorOljz" : {
       "date" : "2016/02/26",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hooley House"
     },
     "-K1jlGPZWMg05QgWQs8A" : {
       "date" : "2016/03/26",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hooley House"
     },
     "-K1jlQ39hTYvQ8xL2Kfy" : {
       "date" : "2016/06/18",
-      "location" : "Boston, MA",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hooley House"
+    },
+    "-K3D6hCDyuZs93r14zpD" : {
+      "date" : "2016/04/30",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hooley House"
     },
     "gig1" : {
       "date" : "2014/03/15",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig10" : {
       "date" : "2012/09/01",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig100" : {
       "date" : "2010/09/04",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig101" : {
       "date" : "2010/08/28",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig102" : {
       "date" : "2010/08/27",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig103" : {
       "date" : "2010/08/20",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig104" : {
       "date" : "2010/08/19",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig105" : {
       "date" : "2010/08/14",
-      "location" : "Quincy, MA",
+      "location" : "Quincy",
       "time" : "10pm",
       "venue" : "Marina Bay"
     },
     "gig106" : {
       "date" : "2010/08/13",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig107" : {
       "date" : "2010/07/31",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig108" : {
       "date" : "2010/07/30",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig109" : {
       "date" : "2010/07/29",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig11" : {
       "date" : "2012/08/25",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig110" : {
       "date" : "2010/07/17",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig111" : {
       "date" : "2010/07/15",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig112" : {
       "date" : "2010/07/09",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig113" : {
       "date" : "2010/07/02",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Lansdowne Pub"
     },
     "gig114" : {
       "date" : "2010/07/01",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig115" : {
       "date" : "2010/06/25",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig116" : {
       "date" : "2010/06/24",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig117" : {
       "date" : "2010/06/12",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig118" : {
       "date" : "2010/06/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig119" : {
       "date" : "2010/06/04",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig12" : {
       "date" : "2012/08/11",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig120" : {
       "date" : "2010/05/27",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig121" : {
       "date" : "2010/05/22",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig122" : {
       "date" : "2010/05/20",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig123" : {
       "date" : "2010/05/14",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig124" : {
       "date" : "2010/05/13",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig125" : {
       "date" : "2010/05/07",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Lansdowne Pub"
     },
     "gig126" : {
       "date" : "2010/05/06",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig127" : {
       "date" : "2010/05/01",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig128" : {
       "date" : "2010/04/29",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig129" : {
       "date" : "2010/04/28",
-      "location" : "Wellesley, MA",
+      "location" : "Wellesley",
       "time" : "9:30pm",
       "venue" : "Babson College"
     },
     "gig13" : {
       "date" : "2012/07/21",
-      "location" : "Mansfield, MA",
+      "location" : "Mansfield",
       "time" : "3pm",
       "venue" : "Yalestock"
     },
     "gig130" : {
       "date" : "2010/04/22",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig131" : {
       "date" : "2010/04/17",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig132" : {
       "date" : "2010/04/16",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig133" : {
       "date" : "2010/04/15",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig134" : {
       "date" : "2010/04/08",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig135" : {
       "date" : "2010/04/01",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig136" : {
       "date" : "2010/03/27",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig137" : {
       "date" : "2010/03/18",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig138" : {
       "date" : "2010/03/13",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig139" : {
       "date" : "2010/03/04",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig14" : {
       "date" : "2012/07/20",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig140" : {
       "date" : "2010/02/25",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig141" : {
       "date" : "2010/02/20",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig142" : {
       "date" : "2010/02/16",
-      "location" : "Sunday River, ME",
+      "location" : "Sunday River",
       "time" : "10pm",
       "venue" : "Matterhorn"
     },
     "gig143" : {
       "date" : "2010/02/12",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig144" : {
       "date" : "2010/02/06",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig145" : {
       "date" : "2010/02/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Grand Canal"
     },
     "gig146" : {
       "date" : "2010/01/23",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Grand Canal"
     },
     "gig147" : {
       "date" : "2010/01/21",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig148" : {
       "date" : "2010/01/16",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig149" : {
       "date" : "2010/01/07",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig15" : {
       "date" : "2012/07/07",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig150" : {
       "date" : "2010/01/02",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig151" : {
       "date" : "2009/12/17",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig152" : {
       "date" : "2009/12/12",
-      "location" : "Sunday River, ME",
+      "location" : "Sunday River",
       "time" : "9:30pm",
       "venue" : "Matterhorn"
     },
     "gig16" : {
       "date" : "2012/07/06",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Lansdowne Pub"
     },
     "gig17" : {
       "date" : "2012/06/22",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig18" : {
       "date" : "2012/06/02",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig19" : {
       "date" : "2012/05/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig20" : {
       "date" : "2012/04/20",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig21" : {
       "date" : "2012/04/13",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig22" : {
       "date" : "2012/03/17",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig23" : {
       "date" : "2012/03/16",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "The Tap"
     },
     "gig24" : {
       "date" : "2011/09/17",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig25" : {
       "date" : "2011/09/10",
-      "location" : "Newport, RI",
+      "location" : "Newport",
       "time" : "10pm",
       "venue" : "One Pelham East"
     },
     "gig26" : {
       "date" : "2011/08/13",
-      "location" : "Newport, RI",
+      "location" : "Newport",
       "time" : "10pm",
       "venue" : "One Pelham East"
     },
     "gig27" : {
       "date" : "2011/08/06",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig28" : {
       "date" : "2011/08/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig29" : {
       "date" : "2011/07/23",
-      "location" : "Mansfield, MA",
+      "location" : "Mansfield",
       "time" : "3pm",
       "venue" : "Yalestock"
     },
     "gig3" : {
       "date" : "2013/01/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig30" : {
       "date" : "2011/07/09",
-      "location" : "Newport, RI",
+      "location" : "Newport",
       "time" : "10pm",
       "venue" : "One Pelham East"
     },
     "gig31" : {
       "date" : "2011/06/25",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Whiskey Priest"
     },
     "gig32" : {
       "date" : "2011/06/24",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig33" : {
       "date" : "2011/06/18",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig34" : {
       "date" : "2011/06/11",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig35" : {
       "date" : "2011/06/10",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "8pm",
       "venue" : "BSSC Cruise"
     },
     "gig36" : {
       "date" : "2011/05/21",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig37" : {
       "date" : "2011/05/14",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig38" : {
       "date" : "2011/04/30",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig39" : {
       "date" : "2011/04/23",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig4" : {
       "date" : "2012/12/01",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hooley House"
     },
     "gig40" : {
       "date" : "2011/04/22",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig41" : {
       "date" : "2010/12/31",
-      "location" : "Sunday River, ME",
+      "location" : "Sunday River",
       "time" : "9pm",
       "venue" : "Matterhorn"
     },
     "gig42" : {
       "date" : "2011/04/16",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Whiskey Priest"
     },
     "gig43" : {
       "date" : "2011/04/15",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig44" : {
       "date" : "2011/03/25",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig45" : {
       "date" : "2011/03/17",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig46" : {
       "date" : "2011/03/12",
-      "location" : "Sunday River, ME",
+      "location" : "Sunday River",
       "time" : "9pm",
       "venue" : "Matterhorn"
     },
     "gig47" : {
       "date" : "2011/03/11",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig48" : {
       "date" : "2011/03/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Whiskey Priest"
     },
     "gig49" : {
       "date" : "2011/02/26",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig5" : {
       "date" : "2012/11/16",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hooley House"
     },
     "gig50" : {
       "date" : "2011/02/25",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig51" : {
       "date" : "2011/02/12",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's (#100)"
     },
     "gig52" : {
       "date" : "2011/02/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Lansdowne Pub"
     },
     "gig53" : {
       "date" : "2011/01/22",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig54" : {
       "date" : "2011/01/21",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig55" : {
       "date" : "2011/01/01",
-      "location" : "Sunday River, ME",
+      "location" : "Sunday River",
       "time" : "9pm",
       "venue" : "Matterhorn"
     },
     "gig56" : {
       "date" : "2010/12/18",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig57" : {
       "date" : "2014/05/17",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig58" : {
       "date" : "2014/06/21",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig6" : {
       "date" : "2012/11/02",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig60" : {
       "date" : "2009/12/31",
-      "location" : "Sunday River, ME",
+      "location" : "Sunday River",
       "time" : "9pm",
       "venue" : "Matterhorn"
     },
     "gig61" : {
       "date" : "2009/12/10",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig62" : {
       "date" : "2009/12/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig63" : {
       "date" : "2009/12/03",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig64" : {
       "date" : "2009/11/19",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig65" : {
       "date" : "2009/11/13",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig66" : {
       "date" : "2009/11/12",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig67" : {
       "date" : "2009/11/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig68" : {
       "date" : "2009/10/31",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig69" : {
       "date" : "2009/10/29",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig7" : {
       "date" : "2012/10/26",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig70" : {
       "date" : "2009/10/22",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig71" : {
       "date" : "2009/10/15",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig72" : {
       "date" : "2009/10/08",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig73" : {
       "date" : "2009/10/02",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig74" : {
       "date" : "2009/10/01",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig75" : {
       "date" : "2009/09/25",
-      "location" : "Quincy, MA",
+      "location" : "Quincy",
       "time" : "10pm",
       "venue" : "Beachcomber"
     },
     "gig76" : {
       "date" : "2009/09/24",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig77" : {
       "date" : "2009/09/18",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig78" : {
       "date" : "2009/09/17",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Paddy O's"
     },
     "gig79" : {
       "date" : "2009/09/12",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig8" : {
       "date" : "2012/10/05",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Hooley House"
     },
     "gig80" : {
       "date" : "2009/09/10",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Bell In Hand"
     },
     "gig81" : {
       "date" : "2009/08/15",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Genck Party"
     },
     "gig82" : {
       "date" : "2009/07/25",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Green Dragon"
     },
     "gig83" : {
       "date" : "2009/07/23",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Rev. Rock Bar"
     },
     "gig84" : {
       "date" : "2009/07/18",
-      "location" : "Quincy, MA",
+      "location" : "Quincy",
       "time" : "10pm",
       "venue" : "Rally in the Alley"
     },
     "gig85" : {
       "date" : "2009/07/10",
-      "location" : "Weymouth, MA",
+      "location" : "Weymouth",
       "time" : "10pm",
       "venue" : "Basta Bar"
     },
     "gig86" : {
       "date" : "2009/07/09",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Bell In Hand"
     },
     "gig87" : {
       "date" : "2009/06/26",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Cask 'N Flagon"
     },
     "gig88" : {
       "date" : "2009/06/25",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "The Tap"
     },
     "gig89" : {
       "date" : "2009/06/13",
-      "location" : "Weymouth, MA",
+      "location" : "Weymouth",
       "time" : "10pm",
       "venue" : "Basta Bar"
     },
     "gig9" : {
       "date" : "2012/09/14",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig90" : {
       "date" : "2009/06/12",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Green Dragon"
     },
     "gig91" : {
       "date" : "2009/04/11",
-      "location" : "Weymouth, MA",
+      "location" : "Weymouth",
       "time" : "10pm",
       "venue" : "Basta Bar"
     },
     "gig92" : {
       "date" : "2010/12/10",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig93" : {
       "date" : "2010/12/03",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Lansdowne Pub"
     },
     "gig94" : {
       "date" : "2010/11/20",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
     "gig95" : {
       "date" : "2010/10/15",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Green Dragon"
     },
     "gig96" : {
       "date" : "2010/10/02",
-      "location" : "Quincy, MA",
+      "location" : "Quincy",
       "time" : "10pm",
       "venue" : "Club 58"
     },
     "gig97" : {
       "date" : "2010/10/01",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "910pm",
       "venue" : "Lansdowne Pub"
     },
     "gig98" : {
       "date" : "2010/09/25",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "10pm",
       "venue" : "Grand Canal"
     },
     "gig99" : {
       "date" : "2010/09/18",
-      "location" : "Boston, MA",
+      "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     }

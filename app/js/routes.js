@@ -22,26 +22,6 @@
                 controller: 'NewsCtrl'
             })
 
-            .when('/admin', {
-                templateUrl: '../../views/admin/index.html',
-                controller: 'TourCtrl'
-            })
-
-            .when('/admin', {
-                templateUrl: '../../views/admin/index.html',
-                controller: 'SongCatalogCtrl'
-            })
-
-            .when('/admin', {
-                templateUrl: '../../views/admin/index.html',
-                controller: 'PhotoCatalogCtrl'
-            })
-
-            .when('/admin', {
-                templateUrl: '../../views/admin/index.html',
-                controller: 'VideoCatalogCtrl'
-            })
-
             .otherwise({redirectTo: '/'});
     }]);
 
