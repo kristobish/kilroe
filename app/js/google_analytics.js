@@ -1,7 +1,7 @@
 'use strict';
 
 var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-64928538-1']);
+_gaq.push(['_setAccount', 'UA-64928538-2']);
 _gaq.push(['_trackPageview']);
 
 (function() {
@@ -14,10 +14,10 @@ $(function(){
     $('.ga-home').click(function(){
         _gaq.push(['_trackEvent', 'Home-Nav-Button', 'clicked']);
     });
-    $('.ga-tour').click(function(){
-        _gaq.push(['_trackEvent', 'Tour-Nav-Button', 'clicked']);
+    $('.ga-shows').click(function(){
+        _gaq.push(['_trackEvent', 'Shows-Nav-Button', 'clicked']);
     });
-    $('.ga-about').click(function(){
+    $('.ga-band').click(function(){
         _gaq.push(['_trackEvent', 'About-Nav-Button', 'clicked']);
     });
     $('.ga-video').click(function(){
@@ -26,7 +26,7 @@ $(function(){
     $('.ga-photos').click(function(){
         _gaq.push(['_trackEvent', 'Photos-Nav-Button', 'clicked']);
     });
-    $('.ga-contact').click(function(){
-        _gaq.push(['_trackEvent', 'Contact-Nav-Button', 'clicked']);
+    $('.ga-booking').click(function(){
+        _gaq.push(['_trackEvent', 'Booking-Nav-Button', 'clicked']);
     });
 });
