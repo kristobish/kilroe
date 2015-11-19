@@ -348,6 +348,9 @@ li {
   background: #fff;
   color: #333;
 }
+.pushy-active .site-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .social-media-footer {
   text-align: center;
 }
