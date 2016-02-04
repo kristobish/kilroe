@@ -17,6 +17,9 @@ $(function(){
     $('.ga-shows').click(function(){
         _gaq.push(['_trackEvent', 'Shows-Nav-Button', 'clicked']);
     });
+    $('.ga-past-shows').click(function(){
+        _gaq.push(['_trackEvent', 'Shows-Past-Button', 'clicked']);
+    });
     $('.ga-band').click(function(){
         _gaq.push(['_trackEvent', 'About-Nav-Button', 'clicked']);
     });
@@ -28,5 +31,11 @@ $(function(){
     });
     $('.ga-booking').click(function(){
         _gaq.push(['_trackEvent', 'Booking-Nav-Button', 'clicked']);
+    });
+    $('.ga-audio-play').click(function(){
+        _gaq.push(['_trackEvent', 'Audio-Play-Button', 'clicked']);
+    });
+    $('.ga-audio-next').click(function(){
+        _gaq.push(['_trackEvent', 'Audio-Next-Button', 'clicked']);
     });
 });
