@@ -1,7 +1,7 @@
 (function (app) {
     'use strict';
 
-    app.config(['$routeProvider', function ($routeProvider) {
+    app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: '../../views/home.html'
@@ -23,6 +23,8 @@
             })
 
             .otherwise({redirectTo: '/'});
+
+            $locationProvider.html5Mode(true);
     }]);
 
 })(angular.module('kilroe'));
