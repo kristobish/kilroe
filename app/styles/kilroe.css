@@ -411,6 +411,7 @@ footer {
   padding-right: 10px;
 }
 .play,
+.forward,
 .pause,
 .mic-off {
   display: none;

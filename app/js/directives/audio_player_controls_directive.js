@@ -13,6 +13,7 @@
                         $('.audio-player-text-static').css('display','none');
                         $('.pause').css('display','inline-block');
                         $('.audio-player-text').css('display','inline-block');
+                        $('.forward').css('display','inline-block');
                     });
                     $('.pause').click(function(){
                         $('.play').css('display','inline-block');
