@@ -22,16 +22,25 @@ a {
     transition: @link-hover-animation;
 
     &:hover,
-    &:active,
-    &:focus {
+    &:active {
         color: @link-hover-gray;
+        text-decoration: none;
+    }
+
+    &:focus {
+        color: @main-text-color;
         text-decoration: none;
     }
 }
 
-.btn:active,
-.btn:focus {
+.btn:active {
     color: @link-hover-gray;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn:focus {
+    color: @main-text-color;
     text-decoration: none;
     outline: none;
 }
