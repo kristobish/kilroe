@@ -26,7 +26,7 @@ a {
 }
 a:hover,
 a:active {
-  color: #bfbfbf;
+  color: #999999;
   text-decoration: none;
 }
 a:focus {
@@ -34,7 +34,7 @@ a:focus {
   text-decoration: none;
 }
 .btn:active {
-  color: #bfbfbf;
+  color: #999999;
   text-decoration: none;
   outline: none;
 }
@@ -338,12 +338,13 @@ li {
   }
 }
 .main-nav a:hover,
-.main-nav a:active,
-.main-nav a:focus {
+.main-nav a:focus,
+.main-nav a.active {
   text-decoration: none;
 }
-.main-nav a:hover {
-  color: #bfbfbf;
+.main-nav a:hover,
+.main-nav a.active {
+  color: #999999;
 }
 @media only screen and (min-width : 768px) {
   .pushy,
@@ -351,7 +352,8 @@ li {
     display: none;
   }
 }
-.pushy a:hover {
+.pushy a:hover,
+.pushy a.active {
   background: #fff;
   color: #333;
 }
@@ -366,7 +368,7 @@ li {
 }
 .social-media-footer .social-media-footer-icon {
   padding: 0 14px;
-  color: #bfbfbf;
+  color: #999999;
 }
 @media only screen and (min-width : 768px) {
   .social-media-footer .social-media-footer-icon {
@@ -392,7 +394,7 @@ footer {
 .audio-player-controls {
   width: 95%;
   margin: 6px auto 0;
-  color: #bfbfbf;
+  color: #999999;
   text-align: left;
 }
 @media only screen and (min-width : 1200px) {
@@ -423,7 +425,7 @@ footer {
 .seekBase {
   height: 4px;
   width: 75%;
-  border: 1px solid #bfbfbf;
+  border: 1px solid #999999;
   margin-top: 7px;
 }
 @media only screen and (min-width : 768px) {
@@ -669,7 +671,7 @@ ul.tour-date li {
   transition: all 0.3s linear;
 }
 .toggle-shows:hover {
-  color: #bfbfbf;
+  color: #999999;
 }
 .band-container {
   text-align: center;
@@ -871,7 +873,7 @@ ul.tour-date li {
   transition: all 0.3s linear;
 }
 .close-photo:hover {
-  color: #bfbfbf;
+  color: #999999;
   opacity: 1;
 }
 .btn-group-photo-nav {
@@ -893,7 +895,7 @@ ul.tour-date li {
 .btn-photo-nav:hover {
   background: transparent;
   border: 0;
-  color: #bfbfbf;
+  color: #999999;
 }
 .btn-photo-nav-left {
   display: none;

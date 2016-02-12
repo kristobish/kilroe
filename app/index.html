@@ -37,26 +37,26 @@
     <div class="logo"><a data-ng-href="/##home" class="ga-home" du-smooth-scroll du-scrollspy>Kilroe</a></div>
 
     <!--Desktop/Tablet Menu-->
-    <nav class="main-nav">
+    <nav class="main-nav" data-ng-controller="NavCtrl">
         <ul>
             <li><a data-ng-href="/##home" class="ga-home" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Home</a></li>
-            <li><a data-ng-href="/##tour" class="ga-shows'" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Shows</a></li>
-            <li><a data-ng-href="/##band" class="ga-band" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Band</a></li>
-            <li><a data-ng-href="/video" class="ga-video"><i class="fa fa-arrows"></i> Video</a></li>
-            <li><a data-ng-href="/photos" class="ga-photos"><i class="fa fa-arrows"></i> Photos</a></li>
-            <li><a data-ng-href="/##booking" class="ga-booking" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Booking</a></li>
+            <li><a data-ng-href="/##tour" data-ng-class="{active:isActive('/##tour')}" class="ga-shows" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Shows</a></li>
+            <li><a data-ng-href="/##band" data-ng-class="{active:isActive('/##band')}" class="ga-band" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Band</a></li>
+            <li><a data-ng-href="/video" data-ng-class="{active:isActive('/video')}" class="ga-video"><i class="fa fa-arrows"></i> Video</a></li>
+            <li><a data-ng-href="/photos" data-ng-class="{active:isActive('/photos')}" class="ga-photos"><i class="fa fa-arrows"></i> Photos</a></li>
+            <li><a data-ng-href="/##booking" data-ng-class="{active:isActive('/##booking')}" class="ga-booking" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Booking</a></li>
         </ul>
     </nav>
 
     <!-- Pushy Phone Menu -->
-    <nav class="pushy pushy-left">
+    <nav class="pushy pushy-left" data-ng-controller="NavCtrl">
         <ul>
             <li><a data-ng-href="/##home" class="ga-home" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Home</a></li>
-            <li><a data-ng-href="/##tour" class="ga-shows'" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Shows</a></li>
-            <li><a data-ng-href="/##band" class="ga-band" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Band</a></li>
-            <li><a data-ng-href="/video" class="ga-video"><i class="fa fa-arrows"></i> Video</a></li>
-            <li><a data-ng-href="/photos" class="ga-photos"><i class="fa fa-arrows"></i> Photos</a></li>
-            <li><a data-ng-href="/##booking" class="ga-booking" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Booking</a></li>
+            <li><a data-ng-href="/##tour" data-ng-class="{active:isActive('/##tour')}" class="ga-shows" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Shows</a></li>
+            <li><a data-ng-href="/##band" data-ng-class="{active:isActive('/##band')}" class="ga-band" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Band</a></li>
+            <li><a data-ng-href="/video" data-ng-class="{active:isActive('/video')}" class="ga-video"><i class="fa fa-arrows"></i> Video</a></li>
+            <li><a data-ng-href="/photos" data-ng-class="{active:isActive('/photos')}" class="ga-photos"><i class="fa fa-arrows"></i> Photos</a></li>
+            <li><a data-ng-href="/##booking" data-ng-class="{active:isActive('/##booking')}" class="ga-booking" du-smooth-scroll du-scrollspy><i class="fa fa-arrows"></i> Booking</a></li>
         </ul>
     </nav>
 
@@ -141,6 +141,7 @@
 <script src="/js/routes.js"></script>
 <script src="/js/angularfire/config.js"></script>
 <script src="/js/angularfire/firebase.ref.js"></script>
+<script src="/js/controllers/nav_controller.js"></script>
 <script src="/js/controllers/tour_controller.js"></script>
 <script src="/js/controllers/news_controller.js"></script>
 <script src="/js/controllers/band_controller.js"></script>

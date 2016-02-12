@@ -80,7 +80,6 @@
         width: auto;
         line-height: 70px;
         transform: none;
-
     }
 
     li {
@@ -105,12 +104,13 @@
         }
 
         &:hover,
-        &:active,
-        &:focus {
+        &:focus,
+        &.active {
             text-decoration: none;
         }
 
-        &:hover {
+        &:hover,
+        &.active {
             color: @link-hover-gray;
         }
     }
@@ -123,7 +123,8 @@
     }
 }
 
-.pushy a:hover {
+.pushy a:hover,
+.pushy a.active {
     background: #fff;
     color: #333;
 }
