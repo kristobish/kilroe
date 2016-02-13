@@ -123,10 +123,14 @@
     }
 }
 
-.pushy a:hover,
-.pushy a.active {
-    background: #fff;
-    color: #333;
+.pushy {
+    a {
+        &:hover,
+        &.active {
+            background: #fff;
+            color: #333;
+        }
+    }
 }
 
 .pushy-active .site-overlay {
