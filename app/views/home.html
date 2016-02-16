@@ -4,12 +4,12 @@
     <div class="container">
         <div id="news" data-ng-controller="NewsCtrl">
             <article ng-repeat="article in news | orderBy:'date' | limitTo:-1">
-                <h1 class="page-title-news"><i class="fa fa-arrows"></i> News</h1>
+                <h1 class="page-title-news"><i class="fa fa-newspaper-o"></i> News</h1>
                 <h2 class="news-article-date">{{article.date | dateFormatGigPast}}</h2>
                 <h3 class="news-article-title">{{article.title}}</h3>
                 <p>{{article.article}}</p>
             </article>
-            <a href="/news"><button class="btn btn-main"><i class="fa fa-arrows"></i> More News</button></a>
+            <a href="/news"><button class="btn btn-main"><i class="fa fa-newspaper-o"></i> More News</button></a>
         </div>
 
         <div class="social-media-feeds">
@@ -42,7 +42,7 @@
 
 <section class="scrolling-bg tour-bg" id="tour" class="tour-date-container" data-ng-controller="TourCtrl">
     <article class="container">
-        <h1><i class="fa fa-arrows"></i> Shows</h1>
+        <h1><i class="fa fa-calendar"></i> Shows</h1>
             <ul class="tour-date-header tour-date hidden-xs">
                 <li>Date</li>
                 <li>Venue/Location</li>
@@ -55,7 +55,7 @@
             </ul>
 
         <div class="toggle-shows ga-past-shows" ng-click="isCollapsed = !isCollapsed; toggle = !toggle">
-            <button class="btn btn-main"><i class="fa fa-arrows"></i> {{toggleText}}</button>
+            <button class="btn btn-main"><i class="fa fa-calendar"></i> {{toggleText}}</button>
         </div>
         <div uib-collapse="isCollapsed" class="tour-date-past-container">
             <div class="tour-date-past">
@@ -73,7 +73,7 @@
 
 <section class="scrolling-bg band-bg" id="band">
     <article class="container">
-        <h1><i class="fa fa-arrows"></i> The Band</h1>
+        <h1><i class="fa fa-star"></i> The Band</h1>
         <p>Pearl Jam, Green Day, Foo Fighters, Blink 182. Kilroe is here to hit the stage and dish out all of the best songs from the 80's, 90's and today mixed with a few classics and lots of surprises. You haven't experienced a live show in a local venue like this before as Kilroe energizes crowds from start to finish with their full-on arena rock attitude. The members of Kilroe (Kris Bishop, Rob O'Neill, Mark Donatelli, Jeremy Rosenberger, Chris Romagna) have spent over ten years playing in successful original bands and decided to take their talent and experience to the Boston area and northeast, turning themselves into one of New England's hottest bands.</p>
         <p>You've seen Kilroe in and around Boston at Bell In Hand, Cask 'n Flagon, Grand Canal, Hennessy's, Hooley House, Lansdowne Pub, Whiskey Priest, Green Dragon, Paddy O's, and The Tap. Kilroe has also become a fixture at other New England venues such as the Matterhorn at Sunday River and One Pelham East in Newport, RI. Tired of those same old cover bands that just go through the motions on stage? Kilroe puts on an incredible live show every time out that you'll be telling your friends about the next day.</p>
     </article>
@@ -96,7 +96,7 @@
 
 <section class="scrolling-bg booking-bg" id="booking">
     <article class="container">
-        <h1><i class="fa fa-arrows"></i> Booking</h1>
+        <h1><i class="fa fa-mobile-phone fa-lg"></i> Booking</h1>
         <p>Interested in booking Kilroe? Don't wait. Turn your club, bar, school or private party into a killer rock show. See the full song catalog below.</p>
         <p class="booking-info"><a href="mailto:booking@kilroerock.com">booking@kilroerock.com</a> 617.276.2570</p>
 

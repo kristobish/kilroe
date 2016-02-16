@@ -1,6 +1,6 @@
 <section data-ng-controller="NewsCtrl" class="news-container">
     <div class="article-container">
-        <h1 class="page-title-news"><i class="fa fa-arrows"></i> Old News</h1>
+        <h1 class="page-title-news"><i class="fa fa-newspaper-o"></i> Old News</h1>
         <article class="news-article" ng-repeat="article in news | orderBy:'-date' | limitTo:'Infinity':1">
             <h2 class="news-article-date">{{article.date | dateFormatGigPast}}</h2>
             <h3 class="news-article-title">{{article.title}}</h3>
