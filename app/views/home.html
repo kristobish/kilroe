@@ -1,8 +1,8 @@
 <section id="home" class="fixed-bg bg-quote1"></section>
 
-<section class="scrolling-bg news-bg">
+<section class="scrolling-bg news-bg" id="news">
     <div class="container">
-        <div id="news" data-ng-controller="NewsCtrl">
+        <div data-ng-controller="NewsCtrl">
             <article ng-repeat="article in news | orderBy:'date' | limitTo:-1">
                 <h1 class="page-title-news"><i class="fa fa-newspaper-o"></i> News</h1>
                 <h2 class="news-article-date">{{article.date | dateFormatGigPast}}</h2>
