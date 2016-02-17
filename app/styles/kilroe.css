@@ -242,6 +242,7 @@ li {
 .scroll-top-wrapper i.fa {
   line-height: none;
   padding-right: 0;
+  margin-top: -1px;
 }
 @media only screen and (min-width : 768px) {
   .scroll-top-wrapper i.fa {
@@ -399,14 +400,24 @@ footer {
   box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.75);
 }
 .audio-player-controls {
-  width: 95%;
+  width: 85%;
   margin: 6px auto 0;
-  color: #999999;
+  color: #eeeeee;
   text-align: left;
+}
+@media only screen and (min-width : 768px) {
+  .audio-player-controls {
+    width: 95%;
+  }
+}
+@media only screen and (min-width : 992px) {
+  .audio-player-controls {
+    width: 75%;
+  }
 }
 @media only screen and (min-width : 1200px) {
   .audio-player-controls {
-    width: 75%;
+    width: 60%;
   }
 }
 .audio-player-controls .audio-player-icon {
@@ -415,7 +426,7 @@ footer {
   transition: all 0.3s linear;
 }
 .audio-player-controls .audio-player-icon:hover {
-  color: #eeeeee;
+  color: #999999;
 }
 .audio-player-controls .audio-player-text {
   padding-right: 10px;

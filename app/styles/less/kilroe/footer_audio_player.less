@@ -13,13 +13,21 @@ footer {
 }
 
 .audio-player-controls {
-    width: 95%;
+    width: 85%;
     margin: 6px auto 0;
-    color: @link-hover-gray;
+    color: @main-text-color;
     text-align: left;
 
-    @media @desktop-wide {
+    @media @tablet {
+        width: 95%;
+    }
+
+    @media @desktop {
         width: 75%;
+    }
+
+    @media @desktop-wide {
+        width: 60%;
     }
 
     .audio-player-icon {
@@ -29,7 +37,7 @@ footer {
     }
 
     .audio-player-icon:hover {
-        color: @main-text-color;
+        color: @link-hover-gray;
     }
 
     .audio-player-text {
