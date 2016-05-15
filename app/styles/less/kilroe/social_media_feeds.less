@@ -76,33 +76,13 @@
 
 .instagram-feed {
     position: relative;
-    width: 270px;
-}
-
-.instagram-iframe {
-    width: 220px;
-    height: 435px;
-    border: none;
+    width: 250px;
+    max-height: 240px;
     overflow: hidden;
 
     @media @tablet {
-        display: none;
-    }
-}
-
-
-.instagram-iframe-tablet {
-    width: 330px;
-    height: 330px;
-    border: none;
-    overflow: hidden;
-
-    @media @iphone-retina {
-        display: none;
-    }
-
-    @media @tablet {
-        display: block;
+        width: 300px;
+        max-height: 278px;
     }
 }
 
@@ -119,4 +99,8 @@
         width: 330px;
         height: 330px;
     }
+}
+
+.instagram-feed .powered_by {
+    display: none;
 }
