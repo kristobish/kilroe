@@ -296,7 +296,7 @@ li {
   margin-top: 13px;
   transition: all 0.3s linear;
 }
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 859px) {
   .menu-btn {
     display: none;
   }
@@ -307,7 +307,7 @@ li {
 .main-nav {
   display: none;
 }
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 859px) {
   .main-nav {
     display: block;
     width: auto;
@@ -354,7 +354,7 @@ li {
 .main-nav a.active {
   color: #999999;
 }
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 859px) {
   .pushy,
   .site-overlay {
     display: none;
