@@ -501,22 +501,19 @@ footer {
 }
 .social-media-no-feeds {
   margin-top: 30px;
-  text-align: center;
+  text-align: left;
 }
 @media only screen and (min-width : 768px) {
   .social-media-no-feeds {
     margin-top: 50px;
     text-align: center;
+    width: 100%;
   }
 }
 @media only screen and (min-width : 992px) {
   .social-media-no-feeds {
     margin-left: 3%;
-  }
-}
-@media only screen and (min-width : 1200px) {
-  .social-media-no-feeds {
-    margin-left: 0;
+    width: auto;
   }
 }
 .social-media-no-feeds i {
