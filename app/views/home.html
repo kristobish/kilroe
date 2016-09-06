@@ -42,23 +42,25 @@
 <section class="scrolling-bg tour-bg" id="tour" class="tour-date-container" data-ng-controller="TourCtrl">
     <article class="container">
         <h1><i class="fa fa-calendar"></i> Shows</h1>
-            <ul class="tour-date-header tour-date hidden-xs">
-                <li>Date</li>
-                <li>Venue/Location</li>
-                <li>Time</li>
-            </ul>
-            <ul class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-1">
+            <!--<ul class="tour-date-header tour-date hidden-xs">-->
+                <!--<li>Date</li>-->
+                <!--<li>Venue/Location</li>-->
+                <!--<li>Time</li>-->
+            <!--</ul>-->
+            <ul class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-0">
                 <li class="tour-date-large">{{gig.date | dateFormatGig}}</li>
                 <li>{{gig.venue}} - {{gig.location}}</li>
                 <li>{{gig.time}}</li>
             </ul>
+
+            <p class="tour-date-large">Sorry, no new dates scheduled. Check back soon!</p>
 
         <div class="toggle-shows ga-past-shows" ng-click="isCollapsed = !isCollapsed; toggle = !toggle">
             <button class="btn btn-main"><i class="fa fa-calendar"></i> {{toggleText}}</button>
         </div>
         <div uib-collapse="isCollapsed" class="tour-date-past-container">
             <div class="tour-date-past">
-                <ul ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':1">
+                <ul ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':0">
                     <li>{{gig.date | dateFormatGigPast}} - {{gig.venue}} - {{gig.location}}</li>
                 </ul>
             </div>
