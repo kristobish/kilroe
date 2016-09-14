@@ -62,6 +62,15 @@
     "-KBjvLPIefPpaAwCG_KR" : {
       "song" : "Comedown"
     },
+    "-KIPHJw7oRGiVcjnZc_Y" : {
+      "song" : "Santeria"
+    },
+    "-KIPHLNFe1hrTh8VVRZ0" : {
+      "song" : "Addicted"
+    },
+    "-KIPHNpe6kAr64hqurBv" : {
+      "song" : "Mr. Brightside"
+    },
     "song1" : {
       "song" : "The Middle"
     },
@@ -105,7 +114,7 @@
       "song" : "Rock Show"
     },
     "song22" : {
-      "song" : "End Of The World..."
+      "song" : "It's The End Of The World..."
     },
     "song23" : {
       "song" : "The Anthem"
@@ -244,11 +253,113 @@
       "time" : "9:30pm",
       "venue" : "Hooley House"
     },
-    "-K1jlQ39hTYvQ8xL2Kfy" : {
-      "date" : "2016/06/18",
+    "-KEhMXaC9goWD8psIh3a" : {
+      "date" : "2016/07/23",
       "location" : "Boston",
       "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KEhMvhfBqhm-2r9mAZR" : {
+      "date" : "2016/08/27",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KMMAgk7lYZH0JLFDCy_" : {
+      "date" : "2016/09/02",
+      "location" : "Boston",
+      "time" : "6:30pm",
+      "venue" : "The Lawn On D"
+    },
+    "-KMnvcS-HkPON6plSRjr" : {
+      "date" : "2016/07/30",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Whiskey Priest"
+    },
+    "-KRBU3WIaxtOLuN4-J3O" : {
+      "date" : "2016/10/15",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBUJaf7EOjtiXwyfQ7" : {
+      "date" : "2017/01/07",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBUPbFRsklJdZ4-k4H" : {
+      "date" : "2017/02/04",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBV6H6cYj9JaLBj-Ij" : {
+      "date" : "2017/03/17",
+      "location" : "Boston (St. Patty's Day)",
+      "time" : "8:00pm",
       "venue" : "Hooley House"
+    },
+    "-KRBVF91fvuZKL8EkDST" : {
+      "date" : "2017/03/25",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBVMglpvZ-uRblJP9N" : {
+      "date" : "2017/04/29",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBVW_uqklH2eAzLVqy" : {
+      "date" : "2017/05/27",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBVha0HUeOTazLWlTE" : {
+      "date" : "2017/06/24",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBVqslhrVKhxtKsg_x" : {
+      "date" : "2017/07/22",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBVxGAoiXGYpwJN_MM" : {
+      "date" : "2017/08/19",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBW5XCX4kCdtlGsfTT" : {
+      "date" : "2017/09/30",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBWDnUt4PkptcEwdxu" : {
+      "date" : "2017/10/28",
+      "location" : "Boston (Halloween Wknd)",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBWKKqWa3vlxHeECsy" : {
+      "date" : "2017/11/18",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-KRBWQQ6TkjT8op3Aiik" : {
+      "date" : "2017/12/16",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
     },
     "gig1" : {
       "date" : "2014/03/15",
@@ -1193,7 +1304,7 @@
       "title" : "New venues, photos and video"
     },
     "-K1UB4RjFO1RFCtjLC3l" : {
-      "article" : "New shows/songs added plus Paddy O's return\nWe just added a ton of dates for the rest of 2010 and have been adding more songs to the catalog. Also, starting in April we will be back at Paddy O's in Boston every Thursday night throughout the summer. The weather will be starting to get warm soon so come on out! Finally check out the new video we added to the video page from New Year's Eve at The Matterhorn.",
+      "article" : "We just added a ton of dates for the rest of 2010 and have been adding more songs to the catalog. Also, starting in April we will be back at Paddy O's in Boston every Thursday night throughout the summer. The weather will be starting to get warm soon so come on out! Finally check out the new video we added to the video page from New Year's Eve at The Matterhorn.",
       "date" : "2010/02/27",
       "title" : "New shows/songs added plus Paddy O's return"
     },
@@ -1246,6 +1357,21 @@
       "article" : "Thanks to everyone who came out last Friday night at Hooley House in Boston. It was great to see old friends and make lots of new ones. And many thanks to our old pals Fast Times, who were playing downstairs and made us feel like it was a big homecoming. If you missed it, be sure to catch us on Saturday March 26th as we hit Hooley House again. We're working on more dates so stay tuned. As always, follow us on Instagram, Facebook, and Twitter. Rock on!",
       "date" : "2016/02/29",
       "title" : "Kilroe Returns!"
+    },
+    "-KEhPft_PlUEvB25z4Eg" : {
+      "article" : "Great news. We just added more shows to the 2016 schedule. April and May are a bit lonely right now, but there's always the possibility of us filling in a date last minute. So stay tuned.  Also, help us keep the chains moving on Instagram, Facebook, and Twitter. Follow us! We love all the support.",
+      "date" : "2016/04/06",
+      "title" : "Showtime!"
+    },
+    "-KMnxsifzIEETid7ZLN7" : {
+      "article" : "Good news and bad news. One usually comes with the other. Let's go bad first. Our remaining shows at Hooley House this year have been cancelled. Unfortunately the venue has decided to rebrand and stop booking bands. Now to the good news. We are back at the Whiskey Priest for the first time in 5 years! Come join the fun on July 30th. And we also have landed a nice end of summer outdoor show at the new Lawn On D in South Boston. The Friday Sept 2nd show is a short one from 7-10pm. If you haven't checked this place out yet, do yourself a favor and get on it. Hope you're all having a great summer. See ya out there!",
+      "date" : "2016/07/16",
+      "title" : "Summer in full swing!"
+    },
+    "-KQws31NIYlfpx0iyrgt" : {
+      "article" : "\"And I can tell you my love for you will still be strong/After the boys of summer have gone.\" Where did it go? Summer has left us and given us only one scheduled gig remaining in 2016 on Oct 15th. We already have a ton of dates booked for 2017 including St Patty's Day at Hooley House and Halloween weekend at Hennessy's. Thanks to everyone who was at The Lawn On D last week. Great way to end the summer. What a great place to play. We'll definitely be back there in the future. If you haven't started following us on Instagram, Twitter, and Facebook, get on it and spread the word. Hope to see everyone very soon!",
+      "date" : "2016/09/06",
+      "title" : "Bye Summer..."
     }
   },
   "photos" : {
@@ -3384,22 +3510,32 @@
     "facebook" : {
       "app" : "facebook",
       "id" : "3",
-      "userName" : "kilroerock"
+      "userName" : "kilroerock",
+      "iconName" : "facebook"
     },
     "instagram" : {
       "app" : "instagram",
       "id" : "2",
-      "userName" : "kilroerock"
+      "userName" : "kilroerock",
+      "iconName" : "instagram"
+    },
+    "snapchat" : {
+      "app" : "snapchat",
+      "id" : "5",
+      "userName" : "add/kilroerock",
+      "iconName" : "snapchat-ghost"
     },
     "twitter" : {
       "app" : "twitter",
       "id" : "1",
-      "userName" : "kilroerock"
+      "userName" : "kilroerock",
+      "iconName" : "twitter"
     },
     "youtube" : {
       "app" : "youtube",
       "id" : "4",
-      "userName" : "kilroeband"
+      "userName" : "kilroeband",
+      "iconName" : "youtube"
     }
   },
   "songs" : {

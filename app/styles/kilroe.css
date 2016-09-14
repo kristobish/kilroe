@@ -505,7 +505,6 @@ footer {
 }
 @media only screen and (min-width : 768px) {
   .social-media-no-feeds {
-    margin-top: 50px;
     text-align: center;
     width: 100%;
   }
