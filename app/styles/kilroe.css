@@ -375,8 +375,13 @@ li {
   display: inline !important;
 }
 .social-media-footer .social-media-footer-icon {
-  padding: 0 12px;
+  padding: 0 5px;
   color: #999999;
+}
+@media only screen and (min-width : 480px) {
+  .social-media-footer .social-media-footer-icon {
+    padding: 0 12px;
+  }
 }
 @media only screen and (min-width : 768px) {
   .social-media-footer .social-media-footer-icon {
@@ -501,7 +506,6 @@ footer {
 }
 .social-media-no-feeds {
   margin-top: 30px;
-  text-align: left;
 }
 @media only screen and (min-width : 768px) {
   .social-media-no-feeds {
@@ -519,8 +523,20 @@ footer {
   text-shadow: 2px 2px 8px #000000;
 }
 .social-media-no-feeds h2 {
-  display: inline;
-  padding: 20px 10px 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+@media only screen and (min-width : 480px) {
+  .social-media-no-feeds h2 {
+    display: inline;
+    padding: 20px 10px 10px;
+  }
+}
+@media only screen and (min-width : 768px) {
+  .social-media-no-feeds h2 {
+    display: inline;
+    padding: 20px 10px 10px;
+  }
 }
 @media only screen and (min-width : 992px) {
   .social-media-no-feeds h2 {
@@ -579,8 +595,8 @@ footer {
 }
 .instagram-link {
   position: absolute;
-  width: 220px;
-  height: 435px;
+  width: 275px;
+  height: 310px;
   top: 0;
   left: 0;
   display: inline-block;
