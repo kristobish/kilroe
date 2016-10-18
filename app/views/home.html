@@ -48,7 +48,7 @@
                 <li>Venue/Location</li>
                 <li>Time</li>
             </ul>
-            <ul class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-14">
+            <ul class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-13">
                 <li class="tour-date-large">{{gig.date | dateFormatGig}}</li>
                 <li>{{gig.venue}} - {{gig.location}}</li>
                 <li>{{gig.time}}</li>
@@ -61,7 +61,7 @@
         </div>
         <div uib-collapse="isCollapsed" class="tour-date-past-container">
             <div class="tour-date-past">
-                <ul ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':14">
+                <ul ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':13">
                     <li>{{gig.date | dateFormatGigPast}} - {{gig.venue}} - {{gig.location}}</li>
                 </ul>
             </div>
