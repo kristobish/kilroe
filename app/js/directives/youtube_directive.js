@@ -12,7 +12,7 @@
             link: function (scope) {
                 scope.$watch('youtubeId', function (youtubeId) {
                     if (youtubeId) {
-                        scope.url = $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId);
+                        scope.url = $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId + '?rel=0');
                     }
                 });
             }
