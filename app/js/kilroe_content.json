@@ -71,6 +71,12 @@
     "-KIPHNpe6kAr64hqurBv" : {
       "song" : "Mr. Brightside"
     },
+    "-KTPZo8IVmq8q2P9tPH-" : {
+      "song" : "Nothin' But A Good Time"
+    },
+    "-KTPZp3skK_a_Dh5_ME1" : {
+      "song" : "Laid"
+    },
     "song1" : {
       "song" : "The Middle"
     },
@@ -158,9 +164,6 @@
     "song35" : {
       "song" : "Yellow Ledbetter"
     },
-    "song36" : {
-      "song" : "Corduroy"
-    },
     "song37" : {
       "song" : "Even Flow"
     },
@@ -173,14 +176,8 @@
     "song4" : {
       "song" : "Inside Out"
     },
-    "song40" : {
-      "song" : "Black"
-    },
     "song41" : {
       "song" : "Hunger Strike"
-    },
-    "song42" : {
-      "song" : "I Got Id"
     },
     "song43" : {
       "song" : "Baba O'Riley"
@@ -190,9 +187,6 @@
     },
     "song45" : {
       "song" : "Nothingman"
-    },
-    "song46" : {
-      "song" : "Last Kiss"
     },
     "song47" : {
       "song" : "Stacy's Mom"
@@ -360,6 +354,18 @@
       "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
+    },
+    "-KRkUJr-laFNVZIpDZkw" : {
+      "date" : "2016/10/08",
+      "location" : "Boston",
+      "time" : "12-3p",
+      "venue" : "The Lawn On D"
+    },
+    "-KUqwKZp5N_1IVZOPqEg" : {
+      "date" : "2017/06/17",
+      "location" : "Newport, RI",
+      "time" : "3:00pm",
+      "venue" : "Private Wedding"
     },
     "gig1" : {
       "date" : "2014/03/15",
@@ -1369,9 +1375,14 @@
       "title" : "Summer in full swing!"
     },
     "-KQws31NIYlfpx0iyrgt" : {
-      "article" : "\"And I can tell you my love for you will still be strong/After the boys of summer have gone.\" Where did it go? Summer has left us and given us only one scheduled gig remaining in 2016 on Oct 15th. We already have a ton of dates booked for 2017 including St Patty's Day at Hooley House and Halloween weekend at Hennessy's. Thanks to everyone who was at The Lawn On D last week. Great way to end the summer. What a great place to play. We'll definitely be back there in the future. If you haven't started following us on Instagram, Twitter, and Facebook, get on it and spread the word. Hope to see everyone very soon!",
+      "article" : "\"And I can tell you my love for you will still be strong/After the boys of summer have gone.\" Where did it go? Summer has left us and given us only one scheduled gig remaining in 2016 on Oct 15th. We already have a ton of dates booked for 2017 including St Patty's Day at Hooley House and Halloween weekend at Hennessy's. Thanks to everyone who was at The Lawn On D last week. Great way to end the summer. What a great place to play. We'll definitely be back there in the future. Finally, we just added Snapchat to our social media army, so add us now! and if you haven't started following us on Instagram, Twitter, and Facebook, get on it and spread the word. Hope to see everyone very soon!",
       "date" : "2016/09/06",
       "title" : "Bye Summer..."
+    },
+    "-KRkYxgtzjjSBBNVnVmY" : {
+      "article" : "We just booked Guinness Fest at The Lawn On D in South Boston for Saturday 10/8. We go on early from 12-3pm and then will hang around for a few pints...and then a few more. Chris R.will be absent for the show which means Kris B.will be dusting off the guitars and amp for this one. What could happen? Also, add us to Snapchat if you haven't done so already!",
+      "date" : "2016/09/16",
+      "title" : "Guinness Fest and Snapchat!"
     }
   },
   "photos" : {
@@ -3509,33 +3520,33 @@
   "socialMediaIcons" : {
     "facebook" : {
       "app" : "facebook",
+      "iconName" : "facebook",
       "id" : "3",
-      "userName" : "kilroerock",
-      "iconName" : "facebook"
+      "userName" : "kilroerock"
     },
     "instagram" : {
       "app" : "instagram",
+      "iconName" : "instagram",
       "id" : "2",
-      "userName" : "kilroerock",
-      "iconName" : "instagram"
+      "userName" : "kilroerock"
     },
     "snapchat" : {
       "app" : "snapchat",
+      "iconName" : "snapchat-ghost",
       "id" : "5",
-      "userName" : "add/kilroerock",
-      "iconName" : "snapchat-ghost"
+      "userName" : "add/kilroerock"
     },
     "twitter" : {
       "app" : "twitter",
+      "iconName" : "twitter",
       "id" : "1",
-      "userName" : "kilroerock",
-      "iconName" : "twitter"
+      "userName" : "kilroerock"
     },
     "youtube" : {
       "app" : "youtube",
+      "iconName" : "youtube",
       "id" : "4",
-      "userName" : "kilroeband",
-      "iconName" : "youtube"
+      "userName" : "kilroeband"
     }
   },
   "songs" : {
@@ -3566,60 +3577,66 @@
   },
   "videos" : {
     "video1" : {
+      "date" : "2016",
+      "description" : "2016 Medley",
+      "venue" : "Lawn On D",
+      "youtubeId" : "P2MSzKXmGRM"
+    },
+    "video2" : {
       "date" : "2010/07/02",
       "description" : "Live montage set to Blink 182's 'Dammit'",
       "venue" : "Lansdowne Pub",
       "youtubeId" : "pPfYsOJMQcM"
     },
-    "video2" : {
+    "video3" : {
       "date" : "2010/08/14",
       "description" : "Free Fallin'",
       "venue" : "Ocean Club at Marina Bay",
       "youtubeId" : "k3VH5b7u2N8"
     },
-    "video3" : {
+    "video4" : {
       "date" : "2010/07/31",
       "description" : "Medley of 'Song 2', 'Right Now', 'Free Fallin', 'Better Man', 'Sex On Fire', 'Semi-Charmed Life'",
       "venue" : "Hooley House",
       "youtubeId" : "h4KmjY0uFt8"
     },
-    "video4" : {
+    "video5" : {
       "date" : "2010/07/31",
       "description" : "Good Riddance",
       "venue" : "Hooley House",
       "youtubeId" : "mEQz_p5UX4E"
     },
-    "video5" : {
+    "video6" : {
       "date" : "2010/02/16",
       "description" : "Mardis Gras 2010",
       "venue" : "Matterhorn, Sunday River",
       "youtubeId" : "aSGEt-21hCw"
     },
-    "video6" : {
+    "video7" : {
       "date" : "2010/08/14",
       "description" : "Alive",
       "venue" : "Ocean Club at Marina Bay",
       "youtubeId" : "mWNv9tau5-8"
     },
-    "video7" : {
+    "video8" : {
       "date" : "2010/08/14",
       "description" : "Sweet Child O' Mine",
       "venue" : "Ocean Club at Marina Bay",
       "youtubeId" : "_F_4l_VYUPA"
     },
-    "video8" : {
+    "video9" : {
       "date" : "2009/07/18",
       "description" : "Medley of 'Boys Of Summer', 'I Alone', 'All The Small Things', 'Middle', 'Learn To Fly'",
       "venue" : "2009 Rally In The Alley",
       "youtubeId" : "BdqOF9H4ukM"
     },
-    "video9" : {
+    "video91" : {
       "date" : "2009/07/18",
       "description" : "I Alone",
       "venue" : "2009 Rally In The Alley",
       "youtubeId" : "FPDUTuqfUa8"
     },
-    "video91" : {
+    "video92" : {
       "date" : "2009/03/01",
       "description" : "Medley of 'In The Meantime', 'Hey Jealousy', 'State Of Love And Trust' and 'My Own Worst Enemy'",
       "venue" : "Club 112",

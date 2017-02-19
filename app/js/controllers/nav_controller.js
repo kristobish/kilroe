@@ -8,9 +8,9 @@
         };
 
         $(function() {
-            $(".pushy a").click(function() {
-                $(".pushy a").removeClass("active");
-                $(this).addClass("active");
+            $('.pushy a').click(function() {
+                $('.pushy a').removeClass('active');
+                $(this).addClass('active');
             });
         });
 

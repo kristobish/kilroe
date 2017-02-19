@@ -13,16 +13,26 @@
     margin: 0 auto;
     width: 320px;
 
-    @media @tablet {
-        width: 600px;
-    }
-
     &:first-child {
         padding-top: 80px;
     }
 
     &:last-child {
         padding-bottom: 40px;
+    }
+
+    @media @tablet {
+        width: 600px;
+    }
+}
+
+.home-youtube-container {
+    margin: auto 0;
+    width: 100%;
+    opacity: .98;
+
+    .video-loader {
+        z-index: 0;
     }
 }
 
@@ -49,6 +59,14 @@
             width: 600px !important;
             height: 400px !important;
         }
+    }
+}
+
+.home-youtube-video {
+    iframe {
+        position: absolute;
+        width: 100% !important;
+        height: 100% !important;
     }
 }
 

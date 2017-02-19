@@ -973,16 +973,24 @@ ul.tour-date li {
   margin: 0 auto;
   width: 320px;
 }
-@media only screen and (min-width : 768px) {
-  .youtube-container {
-    width: 600px;
-  }
-}
 .youtube-container:first-child {
   padding-top: 80px;
 }
 .youtube-container:last-child {
   padding-bottom: 40px;
+}
+@media only screen and (min-width : 768px) {
+  .youtube-container {
+    width: 600px;
+  }
+}
+.home-youtube-container {
+  margin: auto 0;
+  width: 100%;
+  opacity: .98;
+}
+.home-youtube-container .video-loader {
+  z-index: 0;
 }
 .page-title-video {
   color: #eeeeee;
@@ -1008,6 +1016,11 @@ ul.tour-date li {
     width: 600px !important;
     height: 400px !important;
   }
+}
+.home-youtube-video iframe {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
 }
 .video-loader {
   color: #eeeeee;
