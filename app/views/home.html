@@ -1,10 +1,8 @@
 <section id="home" class="fixed-bg bg-quote1" data-ng-controller="VideoCatalogCtrl">
-        <div class="home-youtube-container">
-            <div class="home-youtube-container" ng-repeat="video in videos | orderBy:'date'| limitTo:-1">
-                <div class="video-loader"><i class="fa fa-spinner fa-pulse fa-3x"></i></div>
-                <div class="home-youtube-video" home-youtube="{{video.youtubeId}}"></div>
-            </div>
-        </div>
+    <div class="home-youtube-container" ng-repeat="video in videos | orderBy:'date'| limitTo:-1">
+        <div class="video-loader"><i class="fa fa-spinner fa-pulse fa-3x"></i></div>
+        <div class="home-youtube-video" home-youtube="{{video.youtubeId}}"></div>
+    </div>
 </section>
 
 <section class="scrolling-bg news-bg" id="news">
