@@ -586,6 +586,7 @@ footer {
 .instagram-feed {
   border: 3px solid #fff;
   max-height: 240px;
+  background: #000;
 }
 @media only screen and (min-width : 768px) {
   .instagram-feed {
