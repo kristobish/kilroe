@@ -21,28 +21,28 @@ body {
   font-family: "candara";
 }
 a {
-  color: #eeeeee;
+  color: #eee;
   transition: all 0.3s linear;
 }
 a:hover,
 a:active {
-  color: #999999;
+  color: #999;
   text-decoration: none;
 }
 a:focus {
-  color: #eeeeee;
+  color: #eee;
   text-decoration: none;
 }
 .btn {
   padding: 8px 12px 6px;
 }
 .btn:active {
-  color: #999999;
+  color: #999;
   text-decoration: none;
   outline: none;
 }
 .btn:focus {
-  color: #eeeeee;
+  color: #eee;
   text-decoration: none;
   outline: none;
 }
@@ -180,20 +180,20 @@ li {
 }
 .scrolling-bg.news-bg {
   background-image: url("/images/backgrounds/scroll_bg1.jpg");
-  color: #eeeeee;
+  color: #eee;
 }
 .scrolling-bg.tour-bg {
   background-image: url("/images/backgrounds/scroll_bg2.jpg");
-  color: #eeeeee;
+  color: #eee;
   min-height: 0;
 }
 .scrolling-bg.band-bg {
   background-image: url("/images/backgrounds/scroll_bg3.jpg");
-  color: #eeeeee;
+  color: #eee;
 }
 .scrolling-bg.booking-bg {
   background-image: url("/images/backgrounds/scroll_bg4.jpg");
-  color: #eeeeee;
+  color: #eee;
 }
 .scrolling-bg.social-media-icons-bg {
   width: 100%;
@@ -335,7 +335,7 @@ li {
   background: transparent;
   padding: .6em 3px;
   border-top: none;
-  color: #eeeeee;
+  color: #eee;
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -352,7 +352,7 @@ li {
 }
 .main-nav a:hover,
 .main-nav a.active {
-  color: #999999;
+  color: #999;
 }
 @media only screen and (min-width : 859px) {
   .pushy,
@@ -376,7 +376,7 @@ li {
 }
 .social-media-footer .social-media-footer-icon {
   padding: 0 5px;
-  color: #999999;
+  color: #999;
 }
 @media only screen and (min-width : 480px) {
   .social-media-footer .social-media-footer-icon {
@@ -407,7 +407,7 @@ footer {
 .audio-player-controls {
   width: 100%;
   margin: 6px auto 0;
-  color: #eeeeee;
+  color: #eee;
   text-align: left;
 }
 @media only screen and (min-width : 768px) {
@@ -431,7 +431,7 @@ footer {
   transition: all 0.3s linear;
 }
 .audio-player-controls .audio-player-icon:hover {
-  color: #999999;
+  color: #999;
 }
 .audio-player-controls .audio-player-text {
   padding-right: 10px;
@@ -448,7 +448,7 @@ footer {
 .seekBase {
   height: 4px;
   width: 75%;
-  border: 1px solid #999999;
+  border: 1px solid #999;
   margin-top: 7px;
 }
 @media only screen and (min-width : 768px) {
@@ -459,7 +459,7 @@ footer {
 .seekLoad {
   height: 2px;
   width: 0;
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 .news-container {
   background: url("/images/backgrounds/news_bg.jpg") no-repeat center center fixed;
@@ -476,12 +476,12 @@ footer {
   margin: 0 auto;
   width: 70%;
   max-width: 992px;
-  color: #eeeeee;
+  color: #eee;
   font-size: 20px;
 }
 .page-title-news {
   font-size: 30px;
-  border-bottom: 1px #eeeeee solid;
+  border-bottom: 1px #eee solid;
   padding-bottom: 10px;
 }
 .news-article-date {
@@ -690,7 +690,7 @@ ul.tour-date li {
   transition: all 0.3s linear;
 }
 .toggle-shows:hover {
-  color: #999999;
+  color: #999;
 }
 .band-container {
   text-align: center;
@@ -816,7 +816,7 @@ ul.tour-date li {
   opacity: 0.6;
 }
 .page-title-photos {
-  color: #eeeeee;
+  color: #eee;
   text-align: center;
   font-size: 30px;
   padding-top: 100px;
@@ -892,7 +892,7 @@ ul.tour-date li {
   transition: all 0.3s linear;
 }
 .close-photo:hover {
-  color: #999999;
+  color: #999;
   opacity: 1;
 }
 .btn-group-photo-nav {
@@ -914,7 +914,7 @@ ul.tour-date li {
 .btn-photo-nav:hover {
   background: transparent;
   border: 0;
-  color: #999999;
+  color: #999;
 }
 .btn-photo-nav-left {
   display: none;
@@ -994,7 +994,7 @@ ul.tour-date li {
   z-index: 0;
 }
 .page-title-video {
-  color: #eeeeee;
+  color: #eee;
   font-size: 30px;
   text-align: center;
 }
@@ -1024,7 +1024,7 @@ ul.tour-date li {
   height: 100% !important;
 }
 .video-loader {
-  color: #eeeeee;
+  color: #eee;
   z-index: 1;
   position: absolute;
   top: 50%;
