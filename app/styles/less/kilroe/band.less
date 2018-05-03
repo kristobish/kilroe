@@ -4,13 +4,14 @@
 
 .band-member-container {
     margin-top: 25px;
+    margin-right: 50px;
 
-    @media @desktop-wide {
-        margin-right: 40px;
+    &:last-child {
+        margin-right: 0;
+    }
 
-        &:last-child {
-            margin-right: 0;
-        }
+    @media @tablet {
+        margin-right: 60px;
     }
 }
 

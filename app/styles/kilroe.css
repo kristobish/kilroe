@@ -697,13 +697,14 @@ ul.tour-date li {
 }
 .band-member-container {
   margin-top: 25px;
+  margin-right: 50px;
 }
-@media only screen and (min-width : 1200px) {
+.band-member-container:last-child {
+  margin-right: 0;
+}
+@media only screen and (min-width : 768px) {
   .band-member-container {
-    margin-right: 40px;
-  }
-  .band-member-container:last-child {
-    margin-right: 0;
+    margin-right: 60px;
   }
 }
 .band-member-image {
