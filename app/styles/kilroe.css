@@ -96,11 +96,6 @@ li {
     min-height: 100% !important;
   }
 }
-@media only screen and (min-width : 1200px) {
-  .fixed-bg {
-    background-attachment: fixed;
-  }
-}
 .fixed-bg h1 {
   position: absolute;
   left: 50%;
