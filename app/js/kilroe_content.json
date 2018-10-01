@@ -29,9 +29,6 @@
     "-K3z0LRtcbGRmiWI94nI" : {
       "song" : "Jumper"
     },
-    "-K5wKSCQczhVC07vVOBx" : {
-      "song" : "Wonderwall"
-    },
     "-K5wKTymMVNzFXfbqUVU" : {
       "song" : "Live Forever"
     },
@@ -79,12 +76,6 @@
     },
     "-L2NSXmi2CPV5ahQOdv2" : {
       "song" : "In Too Deep"
-    },
-    "-L2NSYjZeaD5OS0111iD" : {
-      "song" : "Torn"
-    },
-    "-L2NS_OTvKEN0ptnLUwf" : {
-      "song" : "When You Were Young"
     },
     "-L2NSayOojBfzxuMHPJ1" : {
       "song" : "1985"
@@ -149,9 +140,6 @@
     "song26" : {
       "song" : "What's My Age Again?"
     },
-    "song27" : {
-      "song" : "Monkey Wrench"
-    },
     "song28" : {
       "song" : "Song 2"
     },
@@ -173,14 +161,8 @@
     "song4" : {
       "song" : "Inside Out"
     },
-    "song41" : {
-      "song" : "Hunger Strike"
-    },
     "song43" : {
       "song" : "Baba O'Riley"
-    },
-    "song45" : {
-      "song" : "Nothingman"
     },
     "song47" : {
       "song" : "Stacy's Mom"
@@ -431,7 +413,7 @@
       "date" : "2018/10/27",
       "location" : "Boston",
       "time" : "9:30pm",
-      "venue" : "Hennessy's (Halloween Wknd)"
+      "venue" : "Hennessy's"
     },
     "-KtOj9L-n21tWqRg2hOI" : {
       "date" : "2018/11/17",
@@ -457,12 +439,6 @@
       "time" : "8:30pm",
       "venue" : "Stonewood Tavern"
     },
-    "-Kv5B9JUqeeGxMk9Fdrl" : {
-      "date" : "2018/09/29",
-      "location" : "Peabody",
-      "time" : "8:30pm",
-      "venue" : "Stonewood Tavern"
-    },
     "-Kv5BJAlFkfaD3F3PiRg" : {
       "date" : "2018/11/10",
       "location" : "Peabody",
@@ -478,8 +454,104 @@
     "-LBYH_ZRL5yLprxTPwnd" : {
       "date" : "2018/06/09",
       "location" : "Boston",
-      "time" : "9:30pm",
+      "time" : "10pm",
       "venue" : "Hurricane's"
+    },
+    "-LIhiMR8nlmieAquyCM5" : {
+      "date" : "2018/08/04",
+      "location" : "Somerville",
+      "time" : "10pm",
+      "venue" : "The Burren"
+    },
+    "-LJZwS6gE-lOWPlsQ5Ed" : {
+      "date" : "2019/01/19",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZwbXPe3Yiic-bhzo7" : {
+      "date" : "2019/02/23",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZwgaMxSH8OIM0vk6M" : {
+      "date" : "2019/03/23",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZwmd1y2CbJcXDTrQq" : {
+      "date" : "2019/04/27",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZwz6u9WgnK8ox1O7i" : {
+      "date" : "2019/05/18",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZx3zJ7aPYnV0hAbvG" : {
+      "date" : "2019/06/22",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZx9WWwXdXh3hnJbiZ" : {
+      "date" : "2019/07/20",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZxXiQnOD-O4F_zp62" : {
+      "date" : "2019/08/10",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZxcDI2NdJoPCbzvJm" : {
+      "date" : "2019/09/28",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZxmhp1RCRaif2ro3w" : {
+      "date" : "2019/10/26",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZxt2y4qxZj1bg9qIX" : {
+      "date" : "2019/11/16",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LJZy-I_mHXBPrfIQQj2" : {
+      "date" : "2019/12/21",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LKbpNpIMTyilY57YbPN" : {
+      "date" : "2018/09/29",
+      "location" : "Boston",
+      "time" : "5:00pm",
+      "venue" : "Harpoon Octoberfest"
+    },
+    "-LKc0Ypjuax_N29-L0g6" : {
+      "date" : "2018/09/29",
+      "location" : "Peabody",
+      "time" : "8:30pm",
+      "venue" : "Stonewood Tavern"
+    },
+    "-LNlHPIa0044DK-YejrV" : {
+      "date" : "2019/03/17",
+      "location" : "Boston",
+      "time" : "8:00pm",
+      "venue" : "Hooley House"
     },
     "gig1" : {
       "date" : "2014/03/15",
@@ -1512,6 +1584,11 @@
       "article" : "Summer is almost over but we have great news! Rob is returning behind the drum kit on Saturday August 19th at Hennessy's! His paternity leave is officially over and he's coming back to us full time. An ENORMOUS thanks goes out to Monty for filling in so great the entire summer. He helped us out in a big way and we will never forget it. So come out on the 19th and celebrate the return of the Boobsicle!",
       "date" : "2017/08/10",
       "title" : "Rob is back!"
+    },
+    "-LImlK6CJJNyrOnoPTCg" : {
+      "article" : "So we're a little bit late with the news updates this summer. Want to give all love to our former rhythm guitarist, Chris Romagna, who we parted ways with this past spring. Be on the lookout for him at UFC 400! We'll miss you bud. So we've been trying out some new songs and new venues this summer. We played Hurricanes at the Garden in June and will be at The Burren in Somerville on August 4th. And you can always see us at our monthly saturday night residency at Hennessy's in Faneuil Hall.  If we haven't seen you in awhile, come by and say hi! Stay cool out there!",
+      "date" : "2018/07/31",
+      "title" : "Kilroe 4.0 is the New 1.0"
     }
   },
   "photos" : {
@@ -3225,11 +3302,95 @@
       "fileName" : "pic31",
       "venue" : "basta"
     },
+    "photo356" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe1",
+      "venue" : "lawnond"
+    },
+    "photo357" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe2",
+      "venue" : "lawnond"
+    },
+    "photo358" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe3",
+      "venue" : "lawnond"
+    },
+    "photo359" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe4",
+      "venue" : "lawnond"
+    },
     "photo36" : {
       "altName" : "BSSC 'Rock The Boat' Cruise",
       "date" : "6-10-2011",
       "fileName" : "kilroe36",
       "venue" : "bssc_cruise"
+    },
+    "photo360" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe5",
+      "venue" : "lawnond"
+    },
+    "photo361" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe6",
+      "venue" : "lawnond"
+    },
+    "photo362" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe7",
+      "venue" : "lawnond"
+    },
+    "photo363" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe8",
+      "venue" : "lawnond"
+    },
+    "photo364" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe9",
+      "venue" : "lawnond"
+    },
+    "photo365" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe10",
+      "venue" : "lawnond"
+    },
+    "photo366" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe11",
+      "venue" : "lawnond"
+    },
+    "photo367" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe12",
+      "venue" : "lawnond"
+    },
+    "photo368" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe13",
+      "venue" : "lawnond"
+    },
+    "photo369" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe14",
+      "venue" : "lawnond"
     },
     "photo37" : {
       "altName" : "BSSC 'Rock The Boat' Cruise",
@@ -3237,17 +3398,197 @@
       "fileName" : "kilroe37",
       "venue" : "bssc_cruise"
     },
+    "photo370" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe15",
+      "venue" : "lawnond"
+    },
+    "photo371" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe16",
+      "venue" : "lawnond"
+    },
+    "photo372" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe17",
+      "venue" : "lawnond"
+    },
+    "photo373" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe18",
+      "venue" : "lawnond"
+    },
+    "photo374" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe19",
+      "venue" : "lawnond"
+    },
+    "photo375" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe20",
+      "venue" : "lawnond"
+    },
+    "photo376" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe21",
+      "venue" : "lawnond"
+    },
+    "photo377" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe22",
+      "venue" : "lawnond"
+    },
+    "photo378" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe23",
+      "venue" : "lawnond"
+    },
+    "photo379" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe24",
+      "venue" : "lawnond"
+    },
     "photo38" : {
       "altName" : "BSSC 'Rock The Boat' Cruise",
       "date" : "6-10-2011",
       "fileName" : "kilroe38",
       "venue" : "bssc_cruise"
     },
+    "photo380" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe25",
+      "venue" : "lawnond"
+    },
+    "photo381" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe26",
+      "venue" : "lawnond"
+    },
+    "photo382" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe27",
+      "venue" : "lawnond"
+    },
+    "photo383" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe28",
+      "venue" : "lawnond"
+    },
+    "photo384" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe29",
+      "venue" : "lawnond"
+    },
+    "photo385" : {
+      "altName" : "Lawn On D",
+      "date" : "8-5-2017",
+      "fileName" : "kilroe30",
+      "venue" : "lawnond"
+    },
+    "photo386" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe1",
+      "venue" : "harpoonfest"
+    },
+    "photo387" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe2",
+      "venue" : "harpoonfest"
+    },
+    "photo388" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe3",
+      "venue" : "harpoonfest"
+    },
+    "photo389" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe4",
+      "venue" : "harpoonfest"
+    },
     "photo39" : {
       "altName" : "BSSC 'Rock The Boat' Cruise",
       "date" : "6-10-2011",
       "fileName" : "kilroe39",
       "venue" : "bssc_cruise"
+    },
+    "photo390" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe5",
+      "venue" : "harpoonfest"
+    },
+    "photo391" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe6",
+      "venue" : "harpoonfest"
+    },
+    "photo392" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe7",
+      "venue" : "harpoonfest"
+    },
+    "photo393" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe8",
+      "venue" : "harpoonfest"
+    },
+    "photo394" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe9",
+      "venue" : "harpoonfest"
+    },
+    "photo395" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe10",
+      "venue" : "harpoonfest"
+    },
+    "photo396" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe11",
+      "venue" : "harpoonfest"
+    },
+    "photo397" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe12",
+      "venue" : "harpoonfest"
+    },
+    "photo398" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe13",
+      "venue" : "harpoonfest"
+    },
+    "photo399" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe14",
+      "venue" : "harpoonfest"
     },
     "photo4" : {
       "altName" : "BSSC 'Rock The Boat' Cruise",
@@ -3260,6 +3601,24 @@
       "date" : "6-10-2011",
       "fileName" : "kilroe40",
       "venue" : "bssc_cruise"
+    },
+    "photo400" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe15",
+      "venue" : "harpoonfest"
+    },
+    "photo401" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe16",
+      "venue" : "harpoonfest"
+    },
+    "photo402" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe17",
+      "venue" : "harpoonfest"
     },
     "photo41" : {
       "altName" : "BSSC 'Rock The Boat' Cruise",
@@ -3706,66 +4065,72 @@
   },
   "videos" : {
     "video1" : {
+      "date" : "2018/09/29",
+      "description" : "2018 Harpoon Octoberfest",
+      "venue" : "Harpoon Brewery",
+      "youtubeId" : "78P_6qAKG2s"
+    },
+    "video2" : {
       "date" : "2016",
       "description" : "2016 Medley",
       "venue" : "Lawn On D",
       "youtubeId" : "P2MSzKXmGRM"
     },
-    "video2" : {
+    "video3" : {
       "date" : "2010/07/02",
       "description" : "Live montage set to Blink 182's 'Dammit'",
       "venue" : "Lansdowne Pub",
       "youtubeId" : "pPfYsOJMQcM"
     },
-    "video3" : {
+    "video4" : {
       "date" : "2010/08/14",
       "description" : "Free Fallin'",
       "venue" : "Ocean Club at Marina Bay",
       "youtubeId" : "k3VH5b7u2N8"
     },
-    "video4" : {
+    "video5" : {
       "date" : "2010/07/31",
       "description" : "Medley of 'Song 2', 'Right Now', 'Free Fallin', 'Better Man', 'Sex On Fire', 'Semi-Charmed Life'",
       "venue" : "Hooley House",
       "youtubeId" : "h4KmjY0uFt8"
     },
-    "video5" : {
+    "video6" : {
       "date" : "2010/07/31",
       "description" : "Good Riddance",
       "venue" : "Hooley House",
       "youtubeId" : "mEQz_p5UX4E"
     },
-    "video6" : {
+    "video7" : {
       "date" : "2010/02/16",
       "description" : "Mardis Gras 2010",
       "venue" : "Matterhorn, Sunday River",
       "youtubeId" : "aSGEt-21hCw"
     },
-    "video7" : {
+    "video8" : {
       "date" : "2010/08/14",
       "description" : "Alive",
       "venue" : "Ocean Club at Marina Bay",
       "youtubeId" : "mWNv9tau5-8"
     },
-    "video8" : {
+    "video9" : {
       "date" : "2010/08/14",
       "description" : "Sweet Child O' Mine",
       "venue" : "Ocean Club at Marina Bay",
       "youtubeId" : "_F_4l_VYUPA"
     },
-    "video9" : {
+    "video91" : {
       "date" : "2009/07/18",
       "description" : "Medley of 'Boys Of Summer', 'I Alone', 'All The Small Things', 'Middle', 'Learn To Fly'",
       "venue" : "2009 Rally In The Alley",
       "youtubeId" : "BdqOF9H4ukM"
     },
-    "video91" : {
+    "video92" : {
       "date" : "2009/07/18",
       "description" : "I Alone",
       "venue" : "2009 Rally In The Alley",
       "youtubeId" : "FPDUTuqfUa8"
     },
-    "video92" : {
+    "video93" : {
       "date" : "2009/03/01",
       "description" : "Medley of 'In The Meantime', 'Hey Jealousy', 'State Of Love And Trust' and 'My Own Worst Enemy'",
       "venue" : "Club 112",
