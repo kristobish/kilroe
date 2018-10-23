@@ -553,6 +553,36 @@
       "time" : "8:00pm",
       "venue" : "Hooley House"
     },
+    "-LOdtfopy4G2FLNIO8gn" : {
+      "date" : "2019/05/04",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-LOdtmNwr1PLryBb4oui" : {
+      "date" : "2019/07/26",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-LOdtzInFo1Rvq3IaFma" : {
+      "date" : "2019/11/29",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-LOdu3cVy838y1op2Kur" : {
+      "date" : "2019/12/28",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-LOduKLG7J96r-yGlbT9" : {
+      "date" : "2018/11/29",
+      "location" : "Danvers",
+      "time" : "5:30pm",
+      "venue" : "Private Party"
+    },
     "gig1" : {
       "date" : "2014/03/15",
       "location" : "Boston",
@@ -3620,11 +3650,101 @@
       "fileName" : "kilroe17",
       "venue" : "harpoonfest"
     },
+    "photo403" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe18",
+      "venue" : "harpoonfest"
+    },
+    "photo404" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe19",
+      "venue" : "harpoonfest"
+    },
+    "photo405" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe20",
+      "venue" : "harpoonfest"
+    },
+    "photo406" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe21",
+      "venue" : "harpoonfest"
+    },
+    "photo407" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe22",
+      "venue" : "harpoonfest"
+    },
+    "photo408" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe23",
+      "venue" : "harpoonfest"
+    },
+    "photo409" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe24",
+      "venue" : "harpoonfest"
+    },
     "photo41" : {
       "altName" : "BSSC 'Rock The Boat' Cruise",
       "date" : "6-10-2011",
       "fileName" : "kilroe41",
       "venue" : "bssc_cruise"
+    },
+    "photo410" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe25",
+      "venue" : "harpoonfest"
+    },
+    "photo411" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe26",
+      "venue" : "harpoonfest"
+    },
+    "photo412" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe27",
+      "venue" : "harpoonfest"
+    },
+    "photo413" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe28",
+      "venue" : "harpoonfest"
+    },
+    "photo414" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe29",
+      "venue" : "harpoonfest"
+    },
+    "photo415" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe30",
+      "venue" : "harpoonfest"
+    },
+    "photo416" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe31",
+      "venue" : "harpoonfest"
+    },
+    "photo417" : {
+      "altName" : "2018 Harpoon Octoberfest",
+      "date" : "9-29-2018",
+      "fileName" : "kilroe32",
+      "venue" : "harpoonfest"
     },
     "photo42" : {
       "altName" : "BSSC 'Rock The Boat' Cruise",
