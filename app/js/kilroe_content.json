@@ -83,6 +83,24 @@
     "-L2NSc8C4Dmz8cXewfgF" : {
       "song" : "First Date"
     },
+    "-LPO43vwIVezdJIpkMGH" : {
+      "song" : "Dancing With Myself"
+    },
+    "-LPO45_-w-SxuaTbs8QP" : {
+      "song" : "Dirty Little Secret"
+    },
+    "-LPO46rUsENtxIEflvpk" : {
+      "song" : "Gives You Hell"
+    },
+    "-LPO49TAVjOgxEPunXfx" : {
+      "song" : "Dancing in the Dark"
+    },
+    "-LPO4AdaVx8j6B_F61W0" : {
+      "song" : "What's Up"
+    },
+    "-LPO4DmOh66wFYJHaTYa" : {
+      "song" : "We're Not Gonna Take It"
+    },
     "song1" : {
       "song" : "The Middle"
     },
@@ -581,6 +599,12 @@
       "date" : "2018/11/29",
       "location" : "Danvers",
       "time" : "5:30pm",
+      "venue" : "Private Party"
+    },
+    "-LPvxyrqAVGlFeclLHBB" : {
+      "date" : "2018/12/05",
+      "location" : "Peabody",
+      "time" : "8:00pm",
       "venue" : "Private Party"
     },
     "gig1" : {
@@ -1619,6 +1643,11 @@
       "article" : "So we're a little bit late with the news updates this summer. Want to give all love to our former rhythm guitarist, Chris Romagna, who we parted ways with this past spring. Be on the lookout for him at UFC 400! We'll miss you bud. So we've been trying out some new songs and new venues this summer. We played Hurricanes at the Garden in June and will be at The Burren in Somerville on August 4th. And you can always see us at our monthly saturday night residency at Hennessy's in Faneuil Hall.  If we haven't seen you in awhile, come by and say hi! Stay cool out there!",
       "date" : "2018/07/31",
       "title" : "Kilroe 4.0 is the New 1.0"
+    },
+    "-LPO5RvR15oPEhCtM2NO" : {
+      "article" : "Thanks to everyone who came out to Harpoon's Octoberfest on 9/27. We have some new photos and video of the day so check it out. Coming up later this month is Hennessy's annual Halloween extravaganza where we will be dressed as none other than Maverick, Goose, Iceman, and Slider. I feel the need, the need for Kilroe! Put on your best costume and come join us. As always, spread the word and follow us on Instagram and Facebook. See you out there!",
+      "date" : "2018/10/14",
+      "title" : "Halloween is coming!!"
     }
   },
   "photos" : {
@@ -4185,72 +4214,78 @@
   },
   "videos" : {
     "video1" : {
+      "date" : "2018/09/30",
+      "description" : "2018 Harpoon Octoberfest",
+      "venue" : "Harpoon Brewery",
+      "youtubeId" : "aPq96NYxHp4"
+    },
+    "video2" : {
       "date" : "2018/09/29",
       "description" : "2018 Harpoon Octoberfest",
       "venue" : "Harpoon Brewery",
       "youtubeId" : "78P_6qAKG2s"
     },
-    "video2" : {
+    "video3" : {
       "date" : "2016",
       "description" : "2016 Medley",
       "venue" : "Lawn On D",
       "youtubeId" : "P2MSzKXmGRM"
     },
-    "video3" : {
+    "video4" : {
       "date" : "2010/07/02",
       "description" : "Live montage set to Blink 182's 'Dammit'",
       "venue" : "Lansdowne Pub",
       "youtubeId" : "pPfYsOJMQcM"
     },
-    "video4" : {
+    "video5" : {
       "date" : "2010/08/14",
       "description" : "Free Fallin'",
       "venue" : "Ocean Club at Marina Bay",
       "youtubeId" : "k3VH5b7u2N8"
     },
-    "video5" : {
+    "video6" : {
       "date" : "2010/07/31",
       "description" : "Medley of 'Song 2', 'Right Now', 'Free Fallin', 'Better Man', 'Sex On Fire', 'Semi-Charmed Life'",
       "venue" : "Hooley House",
       "youtubeId" : "h4KmjY0uFt8"
     },
-    "video6" : {
+    "video7" : {
       "date" : "2010/07/31",
       "description" : "Good Riddance",
       "venue" : "Hooley House",
       "youtubeId" : "mEQz_p5UX4E"
     },
-    "video7" : {
+    "video8" : {
       "date" : "2010/02/16",
       "description" : "Mardis Gras 2010",
       "venue" : "Matterhorn, Sunday River",
       "youtubeId" : "aSGEt-21hCw"
     },
-    "video8" : {
+    "video9" : {
       "date" : "2010/08/14",
       "description" : "Alive",
       "venue" : "Ocean Club at Marina Bay",
       "youtubeId" : "mWNv9tau5-8"
     },
-    "video9" : {
+    "video91" : {
       "date" : "2010/08/14",
       "description" : "Sweet Child O' Mine",
       "venue" : "Ocean Club at Marina Bay",
       "youtubeId" : "_F_4l_VYUPA"
     },
-    "video91" : {
+    "video92" : {
       "date" : "2009/07/18",
       "description" : "Medley of 'Boys Of Summer', 'I Alone', 'All The Small Things', 'Middle', 'Learn To Fly'",
       "venue" : "2009 Rally In The Alley",
       "youtubeId" : "BdqOF9H4ukM"
     },
-    "video92" : {
+    "video93" : {
       "date" : "2009/07/18",
       "description" : "I Alone",
       "venue" : "2009 Rally In The Alley",
       "youtubeId" : "FPDUTuqfUa8"
     },
-    "video93" : {
+    "video94" : {
       "date" : "2009/03/01",
       "description" : "Medley of 'In The Meantime', 'Hey Jealousy', 'State Of Love And Trust' and 'My Own Worst Enemy'",
       "venue" : "Club 112",

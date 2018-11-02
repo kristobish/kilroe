@@ -12,7 +12,7 @@
             link: function (scope) {
                 scope.$watch('youtubeId', function (youtubeId) {
                     if (youtubeId) {
-                        scope.url = $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId + '?rel=0');
+                        scope.url = $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId + '?rel=0&ytp-pause-overlay=0');
                     }
                 });
             }
@@ -30,7 +30,7 @@
             link: function (scope) {
                 scope.$watch('youtubeId', function (youtubeId) {
                     if (youtubeId) {
-                        scope.url = $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId + '?autoplay=1&rel=0&showinfo=0');
+                        scope.url = $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId + '?rel=0&ytp-pause-overlay=0');
                     }
                 });
             }
