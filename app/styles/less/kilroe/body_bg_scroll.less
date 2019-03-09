@@ -21,10 +21,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: scroll;
     z-index: 1;
 
     @media @tablet {
         min-height: 100% !important;
+    }
+
+    @media @desktop-wide {
+        background-attachment: fixed;
     }
 
     h1 {
