@@ -17,15 +17,19 @@
 
 .fixed-bg {
     position: relative;
-    min-height: 60% !important;
+    height: 60%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
     z-index: 1;
 
+    &:first-child {
+        height: 100%;
+    }
+
     @media @tablet {
-        min-height: 100% !important;
+        height: 100%;
     }
 
     @media @desktop-wide {

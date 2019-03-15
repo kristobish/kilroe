@@ -85,16 +85,19 @@ li {
 }
 .fixed-bg {
   position: relative;
-  min-height: 60% !important;
+  height: 60%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   z-index: 1;
 }
+.fixed-bg:first-child {
+  height: 100%;
+}
 @media only screen and (min-width : 768px) {
   .fixed-bg {
-    min-height: 100% !important;
+    height: 100%;
   }
 }
 @media only screen and (min-width : 1200px) {
@@ -991,9 +994,11 @@ ul.tour-date li {
   margin: auto 0;
   width: 100%;
   opacity: .98;
+  position: fixed;
+  height: 100%;
 }
 .home-youtube-container .video-loader {
-  z-index: 0;
+  z-index: -20;
 }
 .page-title-video {
   color: #eee;
