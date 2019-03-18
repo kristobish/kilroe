@@ -33,7 +33,7 @@
                 </div>
             </aside>
 
-            <aside class="col-lg-3 col-md-2 col-sm-6 col-xs-12 social-media-no-feeds">
+            <aside class="col-lg-3 col-md-2 col-sm-12 social-media-no-feeds">
                 <h2 class="social-media-feed-title"><a href="https://snapchat.com/add/kilroerock" target="_blank"><i class="fa fa-snapchat-ghost fa-4x"></i></a></h2>
                 <h2 class="social-media-feed-title"><a href="https://facebook.com/kilroerock" target="_blank"><i class="fa fa-facebook-official fa-4x"></i></a></h2>
                 <h2 class="social-media-feed-title"><a href="https://youtube.com/kilroeband" target="_blank"><i class="fa fa-youtube-square fa-4x"></i></a></h2>
@@ -54,7 +54,7 @@
                 <li>Venue/Location</li>
                 <li>Time</li>
             </ul>
-            <ul class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-16">
+            <ul class="tour-date" ng-repeat="gig in gigs | orderBy:'date' | limitTo:-14">
                 <li class="tour-date-large">{{gig.date | dateFormatGig}}</li>
                 <li>{{gig.venue}} - {{gig.location}}</li>
                 <li>{{gig.time}}</li>
@@ -67,7 +67,7 @@
         </div>
         <div uib-collapse="isCollapsed" class="tour-date-past-container">
             <div class="tour-date-past">
-                <ul ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':16">
+                <ul ng-repeat="gig in gigs | orderBy:'-date' | limitTo:'Infinity':14">
                     <li>{{gig.date | dateFormatGigPast}} - {{gig.venue}} - {{gig.location}}</li>
                 </ul>
             </div>

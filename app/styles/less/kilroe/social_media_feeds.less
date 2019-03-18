@@ -1,23 +1,21 @@
 .social-media-feeds {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     margin-top: 10px;
 }
 
 .social-media-no-feeds {
     margin-top: 30px;
-    text-align: center;
-    width: 100%;
-
-    @media @phone {
-
-    }
 
     @media @tablet {
         text-align: center;
     }
 
-    @media @desktop {
-        margin-left: 3%;
-        width: auto;
+    @media @desktop{
+        margin-top: 70px;
     }
 
     i {
@@ -27,10 +25,13 @@
     h2 {
         margin-top: 0;
         margin-bottom: 30px;
+        display: inline;
+        padding: 20px 12px 10px;
+        font-size: 16px;
 
         @media @phone {
-            display: inline;
-            padding: 20px 30px 10px;
+            padding: 20px 20px 10px;
+            font-size: 20px;
         }
 
         @media @desktop {
@@ -52,25 +53,11 @@
 }
 
 .twitter-feed-container {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 320px;
     max-width: 320px;
     margin-bottom: 10px;
-
-    @media @phone {
-        max-width: 300px;
-    }
-
-    @media @phone {
-        max-width: 320px;
-    }
-
-    @media @tablet {
-        margin-right: 0;
-        margin-bottom: 0;
-    }
-
-    @media @desktop {
-        margin-right: 3%;
-    }
 }
 
 .twitter-timeline {
@@ -78,17 +65,13 @@
 }
 
 .instagram-feed-container {
-    width: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+
+    min-width: 330px;
+    max-width: 330px;
     height: 100%;
     margin-bottom: 20px;
-
-    @media @phone {
-        width: 300px;
-    }
-
-    @media @tablet {
-        width: 330px;
-    }
 }
 
 .instagram-feed {

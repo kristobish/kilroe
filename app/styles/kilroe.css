@@ -377,6 +377,7 @@ li {
 }
 .social-media-footer .social-media-footer-icon-container {
   display: inline !important;
+  padding-right: 10px;
 }
 .social-media-footer .social-media-footer-icon {
   padding: 0 5px;
@@ -506,6 +507,11 @@ footer {
   border: none;
 }
 .social-media-feeds {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   margin-top: 10px;
 }
 .social-media-no-feeds {
@@ -514,13 +520,11 @@ footer {
 @media only screen and (min-width : 768px) {
   .social-media-no-feeds {
     text-align: center;
-    width: 100%;
   }
 }
 @media only screen and (min-width : 992px) {
   .social-media-no-feeds {
-    margin-left: 3%;
-    width: auto;
+    margin-top: 70px;
   }
 }
 .social-media-no-feeds i {
@@ -529,17 +533,14 @@ footer {
 .social-media-no-feeds h2 {
   margin-top: 0;
   margin-bottom: 30px;
+  display: inline;
+  padding: 20px 12px 10px;
+  font-size: 16px;
 }
 @media only screen and (min-width : 480px) {
   .social-media-no-feeds h2 {
-    display: inline;
-    padding: 20px 10px 10px;
-  }
-}
-@media only screen and (min-width : 768px) {
-  .social-media-no-feeds h2 {
-    display: inline;
-    padding: 20px 10px 10px;
+    padding: 20px 20px 10px;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width : 992px) {
@@ -560,48 +561,32 @@ footer {
   }
 }
 .twitter-feed-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 320px;
   max-width: 320px;
   margin-bottom: 10px;
-}
-@media only screen and (min-width : 768px) {
-  .twitter-feed-container {
-    margin-right: 0;
-    margin-bottom: 0;
-  }
-}
-@media only screen and (min-width : 992px) {
-  .twitter-feed-container {
-    margin-right: 3%;
-  }
 }
 .twitter-timeline {
   max-height: 330px;
 }
 .instagram-feed-container {
-  width: 270px;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 330px;
+  max-width: 330px;
   height: 100%;
   margin-bottom: 20px;
 }
-@media only screen and (min-width : 768px) {
-  .instagram-feed-container {
-    width: 330px;
-  }
-}
 .instagram-feed {
   border: 3px solid #fff;
-  max-height: 240px;
+  max-height: 100%;
   background: #000;
-}
-@media only screen and (min-width : 768px) {
-  .instagram-feed {
-    border: 3px solid #fff;
-    max-height: 300px;
-  }
 }
 .instagram-link {
   position: absolute;
-  width: 275px;
-  height: 310px;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   display: inline-block;
@@ -610,7 +595,6 @@ footer {
 @media only screen and (min-width : 768px) {
   .instagram-link {
     width: 330px;
-    height: 330px;
   }
 }
 .instagram-feed .powered_by {
