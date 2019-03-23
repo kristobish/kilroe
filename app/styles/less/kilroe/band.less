@@ -1,27 +1,32 @@
 .band-container {
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .band-member-container {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 250px;
+    min-width: 250px;
     margin-top: 25px;
-    margin-right: 50px;
 
-    &:last-child {
-        margin-right: 0;
-    }
-
-    @media @tablet {
-        margin-right: 60px;
+    @media @desktop {
+        min-width: auto;
     }
 }
 
 .band-member-image {
+    border: 2px solid #fff;
     border-radius: 8px;
-    box-shadow: @main-shadow
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 .band-member-name {
-    margin: 10px 0 0 5px;
+    margin: 15px 0 0 5px;
     padding-bottom: 0;
     line-height: 22px;
 }

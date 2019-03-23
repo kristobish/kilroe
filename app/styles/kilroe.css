@@ -682,25 +682,31 @@ ul.tour-date li {
 }
 .band-container {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 .band-member-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 250px;
+  min-width: 250px;
   margin-top: 25px;
-  margin-right: 50px;
 }
-.band-member-container:last-child {
-  margin-right: 0;
-}
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 992px) {
   .band-member-container {
-    margin-right: 60px;
+    min-width: auto;
   }
 }
 .band-member-image {
+  border: 2px solid #fff;
   border-radius: 8px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 .band-member-name {
-  margin: 10px 0 0 5px;
+  margin: 15px 0 0 5px;
   padding-bottom: 0;
   line-height: 22px;
 }
