@@ -42,7 +42,7 @@
         };
 
         //sets photos page default photos
-        $scope.filters = {date: '11-29-2018'};
+        $scope.filters = {date: '9-29-2018'};
 
         //Lightbox
         $scope.openLightboxModal = function (index) {
