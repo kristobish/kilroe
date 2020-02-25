@@ -29,9 +29,6 @@
     "-K3z0LRtcbGRmiWI94nI" : {
       "song" : "Jumper"
     },
-    "-K5wKTymMVNzFXfbqUVU" : {
-      "song" : "Live Forever"
-    },
     "-K5wKWdITQpnO3UjQ1hq" : {
       "song" : "Don't Look Back in Anger"
     },
@@ -40,12 +37,6 @@
     },
     "-K5wKk_6eoKPFfuAe0V9" : {
       "song" : "Enter Sandman"
-    },
-    "-K5wKn6JcEqPupDKX_ec" : {
-      "song" : "In the Meantime"
-    },
-    "-KBjvKOYYuJpU2Et-bMx" : {
-      "song" : "Mr. Jones"
     },
     "-KIPHJw7oRGiVcjnZc_Y" : {
       "song" : "Santeria"
@@ -61,12 +52,6 @@
     },
     "-KTPZp3skK_a_Dh5_ME1" : {
       "song" : "Laid"
-    },
-    "-Ketfl0_EB0tqBY0twHz" : {
-      "song" : "Here In Your Bedroom"
-    },
-    "-KetfmGqCODX3fdRM_-h" : {
-      "song" : "American Girl"
     },
     "-KtZFDRwO0Lh412VX48P" : {
       "song" : "Yellow Ledbetter"
@@ -90,7 +75,7 @@
       "song" : "Dirty Little Secret"
     },
     "-LPO46rUsENtxIEflvpk" : {
-      "song" : "Gives You Hell"
+      "song" : "Zombie"
     },
     "-LPO49TAVjOgxEPunXfx" : {
       "song" : "Dancing in the Dark"
@@ -100,6 +85,18 @@
     },
     "-LPO4DmOh66wFYJHaTYa" : {
       "song" : "We're Not Gonna Take It"
+    },
+    "-LTmyk6gKRVl7QByAhGJ" : {
+      "song" : "Slide"
+    },
+    "-LVB6b3RDXeEM5Rk-YQl" : {
+      "song" : "Wonderwall"
+    },
+    "-LYPLQKKhxo8slLn3Rln" : {
+      "song" : "Shipping Up To Boston"
+    },
+    "-LYPLRby3Owci57xYc6a" : {
+      "song" : "Move Along"
     },
     "song1" : {
       "song" : "The Middle"
@@ -379,12 +376,6 @@
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
-    "-KtOiEf8_SF4Vc8GHH3n" : {
-      "date" : "2018/03/17",
-      "location" : "Boston",
-      "time" : "9:30pm",
-      "venue" : "Hooley House"
-    },
     "-KtOiJDa2MeVJsaviZ8p" : {
       "date" : "2018/03/31",
       "location" : "Boston",
@@ -467,7 +458,7 @@
       "date" : "2018/12/31",
       "location" : "Boston",
       "time" : "9:30pm",
-      "venue" : "Hennessy's (NYE)"
+      "venue" : "Hennessy's"
     },
     "-LBYH_ZRL5yLprxTPwnd" : {
       "date" : "2018/06/09",
@@ -511,12 +502,6 @@
       "time" : "9:30pm",
       "venue" : "Hennessy's"
     },
-    "-LJZx3zJ7aPYnV0hAbvG" : {
-      "date" : "2019/06/22",
-      "location" : "Boston",
-      "time" : "9:30pm",
-      "venue" : "Hennessy's"
-    },
     "-LJZx9WWwXdXh3hnJbiZ" : {
       "date" : "2019/07/20",
       "location" : "Boston",
@@ -530,7 +515,7 @@
       "venue" : "Hennessy's"
     },
     "-LJZxcDI2NdJoPCbzvJm" : {
-      "date" : "2019/09/28",
+      "date" : "2019/09/14",
       "location" : "Boston",
       "time" : "9:30pm",
       "venue" : "Hennessy's"
@@ -568,8 +553,8 @@
     "-LNlHPIa0044DK-YejrV" : {
       "date" : "2019/03/17",
       "location" : "Boston",
-      "time" : "8:00pm",
-      "venue" : "Hooley House"
+      "time" : "12:00pm",
+      "venue" : "Upstairs @ Hennessy's"
     },
     "-LOdtfopy4G2FLNIO8gn" : {
       "date" : "2019/05/04",
@@ -606,6 +591,168 @@
       "location" : "Peabody",
       "time" : "8:00pm",
       "venue" : "Private Party"
+    },
+    "-LZlOxlBTns_GN8MpX3Q" : {
+      "date" : "2019/06/01",
+      "location" : "Pelham, NH",
+      "time" : "7:00pm",
+      "venue" : "Private Party"
+    },
+    "-LZtnm20PM7qJd1C4A5H" : {
+      "date" : "2018/03/17",
+      "location" : "Boston",
+      "time" : "8:00pm",
+      "venue" : "Hooley House"
+    },
+    "-LbPQkAyu8wjWfQyMMGz" : {
+      "date" : "2019/06/29",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LmHuqANv3jtz_UlBCgX" : {
+      "date" : "2019/08/14",
+      "location" : "Boston",
+      "time" : "1:00pm",
+      "venue" : "Lawn On D"
+    },
+    "-LnPqAo6I_WNmq-XF5G7" : {
+      "date" : "2020/01/11",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPqHmwxIrGpYQQ2L9x" : {
+      "date" : "2020/01/25",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPqL80eMc-lZogu1LF" : {
+      "date" : "2020/02/08",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPqSnIpxP3gLEuHR1N" : {
+      "date" : "2020/03/14",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPqgDBF_flFoWg57nS" : {
+      "date" : "2020/04/25",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPqkWXdmGoqVL5g6gb" : {
+      "date" : "2020/05/02",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPqsYl58O6tIQyWkt0" : {
+      "date" : "2020/06/13",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPqvq0fu4sT_pU9-V1" : {
+      "date" : "2020/07/18",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPqzkABod-9EhNhPk4" : {
+      "date" : "2020/08/08",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPr2fK1satyx9h1wFq" : {
+      "date" : "2020/09/12",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPrAr2WTPSWqxYaxe_" : {
+      "date" : "2020/10/24",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPrEseoXMLfWZ6gmTw" : {
+      "date" : "2020/11/07",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPrJEkSYhEpEhZMrih" : {
+      "date" : "2020/11/21",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-LnPrQnNSbMYfbPD8Wl1" : {
+      "date" : "2020/12/19",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-Lo2mEayBbLr8UGiaunY" : {
+      "date" : "2019/09/28",
+      "location" : "Boston",
+      "time" : "9:30pm",
+      "venue" : "Hennessy's"
+    },
+    "-Lp4sBalqpr_aSfU70aS" : {
+      "date" : "2020/02/29",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-Lp4sGDpYBA0uhAA8DPO" : {
+      "date" : "2020/03/28",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-Lp4sKaqNSpGKd35xFUV" : {
+      "date" : "2020/04/04",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-Lp4sPe6AvKWZ_AfR2rq" : {
+      "date" : "2020/05/30",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-Lp4sUUgSahrW127auZL" : {
+      "date" : "2020/07/25",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-Lp4sZhS_KkXpQUKMUtc" : {
+      "date" : "2020/09/26",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-Lp4sdB5WaSMOmxRfv6w" : {
+      "date" : "2020/10/17",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
+    },
+    "-Lp4sho6sQjALLQ8PkS2" : {
+      "date" : "2020/12/05",
+      "location" : "Somerville",
+      "time" : "10:00pm",
+      "venue" : "The Burren"
     },
     "gig1" : {
       "date" : "2014/03/15",
@@ -1648,6 +1795,11 @@
       "article" : "Thanks to everyone who came out to Harpoon's Octoberfest on 9/27. We have some new photos and video of the day so check it out. Coming up later this month is Hennessy's annual Halloween extravaganza where we will be dressed as none other than Maverick, Goose, Iceman, and Slider. I feel the need, the need for Kilroe! Put on your best costume and come join us. As always, spread the word and follow us on Instagram and Facebook. See you out there!",
       "date" : "2018/10/14",
       "title" : "Halloween is coming!!"
+    },
+    "-LTmzs2zN3pExXq_-c7B" : {
+      "article" : "Let's celebrate the beginning of 2019 this New Year's Eve at Hennessy's! Get your tickets now for Monday 12/31. Doors open 8-10pm...champagne toast, party favors, and confetti drop at midnight. We've also added some new songs to the catalog including Dirty Little Secret, Dancing With Myself, Dancing in the Dark, We're Not Gonna Take It, and What's Up. More new songs coming in the next month or so. Thanks to the Salem Hospital Emergency Department for having us at their annual Christmas Party and thanks to Fed Up With Cancer 2018 for having us play this year's benefit. See you all out there!",
+      "date" : "2018/12/15",
+      "title" : "New Year's Eve at Hennessys!"
     }
   },
   "photos" : {
@@ -3787,6 +3939,12 @@
       "fileName" : "kilroe3",
       "venue" : "cancer_benefit"
     },
+    "photo42" : {
+      "altName" : "BSSC 'Rock The Boat' Cruise",
+      "date" : "6-10-2011",
+      "fileName" : "kilroe42",
+      "venue" : "bssc_cruise"
+    },
     "photo420" : {
       "altName" : "2018 Fed Up With Cancer Benefit",
       "date" : "11-29-2018",
@@ -3846,6 +4004,12 @@
       "date" : "11-29-2018",
       "fileName" : "kilroe13",
       "venue" : "cancer_benefit"
+    },
+    "photo43" : {
+      "altName" : "Lansdowne Pub",
+      "date" : "5-7-2010",
+      "fileName" : "kilroe1",
+      "venue" : "lansdowne"
     },
     "photo430" : {
       "altName" : "2018 Fed Up With Cancer Benefit",
@@ -3907,6 +4071,12 @@
       "fileName" : "kilroe23",
       "venue" : "cancer_benefit"
     },
+    "photo44" : {
+      "altName" : "Lansdowne Pub",
+      "date" : "5-7-2010",
+      "fileName" : "kilroe2",
+      "venue" : "lansdowne"
+    },
     "photo440" : {
       "altName" : "2018 Fed Up With Cancer Benefit",
       "date" : "11-29-2018",
@@ -3954,24 +4124,6 @@
       "date" : "11-29-2018",
       "fileName" : "kilroe31",
       "venue" : "cancer_benefit"
-    },
-    "photo42" : {
-      "altName" : "BSSC 'Rock The Boat' Cruise",
-      "date" : "6-10-2011",
-      "fileName" : "kilroe42",
-      "venue" : "bssc_cruise"
-    },
-    "photo43" : {
-      "altName" : "Lansdowne Pub",
-      "date" : "5-7-2010",
-      "fileName" : "kilroe1",
-      "venue" : "lansdowne"
-    },
-    "photo44" : {
-      "altName" : "Lansdowne Pub",
-      "date" : "5-7-2010",
-      "fileName" : "kilroe2",
-      "venue" : "lansdowne"
     },
     "photo45" : {
       "altName" : "Lansdowne Pub",
